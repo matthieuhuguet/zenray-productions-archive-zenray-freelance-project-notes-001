@@ -3,3 +3,8 @@
 - Project ID: zenray-freelance. (4 October 2026)
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-freelance/FEEDBACK.md. (4 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (4 October 2026)
+
+- ZenRay Freelance, état au 4 October 2026 : moteur, page et service livrés et vérifiés ; détail dans `ZenRayProgress/docs/FREELANCE-ENGINE.md`. Code : dépôt ZenRayProgress, `scripts/Freelance/` et `src/components/freelance/`, branche archivée `freelance-engine` (commit 8111785b), main local à jour, push de main laissé à la session qui porte les autres chantiers. (4 October 2026)
+- Données vivantes dans le dépôt privé zenray-data, dossier `freelance/` : applications.json, engine.json, letter-template.json, letters/, offers/. Service local : `node scripts/Freelance/Client.mjs status`. Journal : `~/Library/Application Support/ZenRayFreelance/Service.log`. (4 October 2026)
+- Piège payé le 4 October 2026 : un fichier de plus d'1 Mio est lu vide par l'API contents de GitHub (voir docs). Le fichier des studios pèse 957 468 octets, garde `cloud.maxStoreBytes` à 4 000 000 dans la configuration du moteur. (4 October 2026)
+- Reste à faire, dit sans l'arrondir : activer l'accroche Claude (jeton à créer par Matthieu), brancher les posts de PostKit comme source des lettres, confirmer « Watch Achievement Industry », ajouter les tableaux Breezy et Teamtailor (Playdead, Untold) pour fermer aussi leurs annonces. (4 October 2026)
