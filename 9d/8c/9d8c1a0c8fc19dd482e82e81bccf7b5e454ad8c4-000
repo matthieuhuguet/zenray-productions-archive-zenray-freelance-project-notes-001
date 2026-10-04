@@ -1320,3 +1320,25 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:10:42 +0200)
 
 > Maintenant le moteur qui orchestre une passe complète (CV, collecte, fusion, détails, lettres, publication). (4 October 2026, 10:10:42 +0200)
+
+## 4 October 2026, 10:55:41 +0200 : Iteration
+
+<!-- feedback-event:6f60b05da2da847706f4c5aa9e0c85c90e00e17aba6c5c944d614289f2f0d741 (4 October 2026, 10:55:41 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 10:55:41 +0200)
+- Source: checkpoint:claude:5fd92a10-03f3-4126-89e0-4dfe033274bd. (4 October 2026, 10:55:41 +0200)
+
+> Moteur ZenRay Freelance livre : service com.zenray.freelance (33 sources, toutes les 6 h, bouton Rechercher), 312 fiches, 15 studios a demarcher, lettres depuis le modele Asobo + CV du site + derniers travaux, page Freelance refaite et deployee, doc docs/FREELANCE-ENGINE.md. Piege corrige : fichier >1 Mio lu vide par l'API contents (blob + garde). Non verifie : rendu visuel (regle du depot), generation Claude (jeton a creer). Prochain : activer l'accroche Claude, brancher les posts PostKit, confirmer Watch Achievement Industry. (4 October 2026, 10:55:41 +0200)
+
+## 4 October 2026, 10:55:56 +0200 : Standing rule
+
+<!-- feedback-event:b9ae0fd38add0fe23a1b0f02bfdf67251a9405832c54ac0dacfc91677e8e7967 (4 October 2026, 10:55:56 +0200) -->
+- Project: zenray-freelance; kind: rule. (4 October 2026, 10:55:56 +0200)
+
+> 4 October 2026 : règles tenues pour ce chantier : (1) rien n'est jamais envoyé, la lettre se copie et se marque envoyée à sa demande ; (2) ses paragraphes se reprennent mot pour mot, seuls les emplacements changent ; (3) aucune affirmation hors CV ; (4) LinkedIn n'est jamais lu automatiquement, seulement des liens de recherche ; (5) pas de vérification par le navigateur Claude sur ZenRayProgress (règle du dépôt) : build et tests ; (6) un JSON de plus d'1 Mio se lit par son blob, jamais comme vide. (4 October 2026, 10:55:56 +0200)
+
+## 4 October 2026, 10:55:56 +0200 : Log
+
+<!-- feedback-event:75c0e6212c836d91de0f7b3ed73f3fb44b819e8b81c048b813ef8af9e8065584 (4 October 2026, 10:55:56 +0200) -->
+- Project: zenray-freelance; kind: log. (4 October 2026, 10:55:56 +0200)
+
+> 4 October 2026 : LIVRÉ ET MESURÉ : 33 sources lues sans erreur, 312 fiches, 15 studios à démarcher avec page carrières vérifiée par HTTP, 224 fiches avec site officiel et 262 avec page des offres, 171 lettres écrites, commit zenray-data e0474ea9, page déployée et chunk identique octet pour octet à la prod, 80 tests du moteur et 207 tests de composants verts, 641 tests des dossiers touchés. Incident : fichier des studios à 1 093 861 octets lu vide par l'API contents pendant trois minutes (aucune écriture), corrigé par compactage, lecture par blob, refus de sauvegarder sur lecture vide. Non vérifié : rendu visuel, génération Claude (jeton). Ouvert : jeton Claude, posts PostKit, « Watch Achievement Industry » à identifier. (4 October 2026, 10:55:56 +0200)
