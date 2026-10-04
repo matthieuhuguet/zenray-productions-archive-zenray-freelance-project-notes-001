@@ -1625,3 +1625,47 @@
 > Le test du jeton a échoué. Réponses du modèle : (4 October 2026, 11:20:05 +0200)
 > - modèle claude-sonnet-5-5, effort medium : Failed to authenticate. API Error: 401 OAuth access token is invalid. (4 October 2026, 11:20:05 +0200)
 > Rien n’a été écrit. Copie ce message à Claude. peut importe mon account loggué ... (4 October 2026, 11:20:05 +0200)
+
+## 4 October 2026, 11:24:41 +0200 : Iteration
+
+<!-- feedback-event:e6cb1496ae5b3408748c948dcd7ed3cdc4410d06c54c0d5c950383bb82396afd (4 October 2026, 11:24:41 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:24:41 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:24:41 +0200)
+
+> Les trois jetons créés par `claude setup-token` ont tous été refusés par la CLI sur ton Mac (401, « OAuth access token is invalid »), alors que la connexion s'était faite normalement. J'ignore pourquoi. Je ne force donc plus cette voie : j'ai fait passer le moteur par la connexion propre de Claude Code, qui se garde et se renouvelle toute seule. (4 October 2026, 11:24:41 +0200)
+>
+> Dans ton terminal, une seule fois : (4 October 2026, 11:24:41 +0200)
+>
+> ```bash (4 October 2026, 11:24:41 +0200)
+> claude auth login (4 October 2026, 11:24:41 +0200)
+> ``` (4 October 2026, 11:24:41 +0200)
+>
+> Le navigateur s'ouvre, tu valides. Il n'y a rien à copier, rien à coller, et jamais rien à relancer ensuite. (4 October 2026, 11:24:41 +0200)
+>
+> - Le service vérifie la connexion lui-même (au plus toutes les 5 minutes) et active l'accroche Claude dès qu'il la voit, sans redémarrage. (4 October 2026, 11:24:41 +0200)
+> - Il démarre à l'ouverture de ta session, sans l'application Claude ni le terminal. (4 October 2026, 11:24:41 +0200)
+> - Dans « Sources et CV », la page affiche aujourd'hui « désactivée » avec cette commande ; elle passera à « activée » après la prochaine passe. (4 October 2026, 11:24:41 +0200)
+>
+> Je n'ai pas pu tester cette voie de bout en bout, car je ne peux pas me connecter à ta place. Elle n'est vérifiée que par des tests unitaires. Si la page reste sur « désactivée » une heure après ta connexion, dis-le-moi et je lirai le journal du service. (4 October 2026, 11:24:41 +0200)
+>
+> - **Jeton :** j'ai ajouté un garde pour qu'un jeton incomplet dans le fichier de réglages soit ignoré à voix haute au lieu de masquer la connexion. Le fichier invalide de 4 caractères est supprimé. `SetToken.mjs` reste disponible comme voie alternative. (4 October 2026, 11:24:41 +0200)
+> - **Erreur de ma part :** un de mes commits avait embarqué ta modification non commitée de `Sidebar.jsx` (l'entrée PostKit de l'autre session). Je l'ai retirée, le commit ne contient plus que mes 8 fichiers, et ta modification est intacte dans ton arbre de travail. (4 October 2026, 11:24:41 +0200)
+> - **Git :** des objets de mon dernier commit ont disparu deux fois du dépôt local, vraisemblablement à cause d'un nettoyage concurrent. Je les ai récupérés depuis GitHub. Mes commits sont maintenant faits avec la maintenance automatique désactivée pour cette seule commande, et poussés aussitôt. (4 October 2026, 11:24:41 +0200)
+>
+> La page déployée correspond au dernier commit (le morceau Freelance est identique octet pour octet à la production). (4 October 2026, 11:24:41 +0200)
+
+## 4 October 2026, 11:26:22 +0200 : Prompt
+
+<!-- feedback-event:e27f6a6c9e9f429e2beefa251e6f95f149357f49e6fbf25c913dd2b90eda81ed (4 October 2026, 11:26:22 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:26:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:26:22 +0200)
+
+> login successfull tout est bon et fini ? (4 October 2026, 11:26:22 +0200)
+
+## 4 October 2026, 11:26:22 +0200 : Prompt
+
+<!-- feedback-event:d07890ca53f8dd4dddb4defbe2bd00419b5137c9561a17ee4ef4b13d9654e0f5 (4 October 2026, 11:26:22 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:26:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:26:22 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/2.webp] (4 October 2026, 11:26:22 +0200)
