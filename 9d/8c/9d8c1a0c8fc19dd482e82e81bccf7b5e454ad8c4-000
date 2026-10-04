@@ -1669,3 +1669,30 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:26:22 +0200)
 
 > [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/2.webp] (4 October 2026, 11:26:22 +0200)
+
+## 4 October 2026, 11:42:42 +0200 : Prompt
+
+<!-- feedback-event:8d67459e07efdebf6dbaa0e7a2238e84f212d0316ab05c84e506ea7c1ff03dc2 (4 October 2026, 11:42:42 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:42:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:42:42 +0200)
+
+> [Usage limit reached; a short grace allowance remains, then this turn is cut off without warning. Judge what's left: if it's genuinely only a few steps, finish it properly, then stop and say so without extra polishing. Otherwise don't attempt it all: finish the piece in hand and at most two more like it, then stop. The allowance also pays for any subagents you have running: they don't get this message and will keep going, so it's up to you how to handle them. Either way, end by telling the user their usage limit was reached, what's done and what's left.] (4 October 2026, 11:42:42 +0200)
+
+## 4 October 2026, 11:43:02 +0200 : Iteration
+
+<!-- feedback-event:8a6bed4cc57a91188870af2a355c7c88b827c0174f285203b07e4fc731ff428a (4 October 2026, 11:43:02 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:43:02 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:43:02 +0200)
+
+> Ma limite d'usage est atteinte. L'essentiel est fait, mais le travail n'est pas totalement fini. (4 October 2026, 11:43:02 +0200)
+>
+> Ton « Login successful » était le bon : `claude auth status` indique bien `loggedIn: true`. Le service est connecté à ton compte, démarre à l'ouverture de session et n'a plus rien à relancer. (4 October 2026, 11:43:02 +0200)
+>
+> Une vraie passe a fait 12 appels au modèle en 200 s. Ils ont tous été rejetés « too long », car Claude écrivait 150 à 180 mots, alors qu'un paragraphe de lettre doit en faire environ 60. J'ai donc demandé au modèle un paragraphe de 55 mots maximum. Un essai sur deux offres donne 59 et 78 mots, sans rien inventer au-delà de ton CV, mais 78 dépasse encore ma limite de 75 mots. La correction est commitée (`c88f01fb`) et le service est redémarré, mais la nouvelle consigne n'a pas encore été vérifiée sur une passe complète. Deux autres problèmes sont réglés : un push refusé sur un dépôt de données très sollicité ne refait plus payer les appels au modèle, et un mauvais jeton est ignoré. (4 October 2026, 11:43:02 +0200)
+>
+> Reste à faire : (4 October 2026, 11:43:02 +0200)
+> - **Langue des fiches d'avant le moteur :** les offres AFJV françaises adoptées depuis l'ancienne collecte (comme Drama Studios) sont marquées « anglais ». Leur lettre sort donc en anglais. Je n'ai pas eu le temps de corriger, il faut recalculer la langue de ces fiches à chaque passe. (4 October 2026, 11:43:02 +0200)
+> - **Limite de mots :** elle est à relever vers 90 mots si le modèle reste au-dessus de 75. (4 October 2026, 11:43:02 +0200)
+> - **Premiers paragraphes Claude :** aucune lettre n'en porte encore, ils apparaîtront une fois la limite réglée. (4 October 2026, 11:43:02 +0200)
+>
+> Tu peux consulter le panneau « Sources et CV » : l'accroche Claude y est désormais indiquée comme activée via ta session. (4 October 2026, 11:43:02 +0200)
