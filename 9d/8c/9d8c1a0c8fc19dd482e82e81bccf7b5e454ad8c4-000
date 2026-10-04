@@ -851,3 +851,456 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:53:51 +0200)
 
 > Je vérifie les options de la CLI Claude embarquée (pour générer les lettres en tâche de fond avec ton abonnement), puis je fige le plan. (4 October 2026, 09:53:51 +0200)
+
+## 4 October 2026, 09:55:12 +0200 : Iteration
+
+<!-- feedback-event:56f979605ca22b53abb088101aaa981726c6a97f00878747f916f2482067089e (4 October 2026, 09:55:12 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 09:55:12 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:12 +0200)
+
+> Je lis la suite du CV du site (données, éducation, export PDF) pour en faire une source de vérité lisible par la plateforme Freelance. (4 October 2026, 09:55:12 +0200)
+
+## 4 October 2026, 09:55:46 +0200 : Prompt
+
+<!-- feedback-event:de0fd5f9f14b440146c9daa31ce6e8e0dd616b5749ca6321a9ee72cd54d1d914 (4 October 2026, 09:55:46 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:55:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:46 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/tasks-sequence (4 October 2026, 09:55:46 +0200)
+>
+> # Découpe séquentielle (4 October 2026, 09:55:46 +0200)
+>
+> Une demande large échoue rarement parce qu'elle est difficile. Elle échoue parce qu'on l'a traitée (4 October 2026, 09:55:46 +0200)
+> **en bloc** : on tient tout en tête, on code tout, on vérifie à la fin, et ce qui manque ne se voit (4 October 2026, 09:55:46 +0200)
+> qu'au moment où Matthieu le signale. La parade n'est pas de travailler plus, c'est de **découper puis (4 October 2026, 09:55:46 +0200)
+> avancer d'un cran à la fois, en vérifiant chaque cran**. (4 October 2026, 09:55:46 +0200)
+>
+> ## La règle en une phrase (4 October 2026, 09:55:46 +0200)
+>
+> > Aucune tâche ne commence tant que la précédente n'est pas vérifiée, et aucune n'est vérifiée par (4 October 2026, 09:55:46 +0200)
+> > l'intention qu'on avait en l'écrivant. (4 October 2026, 09:55:46 +0200)
+>
+> ## 1. Découper, récursivement (4 October 2026, 09:55:46 +0200)
+>
+> On coupe jusqu'à ce que chaque feuille tienne cette promesse : **un seul geste, une seule preuve**. (4 October 2026, 09:55:46 +0200)
+>
+> Une tâche est encore trop grosse si l'une de ces phrases est vraie : (4 October 2026, 09:55:46 +0200)
+> - sa vérification demande deux contrôles de nature différente (« ça compile » ET « ça s'affiche ») ; (4 October 2026, 09:55:46 +0200)
+> - son énoncé contient « et », « puis », « ainsi que » ; (4 October 2026, 09:55:46 +0200)
+> - on ne sait pas dire, avant de commencer, ce qui prouvera qu'elle est finie. (4 October 2026, 09:55:46 +0200)
+>
+> On applique la coupe **au prompt lui-même d'abord**, puis à chaque morceau obtenu — c'est récursif, et (4 October 2026, 09:55:46 +0200)
+> c'est là que se gagne l'essentiel : un « rework la zone Time block » se coupe en presets, rendu de (4 October 2026, 09:55:46 +0200)
+> l'anneau, valeur par défaut, chacun vérifiable seul. (4 October 2026, 09:55:46 +0200)
+>
+> ## 2. Ordonner, par dépendance puis par coût (4 October 2026, 09:55:46 +0200)
+>
+> L'ordre n'est pas celui du prompt. Trois critères, dans cet ordre : (4 October 2026, 09:55:46 +0200)
+>
+> 1. **Ce qui débloque le reste** passe devant, même si c'est petit. Un outil, un index, une lecture. (4 October 2026, 09:55:46 +0200)
+> 2. **Ce qui est indépendant et rapide** ensuite : la valeur arrive tôt, et une interruption ne laisse (4 October 2026, 09:55:46 +0200)
+>    pas un chantier ouvert. (4 October 2026, 09:55:46 +0200)
+> 3. **Ce qui est gros et couplé** en dernier, quand le terrain est dégagé. (4 October 2026, 09:55:46 +0200)
+>
+> Une donnée à corriger passe avant le code qui l'affiche : sinon on débogue une interface sur des données (4 October 2026, 09:55:46 +0200)
+> fausses, et on corrige un symptôme qui n'existait pas. (4 October 2026, 09:55:46 +0200)
+>
+> ## 3. Exécuter, un cran à la fois (4 October 2026, 09:55:46 +0200)
+>
+> Pour chaque feuille, dans cet ordre, sans en sauter : (4 October 2026, 09:55:46 +0200)
+>
+> | Étape | Ce qu'on fait | Ce qui l'interdit | (4 October 2026, 09:55:46 +0200)
+> |---|---|---| (4 October 2026, 09:55:46 +0200)
+> | Chercher | Le geste technique existe-t-il déjà dans ce dépôt ? | Écrire avant d'avoir grepé une brique générique | (4 October 2026, 09:55:46 +0200)
+> | Faire | Le plus petit changement qui répond | En profiter pour « améliorer » le voisinage | (4 October 2026, 09:55:46 +0200)
+> | Prouver | Une observation réelle, pas un raisonnement | Annoncer « ça marche » sans l'avoir vu | (4 October 2026, 09:55:46 +0200)
+> | Passer | À la suivante seulement | Enchaîner trois tâches puis vérifier en bloc | (4 October 2026, 09:55:46 +0200)
+>
+> **La preuve est de la nature de la tâche**, jamais du confort : une donnée se relit sur le drive, une (4 October 2026, 09:55:46 +0200)
+> interface se regarde dans le navigateur, une valeur se mesure, une suppression se compte. (4 October 2026, 09:55:46 +0200)
+>
+> ## Séquence 3D et HDA : Geometry → UV generation → Texel density normalization (4 October 2026, 09:55:46 +0200)
+>
+> Dans tout pipeline de modélisation 3D procédurale ou HDA, l'ordre des dépendances impose strictement : (4 October 2026, 09:55:46 +0200)
+> `Geometry → UV generation → Texel density normalization` avant toute passe de texturing. (4 October 2026, 09:55:46 +0200)
+>
+> Une modélisation HDA avant d'appliquer le texturing doit toujours avoir des UVs par rapport à une texel density définie. Pourquoi : un HDA devrait sortir avec des UVs propres avant même le texturing, et idéalement avec une texel density définie, car les UVs sont le contrat spatial entre la géométrie et tout ce qui viendra ensuite : textures, trim sheets, decals, baking, lightmaps, masks et matériaux procéduraux. Sans densité cohérente, deux éléments de taille comparable peuvent afficher des niveaux de détail complètement différents, un mur peut paraître deux fois plus flou qu'une porte, un motif peut changer d'échelle selon les paramètres du HDA, et toute modification procédurale peut casser la continuité visuelle. Une texel density fixe permet donc de garantir qu'un mètre de surface reçoit toujours approximativement la même quantité de pixels, indépendamment de la taille, de la variante ou de la génération du mesh. Pour un HDA, c'est encore plus important qu'en modélisation manuelle, car l'asset doit rester fiable quand on change largeur, hauteur, nombre de modules ou proportions : sauf cas particuliers comme du triplanar ou du world-space texturing où les UVs peuvent devenir secondaires. (4 October 2026, 09:55:46 +0200)
+>
+> État des composants de la scène active (Louisiana Bayou) : (4 October 2026, 09:55:46 +0200)
+> - `Component_WoodFacade` : chaîne complète appliquée avec UVs orthogonales périmétriques résolvant les coupes d'angles non droits à 45 degrés (onglets d'angle et rampants de toit sans aucun cisaillement ni écrasement), indexation de cours (`course_k`, `course_y`), connectivité (`piece_id`), texel density normalisée (4.0 UV/m), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V continu, flip aléatoire 180°, pas U discrets). (4 October 2026, 09:55:46 +0200)
+> - `Component_Armature` : chaîne complète appliquée avec UVs natives par sweep calibrées à 4.0 UV/m (`uvscale1 = 4.0 / 2.75`, `uvscale2 = 4.0 / 2.75`), connectivité (`piece_id`), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V, flip aléatoire, pas U discrets). (4 October 2026, 09:55:46 +0200)
+> - `Component_PorchStairs` : chaîne complète appliquée avec projection box orthogonale calibrée à 4.0 UV/m sur 100% des 910 primitives (marches, limons, poteaux, balustres, madriers), connectivité (`piece_id`) et variation procédurale vectorisée (`uv_variation_offset`). (4 October 2026, 09:55:46 +0200)
+> Les 3 composants de la scène partagent désormais le même contrat spatial rigoureux (4.0 UV/m) garantissant une continuité parfaite sous n'importe quel shader ou texture. (4 October 2026, 09:55:46 +0200)
+>
+> ### Doctrine de variation d'UV procédurale : Réfutation V1/V2 et Méthode ZenRay V3 (4 October 2026, 09:55:46 +0200)
+>
+> Pour éviter l'explosion mémoire du multi-UDIM (64 Mo réduits à 16 Mo) et briser la répétition visuelle sur des matériaux identiques sans trimsheet rigide : (4 October 2026, 09:55:46 +0200)
+>
+> 1. **Historique et écueils des méthodes passées** : (4 October 2026, 09:55:46 +0200)
+>    - **V1 (Approche manuelle)** : 4 branches de géométrie, 4 nœuds Name, 4 UV Transform statiques, Copy to Points. Rigide et impossible à scaler. (4 October 2026, 09:55:46 +0200)
+>    - **V2 (Templates instanciés et boucle For-Each SOP)** : 1 mesh dupliqué en 40 templates via Copy & Transform, nommage A1..A40 par sprintf, distribution modulo sur points, Copy to Points, unpack, connectivity, puis boucle For-Each SOP avec metadata pour faire `@uv.y += rand(iter)`. (4 October 2026, 09:55:46 +0200)
+>
+> 2. **Réfutation technique de la méthode V2** : (4 October 2026, 09:55:46 +0200)
+>    - **Goulot d'étranglement de la boucle For-Each SOP** : réévaluer un graphe SOP en boucle N fois par pièce est un anti-pattern majeur dans Houdini qui détruit les performances dès que le nombre d'éléments grandit. (4 October 2026, 09:55:46 +0200)
+>    - **Sur-ingénierie du Copy-to-Points** : fabriquer 40 copies packed d'un même cube juste pour leur attribuer un identifiant textuel est une plomberie inutile pour des géométries déjà générées procéduralement (sweeps, profilages, découpes booléennes). (4 October 2026, 09:55:46 +0200)
+>    - **Décalage aléatoire brut (`rand()`) sans pas discret** : un float aléatoire continu fonctionne uniquement sur une texture 100% sans raccord en V. Dès que la texture contient N planches distinctes ou un atlas, le décalage continu coupe les motifs en deux et crée des artefacts de couture (seam bleeding). (4 October 2026, 09:55:46 +0200)
+>
+> 3. **Méthode ZenRay V3 (Vectorisée, 0.001 ms, zéro boucle For-Each)** : (4 October 2026, 09:55:46 +0200)
+>    - **Génération native alignée** : sur les poutres et courbes (`sweep::2.0`), activer `computeuvs = 1` et `lengthweighteduvs = 1`. L'axe U épouse le profil, l'axe V suit rigoureusement la longueur de la courbe, le fil du bois est toujours orienté dans le bon sens et la texel density est uniforme. (4 October 2026, 09:55:46 +0200)
+>    - **Tag de pièce instantané** : un simple nœud `connectivity` SOP en mode primitif crée `piece_id`. (4 October 2026, 09:55:46 +0200)
+>    - **Wrangle vectorisé unique sur sommets (Run Over: Vertices)** : (4 October 2026, 09:55:46 +0200)
+>      ```c (4 October 2026, 09:55:46 +0200)
+>      int piece = prim(0, "piece_id", @primnum); (4 October 2026, 09:55:46 +0200)
+>      float seed = chf("../uv_seed"); (4 October 2026, 09:55:46 +0200)
+>      float v_scale = chf("../uv_v_offset_scale"); (4 October 2026, 09:55:46 +0200)
+>
+>      // Décalage continu le long du fil du bois (axe V) (4 October 2026, 09:55:46 +0200)
+>      float v_rand = rand(piece + seed + 0.1234); (4 October 2026, 09:55:46 +0200)
+>      @uv.y += v_rand * v_scale; (4 October 2026, 09:55:46 +0200)
+>
+>      // Flip aléatoire 180° pour doubler la variété (4 October 2026, 09:55:46 +0200)
+>      if (chi("../uv_random_flip") && rand(piece + seed + 0.7891) > 0.5) { (4 October 2026, 09:55:46 +0200)
+>          @uv.y = -@uv.y; (4 October 2026, 09:55:46 +0200)
+>      } (4 October 2026, 09:55:46 +0200)
+>
+>      // Pas discret en U si atlas de N lattes (4 October 2026, 09:55:46 +0200)
+>      int u_variants = chi("../uv_u_variants"); (4 October 2026, 09:55:46 +0200)
+>      if (u_variants > 1) { (4 October 2026, 09:55:46 +0200)
+>          int choice = int(floor(rand(piece + seed + 0.4567) * float(u_variants))); (4 October 2026, 09:55:46 +0200)
+>          @uv.x = (@uv.x / float(u_variants)) + (float(choice) / float(u_variants)); (4 October 2026, 09:55:46 +0200)
+>      } (4 October 2026, 09:55:46 +0200)
+>      ``` (4 October 2026, 09:55:46 +0200)
+>    - **Alternative shader UE5** : déporter le décalage dans le Material Graph Unreal Engine en passant `piece_id` ou un attribut aléatoire dans une couleur de sommet (`Cd`) ou un canal UV secondaire. (4 October 2026, 09:55:46 +0200)
+>
+> ## 4. Rendre compte de ce qui reste (4 October 2026, 09:55:46 +0200)
+>
+> À la fin, la liste des feuilles avec leur état réel. Une feuille non faite se dit **non faite**, avec sa (4 October 2026, 09:55:46 +0200)
+> raison. Une feuille faite mais non vérifiée se dit ainsi : c'est un état légitime, à condition d'être (4 October 2026, 09:55:46 +0200)
+> nommé. Le silence sur une partie de la demande est la seule faute qui ne se rattrape pas, parce que (4 October 2026, 09:55:46 +0200)
+> Matthieu croit alors la chose faite. (4 October 2026, 09:55:46 +0200)
+>
+> ## Erreurs déjà payées (4 October 2026, 09:55:46 +0200)
+>
+> | Erreur | Cause racine | La règle | (4 October 2026, 09:55:46 +0200)
+> |---|---|---| (4 October 2026, 09:55:46 +0200)
+> | Une partie du prompt oubliée | Découpe faite de tête, jamais écrite | La liste des feuilles s'écrit AVANT de coder | (4 October 2026, 09:55:46 +0200)
+> | « Ça ne marche pas » annoncé à tort | Vérification faite dans un environnement qui bride le mécanisme | Vérifier que le VÉRIFICATEUR fonctionne avant de conclure | (4 October 2026, 09:55:46 +0200)
+> | Trois correctifs empilés, aucun vérifié | Enchaînement sans preuve intermédiaire | Une preuve par feuille, avant la suivante | (4 October 2026, 09:55:46 +0200)
+> | Interface déboguée sur des données fausses | Ordre du prompt suivi au lieu de l'ordre des dépendances | Les données d'abord, l'affichage ensuite | (4 October 2026, 09:55:46 +0200)
+> | Brique générique réécrite | Recherche par le NOM de la fonctionnalité | Chercher le geste technique (`a.download`, `zipSync`, `onPaste`) | (4 October 2026, 09:55:46 +0200)
+
+## 4 October 2026, 09:55:47 +0200 : Prompt
+
+<!-- feedback-event:8a2976f811b2831b0b73ff38ecf2782e11f56c09b0badfd8c1d28ee18b0225c3 (4 October 2026, 09:55:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:55:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:47 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (4 October 2026, 09:55:47 +0200)
+>
+> # Dont stop (30 September 2026) (4 October 2026, 09:55:47 +0200)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (4 October 2026, 09:55:47 +0200)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (4 October 2026, 09:55:47 +0200)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (4 October 2026, 09:55:47 +0200)
+
+## 4 October 2026, 09:55:47 +0200 : Prompt
+
+<!-- feedback-event:192f8e9cb9a938b8071e4de5082a0aea36871b1ca0c8792c7519d8ebd2ae966a (4 October 2026, 09:55:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:55:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:47 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (4 October 2026, 09:55:47 +0200)
+>
+> # Think of Everything (Pense à Tout) (4 October 2026, 09:55:47 +0200)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (4 October 2026, 09:55:47 +0200)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 0: Classify and scale (two lines) (4 October 2026, 09:55:47 +0200)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (4 October 2026, 09:55:47 +0200)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (4 October 2026, 09:55:47 +0200)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 1: Read the request four ways (one line each) (4 October 2026, 09:55:47 +0200)
+>
+> 1. **Literal**: restate exactly what was asked. (4 October 2026, 09:55:47 +0200)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (4 October 2026, 09:55:47 +0200)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (4 October 2026, 09:55:47 +0200)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 2: Verify the real facts (never from memory) (4 October 2026, 09:55:47 +0200)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (4 October 2026, 09:55:47 +0200)
+>
+> Sources by domain: (4 October 2026, 09:55:47 +0200)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (4 October 2026, 09:55:47 +0200)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (4 October 2026, 09:55:47 +0200)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (4 October 2026, 09:55:47 +0200)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (4 October 2026, 09:55:47 +0200)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (4 October 2026, 09:55:47 +0200)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (4 October 2026, 09:55:47 +0200)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (4 October 2026, 09:55:47 +0200)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (4 October 2026, 09:55:47 +0200)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (4 October 2026, 09:55:47 +0200)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (4 October 2026, 09:55:47 +0200)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (4 October 2026, 09:55:47 +0200)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (4 October 2026, 09:55:47 +0200)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (4 October 2026, 09:55:47 +0200)
+> 9. **Observability**: if it fails silently, how and when do you find out? (4 October 2026, 09:55:47 +0200)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (4 October 2026, 09:55:47 +0200)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (4 October 2026, 09:55:47 +0200)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (4 October 2026, 09:55:47 +0200)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 4: Premortem (narrative, not checklist) (4 October 2026, 09:55:47 +0200)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (4 October 2026, 09:55:47 +0200)
+>
+> ## Step 5: Rank, cut, decide (4 October 2026, 09:55:47 +0200)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (4 October 2026, 09:55:47 +0200)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (4 October 2026, 09:55:47 +0200)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (4 October 2026, 09:55:47 +0200)
+>
+> ## Output format (compact, French by default on this account) (4 October 2026, 09:55:47 +0200)
+>
+> ``` (4 October 2026, 09:55:47 +0200)
+> Décision/changement : 1 à 3 lignes. (4 October 2026, 09:55:47 +0200)
+> Angles morts (4 lectures) : 1 ligne chacune. (4 October 2026, 09:55:47 +0200)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (4 October 2026, 09:55:47 +0200)
+> Écartés : 1 ligne. (4 October 2026, 09:55:47 +0200)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (4 October 2026, 09:55:47 +0200)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (4 October 2026, 09:55:47 +0200)
+> ``` (4 October 2026, 09:55:47 +0200)
+>
+> ## Stop conditions and anti-goals (4 October 2026, 09:55:47 +0200)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (4 October 2026, 09:55:47 +0200)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (4 October 2026, 09:55:47 +0200)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (4 October 2026, 09:55:47 +0200)
+
+## 4 October 2026, 09:55:47 +0200 : Prompt
+
+<!-- feedback-event:9aeeb073af9a0eca21f7e314ec5a44f1d486bac0cc01c4b17f9d5ed6037625ce (4 October 2026, 09:55:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:55:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:47 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/feedback-stack (4 October 2026, 09:55:47 +0200)
+>
+> # feedback-stack : la mémoire des consignes d'un chantier (4 October 2026, 09:55:47 +0200)
+>
+> `prompt-stacking` retient les TÂCHES encore ouvertes. Ce skill retient ce que Matthieu a DIT : (4 October 2026, 09:55:47 +0200)
+> ses consignes, ses corrections, ses verdicts, ses mesures. Les deux ne se remplacent pas. (4 October 2026, 09:55:47 +0200)
+>
+> ## La loi (4 October 2026, 09:55:47 +0200)
+>
+> **Chaque conversation commence avec un fichier de suivi `.md`, dès le premier prompt et AVANT le travail.** (4 October 2026, 09:55:47 +0200)
+> Relire et réutiliser le `FEEDBACK.md` du chantier s'il existe ; sinon le créer à la racine de son (4 October 2026, 09:55:47 +0200)
+> dossier. Sans projet, créer un dossier `~/.claude/tmp/tmp-<nom-parlant>/` et y tenir `FEEDBACK.md`. (4 October 2026, 09:55:47 +0200)
+> Chaque prompt y entre avant son exécution ; le premier fixe l'objectif dans les mots de Matthieu. (4 October 2026, 09:55:47 +0200)
+> Relire cet objectif avant chaque nouvelle action et après toute reprise ou compaction. (4 October 2026, 09:55:47 +0200)
+>
+> **Dès la création du fichier, référencer son chemin absolu et son objectif dans la section existante (4 October 2026, 09:55:47 +0200)
+> `Index des feedbacks de chantier` de `~/.claude/CLAUDE.md`.** Ne pas créer une nouvelle section, (4 October 2026, 09:55:47 +0200)
+> ne pas dupliquer une référence existante et ne pas éditer les miroirs. Régénérer les miroirs avec (4 October 2026, 09:55:47 +0200)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, puis vérifier avec (4 October 2026, 09:55:47 +0200)
+> `node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify` et régénérer l'index avec (4 October 2026, 09:55:47 +0200)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs`. (4 October 2026, 09:55:47 +0200)
+> La création n'est terminée que lorsque le fichier existe et que sa référence figure dans le global. (4 October 2026, 09:55:47 +0200)
+>  Une consigne qu'il a donnée une (4 October 2026, 09:55:47 +0200)
+> fois ne doit jamais lui être redemandée, ni oubliée trois prompts plus tard. (4 October 2026, 09:55:47 +0200)
+>
+> ## Le fichier, quatre sections, append only (4 October 2026, 09:55:47 +0200)
+>
+> ```markdown (4 October 2026, 09:55:47 +0200)
+> # <Projet> : feedback, prompts et règles (append only) (4 October 2026, 09:55:47 +0200)
+>
+> ## Prompt log            <- un bloc par demande, horodaté, l'intention dans SES mots (4 October 2026, 09:55:47 +0200)
+> ## Order of work         <- ce qu'il a demandé dans l'ordre, et qui ne se réordonne pas (4 October 2026, 09:55:47 +0200)
+> ## Standing rules        <- les règles permanentes, à ne jamais faire répéter (4 October 2026, 09:55:47 +0200)
+> ## Log                   <- ce qui a été fait, avec la mesure qui le prouve (4 October 2026, 09:55:47 +0200)
+> ``` (4 October 2026, 09:55:47 +0200)
+>
+> ## Ce qui entre dans le Prompt log (4 October 2026, 09:55:47 +0200)
+>
+> Le prompt daté, son intention en une ou deux lignes, et la citation exacte quand il corrige. Les (4 October 2026, 09:55:47 +0200)
+> corrections sont le contenu le plus précieux : « ça fait 4 fois que je te le dis » signifie qu'une (4 October 2026, 09:55:47 +0200)
+> règle manquait ici. Elle s'y écrit dans la foulée, au présent, avec sa cause. (4 October 2026, 09:55:47 +0200)
+>
+> ## Ce qui entre dans Standing rules (4 October 2026, 09:55:47 +0200)
+>
+> Toute phrase de Matthieu qui vaut au-delà de la demande du jour : conventions de nommage, ordre de (4 October 2026, 09:55:47 +0200)
+> travail, interdits, façon de vérifier, ce qui doit être mesuré plutôt qu'estimé. Une règle par (4 October 2026, 09:55:47 +0200)
+> puce, formulée comme une consigne exécutable, jamais comme un résumé. (4 October 2026, 09:55:47 +0200)
+>
+> ## Le geste (4 October 2026, 09:55:47 +0200)
+>
+> ```bash (4 October 2026, 09:55:47 +0200)
+> python3 ~/.claude/skills/feedback-stack/scripts/feedback.py add <projet> "<prompt ou regle>" [--kind prompt|rule|log|order] (4 October 2026, 09:55:47 +0200)
+> python3 ~/.claude/skills/feedback-stack/scripts/feedback.py show <projet> [--tail 20] (4 October 2026, 09:55:47 +0200)
+> ``` (4 October 2026, 09:55:47 +0200)
+>
+> `<projet>` est le chemin du dossier de chantier, ou son nom si le script le connaît déjà. Le fichier (4 October 2026, 09:55:47 +0200)
+> se crée au premier appel avec ses quatre sections. (4 October 2026, 09:55:47 +0200)
+>
+> ## Les déclencheurs, sans qu'il ait à le demander (4 October 2026, 09:55:47 +0200)
+>
+> - Début de conversation : relire ou créer le suivi, consigner le premier prompt et vérifier sa référence dans le global. (4 October 2026, 09:55:47 +0200)
+> - Nouveau prompt sur un chantier en cours : on l'ajoute au Prompt log, puis on travaille. (4 October 2026, 09:55:47 +0200)
+> - Il corrige ou répète quelque chose : on écrit la règle dans Standing rules, avec sa cause. (4 October 2026, 09:55:47 +0200)
+> - Une mesure tranche un doute : elle va dans Log, avec son nombre. (4 October 2026, 09:55:47 +0200)
+> - Reprise de session ou compaction : on relit `FEEDBACK.md` AVANT de répondre. (4 October 2026, 09:55:47 +0200)
+> - Fin de chantier : les règles durables remontent dans le skill du domaine, le reste reste sur place. (4 October 2026, 09:55:47 +0200)
+>
+> ## Ce que ce skill n'est pas (4 October 2026, 09:55:47 +0200)
+>
+> Ce n'est ni le journal global `~/.claude/PROGRESS.md`, qui raconte quand et quoi à travers tous les (4 October 2026, 09:55:47 +0200)
+> projets, ni la mémoire de projet `Memory1/**/<Nom>1.md`, qui porte ce que le projet SAIT. C'est la (4 October 2026, 09:55:47 +0200)
+> trace de ce que Matthieu a demandé, là où le travail se fait. (4 October 2026, 09:55:47 +0200)
+>
+> ## Exemple vivant (4 October 2026, 09:55:47 +0200)
+>
+> `ZenRayHoudini/GTA6_Stilt_House/FEEDBACK_tmp.md` et `ZenRayHoudini/ModelingJapan_01/FEEDBACK.md` : (4 October 2026, 09:55:47 +0200)
+> ordre des composants, règles de modélisation isolée, pièges payés (les objets Houdini se comparent (4 October 2026, 09:55:47 +0200)
+> par leur nom et non par identité, un point Cd écrase un Cd de primitive après une fusion). (4 October 2026, 09:55:47 +0200)
+>
+> ## 2 October 2026 : Canonical project feedback and strict append (4 October 2026, 09:55:47 +0200)
+>
+> - This section supersedes the earlier section-insertion instructions: the writer only opens with O_APPEND, locks the file, writes at its end and fsyncs; no existing byte changes. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - `feedback-stack` is the sole implementation; `feedback` remains a compatibility alias that calls the same writer. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - Resolve project IDs and local folders through ZenRayProgress `scripts/AssetsConfig.json` and `~/Library/Application Support/ZenRayAssets/Projects.json`; the canonical file is `~/.claude/Memory1/Projects/<project-id>/FEEDBACK.md`. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - Use `feedback.py add <project-id> <text> --event-id <stable-event-id>` for idempotent capture; corrections append a new dated entry referencing the earlier one. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - Preserve historical feedback in place; `feedback.py link-legacy <project-id> <absolute-source-path>` appends reciprocal references and the original byte hash instead of moving or rewriting it. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - The local Assets service captures human prompts and final iterations from Codex and Claude transcripts when a project matches the working folder unambiguously or its session has an explicit project binding. Ambiguous sessions are never assigned by guesswork. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - Read the canonical file and its linked historical sources on resumption; local TMP, Houdini and Unreal feedback all route to the same project ID. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - ZenRay Assets history is a derived view of these sources and the existing global PROGRESS.md; it creates no second global journal. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+>
+> ## 2 October 2026 : Assets initialise le feedback et la memoire de chaque projet (4 October 2026, 09:55:47 +0200)
+>
+> - Pour un projet Assets, commencer ou reprendre par BeginProject.mjs, qui cree le FEEDBACK.md canonique dans Memory1/Projects/<id> et relie la session reelle. Ne pas creer un second feedback autonome dans TMP. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - Le registre Assets et Project.json constituent l'index vivant des projets ; ils remplacent l'ajout d'une nouvelle ligne dans CLAUDE.md pour chaque nouveau projet Assets. Les anciennes references restent intactes. Doctrine de priorite 0 : CLAUDE.md, section Chaque projet commence dans ZenRay Assets V2. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+> - La capture automatique des sessions reliees complete les ajouts manuels du writer. Si le service est absent, reparer ou signaler le blocage et utiliser le meme writer canonique ; ne jamais annoncer une capture ou un push non verifie. (2 October 2026) (4 October 2026, 09:55:47 +0200)
+
+## 4 October 2026, 09:55:47 +0200 : Prompt
+
+<!-- feedback-event:77391e731ab1ea94f629f845e9792fc06f9f6048a251ec22f115227ac2738599 (4 October 2026, 09:55:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:55:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 09:55:47 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/prompt-stacking (4 October 2026, 09:55:47 +0200)
+>
+> # Continuité des tâches (4 October 2026, 09:55:47 +0200)
+>
+> **Un nouveau prompt change le focus, pas l'historique des obligations.** (4 October 2026, 09:55:47 +0200)
+>
+> **Une tâche ne disparaît que par `DONE` ou `CANCEL`.** (4 October 2026, 09:55:47 +0200)
+>
+> ## État unique par session (4 October 2026, 09:55:47 +0200)
+>
+> Résoudre le dossier depuis l'identifiant opaque fourni par l'hôte, jamais depuis le texte littéral (4 October 2026, 09:55:47 +0200)
+> `<CurrentSessionName>` ni depuis une date, un nom de projet ou une valeur aléatoire : (4 October 2026, 09:55:47 +0200)
+>
+> - Claude Code : `/Users/zenray/.claude/$CLAUDE_SESSION_ID/prompt-stacking.md` (4 October 2026, 09:55:47 +0200)
+> - Codex : `/Users/zenray/.codex/$CODEX_SESSION_ID/prompt-stacking.md` (4 October 2026, 09:55:47 +0200)
+> - Antigravity : `/Users/zenray/.gemini/antigravity/$ANTIGRAVITY_CONVERSATION_ID/prompt-stacking.md` (4 October 2026, 09:55:47 +0200)
+>
+> Le dossier est global à l'hôte, hors de l'espace de travail et ne se versionne pas. Si l'identifiant standard manque, (4 October 2026, 09:55:47 +0200)
+> utiliser seulement l'identifiant de conversation exposé par l'hôte. Ne jamais créer de repli partagé. (4 October 2026, 09:55:47 +0200)
+>
+> Créer automatiquement le dossier et le fichier s'ils n'existent pas. Ce fichier est le seul état de (4 October 2026, 09:55:47 +0200)
+> tâches : ne pas créer de dashboard, JSON, base de données, rapport, journal d'événements ou second (4 October 2026, 09:55:47 +0200)
+> fichier de suivi. (4 October 2026, 09:55:47 +0200)
+>
+> ```md (4 October 2026, 09:55:47 +0200)
+> # OPEN (4 October 2026, 09:55:47 +0200)
+>
+> - [>] T1 Tâche actuelle (4 October 2026, 09:55:47 +0200)
+> - [ ] T0 Tâche interrompue (4 October 2026, 09:55:47 +0200)
+>
+> # DONE (4 October 2026, 09:55:47 +0200)
+>
+> - [x] T-1 Tâche vérifiée (4 October 2026, 09:55:47 +0200)
+>
+> # CANCELED (4 October 2026, 09:55:47 +0200)
+>
+> - [!] T-2 Tâche explicitement annulée (4 October 2026, 09:55:47 +0200)
+> ``` (4 October 2026, 09:55:47 +0200)
+>
+> `[>]` signifie active, `[ ]` en attente, `[x]` terminée et `[!]` annulée. Les descriptions tiennent (4 October 2026, 09:55:47 +0200)
+> sur une ligne. Les tâches les plus récentes viennent en premier dans chaque section. (4 October 2026, 09:55:47 +0200)
+>
+> ## À chaque prompt (4 October 2026, 09:55:47 +0200)
+>
+> Pour chaque demande conséquente et toute tâche de code, avant le travail : (4 October 2026, 09:55:47 +0200)
+>
+> 1. Lire seulement `OPEN`. (4 October 2026, 09:55:47 +0200)
+> 2. Classer l'intention : `CONTINUE`, `NEW` ou `CANCEL`. (4 October 2026, 09:55:47 +0200)
+> 3. Mettre l'état à jour avant l'exécution. (4 October 2026, 09:55:47 +0200)
+>
+> `CONTINUE` conserve l'unique tâche active et affine sa description si nécessaire. Une précision ou une (4 October 2026, 09:55:47 +0200)
+> suite logique reste un `CONTINUE`. (4 October 2026, 09:55:47 +0200)
+>
+> `NEW` commence par déplacer l'ancienne tâche active, si elle n'est pas finie, vers `OPEN` en attente, (4 October 2026, 09:55:47 +0200)
+> puis place la nouvelle tâche active en tête. Ne créer aucune tâche à partir d'un détail accessoire. (4 October 2026, 09:55:47 +0200)
+>
+> `CANCEL` exige une annulation, un remplacement ou une obsolescence explicite de la part de l'utilisateur. (4 October 2026, 09:55:47 +0200)
+> Déplacer alors la tâche dans `CANCELED`, avec le motif sur la même ligne. Ne jamais l'appeler `DONE`. (4 October 2026, 09:55:47 +0200)
+>
+> Lorsque le résultat est réellement complet et vérifié, déplacer la tâche dans `DONE`. Une tentative, (4 October 2026, 09:55:47 +0200)
+> une tâche partielle, un blocage ou un résultat non vérifié reste dans `OPEN`. (4 October 2026, 09:55:47 +0200)
+>
+> L'état est lossless, plutôt que littéralement append-only : aucune tâche n'est supprimée. Comme chaque (4 October 2026, 09:55:47 +0200)
+> section doit garder les tâches les plus récentes en tête et refléter leur statut courant, une ligne peut (4 October 2026, 09:55:47 +0200)
+> changer de section ou de marqueur. N'ajouter aucun historique parallèle pour simuler un append-only. (4 October 2026, 09:55:47 +0200)
+>
+> Un seul élément peut être `[>]`. Toute tâche non terminée reste dans `OPEN`. Ne lire `DONE` ou `CANCELED` (4 October 2026, 09:55:47 +0200)
+> que lorsqu'un contexte historique précis est nécessaire. Le suivi reste silencieux et ne doit ni (4 October 2026, 09:55:47 +0200)
+> interrompre ni alourdir la réponse réelle. (4 October 2026, 09:55:47 +0200)
+
+## 4 October 2026, 09:56:06 +0200 : Prompt
+
+<!-- feedback-event:d8b3fdb4e0e4370cbca6b448e8af4bf63b250003368575306dcd61c752619e82 (4 October 2026, 09:56:06 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 09:56:06 +0200)
+
+> 4 October 2026 : PROMPT 1 (verbatim de Matthieu, dictée vocale) : « ZENRAY FREELANCE A CONTINUER ET A FINIR PARFAITEMENT à l'img de zenray assets v2. » Puis : faire de ZenRay Freelance une plateforme qui parcourt toutes les dernières annonces (AFJV, « Watch Achievement Industry » [nom non identifié], offres recensées sur LinkedIn) ; automatiser la phase de recherche de travail et de détection de mission avec une archive de lettres de motivation et une archive du CV qui est sur le site (ZenRayWebsite, section CV). Résoudre les problèmes de design et d'automatisation. Le plus simple possible : un bouton, ça cherche sur tous les sites. Le site doit aller chercher seul les offres, les mettre dans des petites cases, ajouter la lettre de motivation ; candidatures spontanées possibles. Liens avec Matthieu1.md, les posts, PROGRESS et le quotidien ; la lettre publie aussi les derniers travaux et s'actualise tout le temps ; recherche (Google ou abonnement Claude Sonnet 5.5 medium) toutes les 6 heures (4 fois par jour). Il prépare les lettres, donne le lien spécifique du site carrière de l'employeur ; Matthieu n'a qu'à éditer, copier le message, copier l'adresse e-mail de l'employeur, envoyer, ou cliquer pour aller sur le site de l'employeur. Sources de vérité actualisées (Memory, matthieuhuguet.com, projets hébergés, posts via ZenRayPostKit). Pas seulement le freelance : missions salariées en studio, stages aussi. Penser à tout, la phase la moins pénible possible. (4 October 2026, 09:56:06 +0200)
+
+## 4 October 2026, 09:56:06 +0200 : Standing rule
+
+<!-- feedback-event:653830f3d5f7542e9071299028033100c78b81b5f33f29721fdb62d9ca622151 (4 October 2026, 09:56:06 +0200) -->
+- Project: zenray-freelance; kind: rule. (4 October 2026, 09:56:06 +0200)
+
+> 4 October 2026 : TEMPLATE DE LETTRE « Asobo Letter » (verbatim de Matthieu, à adapter et à noter quelque part) : (4 October 2026, 09:56:06 +0200)
+>
+> À l’attention de l’équipe recrutement, (4 October 2026, 09:56:06 +0200)
+>
+> Bonjour Asobo, (4 October 2026, 09:56:06 +0200)
+>
+> Je m’appelle Matthieu Huguet, j’ai 25 ans et je travaille en freelance comme Technical Artist, basé à Aix-en-Provence. (4 October 2026, 09:56:06 +0200)
+>
+> J’ai suivi un Bachelor Game Design à LISAA Paris, un Master à ARTFX Montpellier, puis des formations en technical art chez Gnomon et via Harvard CS50, avant de me lancer en freelance début 2025. (4 October 2026, 09:56:06 +0200)
+>
+> J’ai travaillé sur un projet en NDA avec Meerkat Studio ainsi que sur un projet d’archviz pour un client privé à Aix-en-Provence. L’ensemble de mon travail est consultable sur matthieuhuguet.com. (4 October 2026, 09:56:06 +0200)
+>
+> En ce moment, je travaille sur l’intégration et le développement de solutions avec Cursor et Claude, intégrées à Houdini et Unreal, permettant de générer du level design via des HDA et d’itérer rapidement sur celui-ci. (4 October 2026, 09:56:06 +0200)
+>
+> J’ai pris le temps de regarder le travail d’Asobo sur vos jeux narratifs avant de vous écrire. C’est ce qui m’a décidé à prendre contact directement. (4 October 2026, 09:56:06 +0200)
+>
+> J’ai évidemment joué à A Plague Tale: Requiem, dont la fin m’a profondément ému et m’a convaincu de la force de ce média. J’apprécie vraiment votre studio. J’ai beaucoup étudié Requiem visuellement, notamment à travers une importante bibliothèque de références. (4 October 2026, 09:56:06 +0200)
+>
+> Ce que je recherche aujourd’hui, c’est un contrat, avec une équipe engagée sur un projet ambitieux. J’ai besoin de travailler avec des professionnels expérimentés et de m’inscrire dans une dynamique collective, quelque chose que le travail en solo, aussi formateur soit-il, ne permet pas de retrouver. (4 October 2026, 09:56:06 +0200)
+>
+> Je prends rarement le temps de postuler spontanément, mais votre message « lance-toi » m’a décidé à vous écrire. (4 October 2026, 09:56:06 +0200)
+>
+> Je serais heureux de pouvoir échanger avec vous par téléphone ou en visioconférence, selon votre disponibilité. (4 October 2026, 09:56:06 +0200)
+>
+> Matthieu Huguet (4 October 2026, 09:56:06 +0200)
