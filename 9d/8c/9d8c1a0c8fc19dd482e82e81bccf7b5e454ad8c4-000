@@ -1342,3 +1342,170 @@
 - Project: zenray-freelance; kind: log. (4 October 2026, 10:55:56 +0200)
 
 > 4 October 2026 : LIVRÉ ET MESURÉ : 33 sources lues sans erreur, 312 fiches, 15 studios à démarcher avec page carrières vérifiée par HTTP, 224 fiches avec site officiel et 262 avec page des offres, 171 lettres écrites, commit zenray-data e0474ea9, page déployée et chunk identique octet pour octet à la prod, 80 tests du moteur et 207 tests de composants verts, 641 tests des dossiers touchés. Incident : fichier des studios à 1 093 861 octets lu vide par l'API contents pendant trois minutes (aucune écriture), corrigé par compactage, lecture par blob, refus de sauvegarder sur lecture vide. Non vérifié : rendu visuel, génération Claude (jeton). Ouvert : jeton Claude, posts PostKit, « Watch Achievement Industry » à identifier. (4 October 2026, 10:55:56 +0200)
+
+## 4 October 2026, 10:56:53 +0200 : Iteration
+
+<!-- feedback-event:dd23eb23803d6d38849d8b71def8c8c11f6480d435dbca8342d743291752c7b2 (4 October 2026, 10:56:53 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 10:56:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:56:53 +0200)
+
+> ZenRay Freelance est maintenant un moteur qui cherche seul et prépare les lettres. Je ne l'ai pas regardé à l'écran (le dépôt interdit ma vérification par navigateur), donc le design reste à valider par toi. (4 October 2026, 10:56:53 +0200)
+>
+> Le service `com.zenray.freelance` tourne sur le Mac et repasse toutes les 6 h, aux alentours de 16 h 55. Il ne tourne que Mac allumé. Le bouton « Rechercher maintenant » est en production sur zenray-progress.pages.dev. Une passe réelle dure environ 16 s sur 33 sources, sans erreur. (4 October 2026, 10:56:53 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (4 October 2026, 10:56:53 +0200)
+> |---|---|---| (4 October 2026, 10:56:53 +0200)
+> | Un bouton, ça cherche partout | Oui | Passes réelles lancées par le service, bundle de production identique octet pour octet au build | (4 October 2026, 10:56:53 +0200)
+> | Recherche automatique toutes les 6 h | Oui | LaunchAgent installé, état et échéance relus par `Client.mjs status` | (4 October 2026, 10:56:53 +0200)
+> | AFJV, studios, LinkedIn | En partie | AFJV, 30 studios et GamesIndustry.biz sont lus. LinkedIn, Hitmarker et Welcome to the Jungle sont des recherches déjà préparées à ouvrir, car le scraping y est interdit | (4 October 2026, 10:56:53 +0200)
+> | Lettre prête, adaptée, à jour | Oui | 171 lettres écrites. Ta lettre Asobo est reproduite mot pour mot par le générateur. La lettre se met à jour seule quand ton site change | (4 October 2026, 10:56:53 +0200)
+> | CV du site relié | Oui | Lu sur le site publié, PDF français et anglais liés | (4 October 2026, 10:56:53 +0200)
+> | Lien carrière, mail à copier | En partie | 262 fiches ont la page des offres du studio, 224 son site officiel. Le mail n'existe que s'il est écrit dans l'annonce (8 fiches sur 312) | (4 October 2026, 10:56:53 +0200)
+> | Candidatures spontanées, stages | Oui | 15 studios à démarcher avec leur page carrières vérifiée par HTTP, filtre Stage | (4 October 2026, 10:56:53 +0200)
+> | Liens avec Matthieu1.md, posts, PROGRESS | Non | Seuls le CV et la page Works du site alimentent les lettres. Les posts de PostKit ne sont pas encore branchés | (4 October 2026, 10:56:53 +0200)
+> | Claude Sonnet 5.5 pour l'accroche | Prêt, désactivé | La CLI reconnaît le jeton mais je n'en ai pas, donc aucune génération réelle testée | (4 October 2026, 10:56:53 +0200)
+>
+> Pendant trois minutes, le fichier des studios a dépassé 1 Mio et GitHub l'a servi vide. Rien n'a été écrit pendant ce temps, aucune de tes fiches n'a été touchée (les 247 d'origine sont inchangées). C'est corrigé trois fois : fichier compacté, relecture par blob côté serveur, et la page refuse de sauvegarder quand le fichier est illisible. (4 October 2026, 10:56:53 +0200)
+>
+> Ce qui reste, et ce que toi seul peux faire : (4 October 2026, 10:56:53 +0200)
+> - **Jeton Claude :** lance cette commande dans un terminal, puis écris `CLAUDE_CODE_OAUTH_TOKEN=…` dans `~/Library/Application Support/ZenRayFreelance/.env` et fais `chmod 600` dessus. (4 October 2026, 10:56:53 +0200)
+>
+> ```bash (4 October 2026, 10:56:53 +0200)
+> claude setup-token (4 October 2026, 10:56:53 +0200)
+> ``` (4 October 2026, 10:56:53 +0200)
+> - **« Watch Achievement Industry » :** je n'ai pas identifié ce site, j'ai pris GamesIndustry.biz à la place. Dis-moi le nom exact. (4 October 2026, 10:56:53 +0200)
+> - **Git :** j'ai fusionné dans `main` en local et archivé la branche `freelance-engine` sur le dépôt. Je n'ai pas poussé `main`, pour ne pas publier les commits de l'autre session. (4 October 2026, 10:56:53 +0200)
+> - **Tests :** la suite complète est verte hors trois échecs étrangers à ce chantier : deux suites Electron qui ne trouvent pas le module, et un test `columnMenus` qui passe ou échoue au hasard. (4 October 2026, 10:56:53 +0200)
+>
+> Ma reformulation de ta demande : « Fais de ZenRay Freelance un moteur autonome qui collecte les offres toutes les 6 h, les note contre mon CV publié et prépare pour chacune une lettre à jour avec mes derniers travaux, sans jamais rien envoyer. » Un ATS (applicant tracking system) est l'outil de recrutement des studios, dont j'ai lu l'API publique. (4 October 2026, 10:56:53 +0200)
+>
+> Le plus petit acte du jour : ouvre la page, prends les trois lettres du haut de la liste « Très pertinent », relis-les et envoie-en une. (4 October 2026, 10:56:53 +0200)
+>
+> Tout est documenté dans `ZenRayProgress/docs/FREELANCE-ENGINE.md`. La lettre Asobo est notée dans `FEEDBACK.md`, `Memory1/Business/Freelance1.md` et dans le modèle publié `freelance/letter-template.json`. (4 October 2026, 10:56:53 +0200)
+
+## 4 October 2026, 10:58:03 +0200 : Prompt
+
+<!-- feedback-event:bd87b9a976f4530749909b359d0d3d0381d37feea623cc4513cc7bbd41415f62 (4 October 2026, 10:58:03 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 10:58:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:58:03 +0200)
+
+> <bash-input>claude setup-token</bash-input><bash-stdout>zsh: command not found: claude</bash-stdout><bash-stderr></bash-stderr> (4 October 2026, 10:58:03 +0200)
+
+## 4 October 2026, 10:58:18 +0200 : Iteration
+
+<!-- feedback-event:673676f204f6411bd5fb080398796bdefd149f1e44507c5ccb5af6890ddc476d (4 October 2026, 10:58:18 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 10:58:18 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:58:18 +0200)
+
+> Le binaire `claude` est embarqué dans l'application Claude et n'est pas dans ton PATH. Voici la commande avec son chemin complet, qui prend toujours la version la plus récente : (4 October 2026, 10:58:18 +0200)
+>
+> ```bash (4 October 2026, 10:58:18 +0200)
+> "$(ls -d "$HOME"/Library/Application\ Support/Claude/claude-code/*/*/claude.app/Contents/MacOS/claude | sort -V | tail -1)" setup-token (4 October 2026, 10:58:18 +0200)
+> ``` (4 October 2026, 10:58:18 +0200)
+>
+> Elle ouvre le navigateur pour te connecter à ton abonnement, puis affiche un jeton. Colle ensuite celui-ci à l'invite de cette seconde commande (la saisie reste invisible) : (4 October 2026, 10:58:18 +0200)
+>
+> ```bash (4 October 2026, 10:58:18 +0200)
+> read -s "T?Jeton Claude : " && printf 'CLAUDE_CODE_OAUTH_TOKEN=%s\n' "$T" > "$HOME/Library/Application Support/ZenRayFreelance/.env" && chmod 600 "$HOME/Library/Application Support/ZenRayFreelance/.env" && unset T && echo "ok" (4 October 2026, 10:58:18 +0200)
+> ``` (4 October 2026, 10:58:18 +0200)
+>
+> Il faut ensuite relancer le service pour qu'il lise le fichier : (4 October 2026, 10:58:18 +0200)
+>
+> ```bash (4 October 2026, 10:58:18 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/Daemon.mjs restart (4 October 2026, 10:58:18 +0200)
+> ``` (4 October 2026, 10:58:18 +0200)
+>
+> Après la prochaine passe, le panneau « Sources et CV » de la page doit indiquer l'accroche Claude comme activée. Je ne sais pas si le jeton fonctionne tant qu'une génération réelle n'a pas eu lieu, donc dis-moi ce que tu vois et je regarderai le journal du service. (4 October 2026, 10:58:18 +0200)
+
+## 4 October 2026, 10:58:22 +0200 : Prompt
+
+<!-- feedback-event:3291850e35a73377392efc005d6e55951cc03e8328f0825b213d0b72b68be2d0 (4 October 2026, 10:58:22 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 10:58:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:58:22 +0200)
+
+> <pasted_content id="7e4d"> (4 October 2026, 10:58:22 +0200)
+> Last login: Fri Oct  2 09:31:01 on console (4 October 2026, 10:58:22 +0200)
+> zenray@Matthieus-MacBook-Pro ~ % claude setup-token (4 October 2026, 10:58:22 +0200)
+> zsh: command not found: claude (4 October 2026, 10:58:22 +0200)
+> zenray@Matthieus-MacBook-Pro ~ % (4 October 2026, 10:58:22 +0200)
+> </pasted_content id="7e4d"> (4 October 2026, 10:58:22 +0200)
+
+## 4 October 2026, 10:58:42 +0200 : Iteration
+
+<!-- feedback-event:a567914caa17d0e53419cb5c4045162089f8379e54299dce1486ff8d6d7af4c5 (4 October 2026, 10:58:42 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 10:58:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 10:58:42 +0200)
+
+> La sortie que tu viens de coller est celle de ta première tentative. Entre-temps j'ai créé un petit script `~/.local/bin/claude` qui lance la version de Claude Code installée par l'application. J'ai vérifié que `claude --version` répond bien : 2.1.286. (4 October 2026, 10:58:42 +0200)
+>
+> Ouvre un nouveau terminal puis lance ces trois commandes l'une après l'autre. (4 October 2026, 10:58:42 +0200)
+>
+> ```bash (4 October 2026, 10:58:42 +0200)
+> claude setup-token (4 October 2026, 10:58:42 +0200)
+> ``` (4 October 2026, 10:58:42 +0200)
+>
+> Colle ensuite le jeton affiché à l'invite suivante (la saisie reste invisible) : (4 October 2026, 10:58:42 +0200)
+>
+> ```bash (4 October 2026, 10:58:42 +0200)
+> read -s "T?Jeton Claude : " && printf 'CLAUDE_CODE_OAUTH_TOKEN=%s\n' "$T" > "$HOME/Library/Application Support/ZenRayFreelance/.env" && chmod 600 "$HOME/Library/Application Support/ZenRayFreelance/.env" && unset T && echo "ok" (4 October 2026, 10:58:42 +0200)
+> ``` (4 October 2026, 10:58:42 +0200)
+>
+> Pour finir, redémarre le service afin qu'il lise le fichier : (4 October 2026, 10:58:42 +0200)
+>
+> ```bash (4 October 2026, 10:58:42 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/Daemon.mjs restart (4 October 2026, 10:58:42 +0200)
+> ``` (4 October 2026, 10:58:42 +0200)
+>
+> Dis-moi ensuite ce que tu vois après la prochaine passe. Je ne sais pas encore si le jeton fonctionne, parce qu'aucune génération réelle n'a eu lieu. (4 October 2026, 10:58:42 +0200)
+
+## 4 October 2026, 11:00:44 +0200 : Prompt
+
+<!-- feedback-event:c9cbfbd2356692492b8b691845d3b50e5529d6f2fff629ae88630fea93122445 (4 October 2026, 11:00:44 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:00:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:00:44 +0200)
+
+> oui mais je veux pas relancer ça a chaque fois ce doit être automatique / ni le terminal ni claude doivent être relancé attention !!! login at start ... (4 October 2026, 11:00:44 +0200)
+
+## 4 October 2026, 11:00:44 +0200 : Prompt
+
+<!-- feedback-event:34f0ee7609a2caaf397b443e62ce99c4f37e6fdced111163727ccd4570e95cb3 (4 October 2026, 11:00:44 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:00:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:00:44 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/1.webp] (4 October 2026, 11:00:44 +0200)
+
+## 4 October 2026, 11:02:11 +0200 : Iteration
+
+<!-- feedback-event:795fe687886f3cc2438529e70733d15de6d24e3e091bb361c2f7fd93356a767e (4 October 2026, 11:02:11 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:02:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:02:11 +0200)
+
+> Le fichier de jeton ne contient que 29 octets, alors qu'un vrai jeton en fait plus de 100 : le collage n'a pas été reçu par `read -s` et le jeton stocké est invalide. Le jeton lui-même a bien été créé, il est dans ton terminal et sur ta capture. Je n'ai pas voulu le recopier depuis l'image, parce qu'une erreur de lecture sur un caractère le rendrait faux. (4 October 2026, 11:02:11 +0200)
+>
+> J'ai changé ceci pour que ce soit définitivement automatique : (4 October 2026, 11:02:11 +0200)
+> - Le service relit maintenant le fichier de jeton avant chaque passe et chaque lettre, donc plus aucun redémarrage ne sera jamais nécessaire. (4 October 2026, 11:02:11 +0200)
+> - Il démarre à l'ouverture de ta session et n'a besoin ni du terminal ni de l'application Claude. (4 October 2026, 11:02:11 +0200)
+> - Le jeton vaut un an. (4 October 2026, 11:02:11 +0200)
+>
+> Il te reste une seule opération, une seule fois : dans ton terminal, sélectionne le jeton affiché plus haut et copie-le avec Cmd+C. Lance ensuite : (4 October 2026, 11:02:11 +0200)
+>
+> ```bash (4 October 2026, 11:02:11 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/SetToken.mjs (4 October 2026, 11:02:11 +0200)
+> ``` (4 October 2026, 11:02:11 +0200)
+>
+> Ce script lit le presse-papiers et refuse tout ce qui n'est pas un jeton. Il teste le jeton auprès du modèle avant de l'écrire (droits 600), puis vide le presse-papiers. S'il affiche « le modèle a répondu », c'est fini. Si le test échoue, il n'écrit rien et te dit pourquoi. (4 October 2026, 11:02:11 +0200)
+>
+> Ton jeton est visible sur ta capture, donc dans l'historique de cette conversation. Pour être propre, tu peux refaire `claude setup-token` plus tard et recopier le nouveau jeton sans capture. (4 October 2026, 11:02:11 +0200)
+>
+> J'ai aussi écrasé ton presse-papiers pendant mon test du script, ce qui est sans conséquence. (4 October 2026, 11:02:11 +0200)
+
+## 4 October 2026, 11:03:40 +0200 : Prompt
+
+<!-- feedback-event:c7aec3ad9ff868a6dc7be7aac12b27fe13a99c35b1585fbf9e3d905dfda89d83 (4 October 2026, 11:03:40 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:03:40 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:03:40 +0200)
+
+> Last login: Sun Oct  4 10:58:13 on ttys000 (4 October 2026, 11:03:40 +0200)
+> zenray@Matthieus-MacBook-Pro ~ % node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/SetToken.mjs (4 October 2026, 11:03:40 +0200)
+> Le presse-papiers ne contient pas un jeton Claude (il commence par sk-ant-oat01- et fait plus de 80 caractères). Sélectionne tout le jeton dans le terminal, copie-le avec Cmd+C, puis relance cette commande. Rien n’a été écrit. (4 October 2026, 11:03:40 +0200)
+> zenray@Matthieus-MacBook-Pro ~ % (4 October 2026, 11:03:40 +0200)
