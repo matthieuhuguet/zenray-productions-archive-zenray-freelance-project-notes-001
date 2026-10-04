@@ -1539,3 +1539,55 @@
 > Ensuite plus rien n'est à relancer : le service relit ce fichier avant chaque passe et chaque lettre. Il démarre à l'ouverture de ta session, sans le terminal ni l'application Claude. Le jeton vaut un an. (4 October 2026, 11:06:24 +0200)
 >
 > Pour l'instant le fichier contient un jeton invalide de 4 caractères. Ce n'est pas bloquant : les lettres gardent leur accroche automatique tant que le bon jeton n'est pas enregistré. (4 October 2026, 11:06:24 +0200)
+
+## 4 October 2026, 11:11:16 +0200 : Prompt
+
+<!-- feedback-event:e508105efab1c5afc81cfb64fe0a55d68b48e389694a73e94179fdfb328b29d3 (4 October 2026, 11:11:16 +0200) -->
+- Project: zenray-freelance; kind: prompt. (4 October 2026, 11:11:16 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:11:16 +0200)
+
+> <pasted_content id="7e4d"> (4 October 2026, 11:11:16 +0200)
+> This will guide you through long-lived (1-year) auth token setup for your Claude account. Claude subscription required. (4 October 2026, 11:11:16 +0200)
+>
+>   (4 October 2026, 11:11:16 +0200)
+>  ✓ Long-lived authentication token created successfully! (4 October 2026, 11:11:16 +0200)
+>
+>  Your OAuth token (valid for 1 year): (4 October 2026, 11:11:16 +0200)
+>
+>  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 (4 October 2026, 11:11:16 +0200)
+>   (4 October 2026, 11:11:16 +0200)
+>  Store this token securely. You won't be able to see it again. (4 October 2026, 11:11:16 +0200)
+>
+>  Use this token by setting: export CLAUDE_CODE_OAUTH_TOKEN=<token> (4 October 2026, 11:11:16 +0200)
+>
+> Le test du jeton a échoué : Command failed: /Users/zenray/Library/Application Support/Claude/claude-code/2.1.286/f2326db61802/claude.app/Contents/MacOS/claude -p --no-session-persistence --model claude-sonnet-5-5 --effort low --tools  --disable-slash-commands --output-format json --system-prompt Reply with the single word OK. ping. Rien n’a été écrit. (4 October 2026, 11:11:16 +0200)
+> zenray@Matthieus-MacBook-Pro ~ % (4 October 2026, 11:11:16 +0200)
+> </pasted_content id="7e4d"> (4 October 2026, 11:11:16 +0200)
+
+## 4 October 2026, 11:12:49 +0200 : Iteration
+
+<!-- feedback-event:5eace1b1b8ed2e108c5c94c183c9e5d29e90ac3883c3d375b10e73909d2c9ba7 (4 October 2026, 11:12:49 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:12:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:12:49 +0200)
+
+> Un objet git de mon dernier commit a disparu en local (probable nettoyage concurrent). Il existe encore sur le dépôt distant, je le récupère. (4 October 2026, 11:12:49 +0200)
+
+## 4 October 2026, 11:13:11 +0200 : Iteration
+
+<!-- feedback-event:51dc3d88a866b3c20997a5421dcdcccbed93f886d40508c47cbd4b1e6b823c63 (4 October 2026, 11:13:11 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:13:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:13:11 +0200)
+
+> La connexion a fonctionné et le script a bien capturé le jeton, mais son test auprès du modèle a échoué, et l'ancienne version cachait la raison. Le message d'erreur du modèle s'affiche maintenant en clair. Le script essaie aussi trois variantes dans l'ordre : le modèle avec l'effort moyen, le modèle seul, puis le modèle par défaut de ton compte. (4 October 2026, 11:13:11 +0200)
+>
+> Pour ne pas refaire la connexion dans le navigateur, copie le jeton depuis ton terminal : triple-clic sur sa ligne, puis Cmd+C. Relance ensuite la même commande, elle prend le jeton dans le presse-papiers : (4 October 2026, 11:13:11 +0200)
+>
+> ```bash (4 October 2026, 11:13:11 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/SetToken.mjs (4 October 2026, 11:13:11 +0200)
+> ``` (4 October 2026, 11:13:11 +0200)
+>
+> Si le jeton est bon, il est enregistré sans rien d'autre à faire. S'il y a une erreur, copie-moi simplement le message qui s'affiche. (4 October 2026, 11:13:11 +0200)
+>
+> Le jeton apparaît en clair dans ton message, comme tout à l'heure. Je ne l'ai pas utilisé, car ce serait te substituer pour un identifiant réel de ton abonnement. Si cela te gêne, tu pourras refaire `claude setup-token` plus tard et laisser le script le capturer sans que tu aies à le coller. (4 October 2026, 11:13:11 +0200)
+>
+> Un objet git de mon dernier commit avait disparu du dépôt local à cause d'un nettoyage concurrent. Je l'ai récupéré depuis GitHub, `main` est de nouveau sain et le dépôt distant est à jour. Le service Freelance n'a pas été touché. (4 October 2026, 11:13:11 +0200)
