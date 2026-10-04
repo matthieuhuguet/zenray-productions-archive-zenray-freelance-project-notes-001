@@ -1517,3 +1517,25 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:05:53 +0200)
 
 > Je vérifie que la capture du jeton marche bien dans un vrai terminal simulé, avant de te redonner une commande. (4 October 2026, 11:05:53 +0200)
+
+## 4 October 2026, 11:06:24 +0200 : Iteration
+
+<!-- feedback-event:3e7d81f6c0979c6dcce19070877298c0489a39330f1d665ca3c322598511b55c (4 October 2026, 11:06:24 +0200) -->
+- Project: zenray-freelance; kind: iteration. (4 October 2026, 11:06:24 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (4 October 2026, 11:06:24 +0200)
+
+> Ton presse-papiers ne contenait pas le jeton : le collage de tout à l'heure n'avait pas été reçu, et je ne peux pas lire le jeton sur ta capture sans risque d'erreur. (4 October 2026, 11:06:24 +0200)
+>
+> J'ai donc rendu le script autonome : il lance lui-même la connexion à ton abonnement et capture le jeton affiché, sans que tu aies rien à copier. J'ai vérifié la capture dans un vrai pseudo-terminal avec un faux jeton de 113 caractères, qui a été retrouvé en entier. (4 October 2026, 11:06:24 +0200)
+>
+> Lance simplement ceci dans ton terminal : (4 October 2026, 11:06:24 +0200)
+>
+> ```bash (4 October 2026, 11:06:24 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/SetToken.mjs (4 October 2026, 11:06:24 +0200)
+> ``` (4 October 2026, 11:06:24 +0200)
+>
+> Le navigateur s'ouvre, tu valides la connexion. Le script teste ensuite le jeton auprès du modèle, l'écrit dans le fichier de réglages (droits 600) et supprime son journal temporaire. Si le test échoue, il n'écrit rien et te dit pourquoi. (4 October 2026, 11:06:24 +0200)
+>
+> Ensuite plus rien n'est à relancer : le service relit ce fichier avant chaque passe et chaque lettre. Il démarre à l'ouverture de ta session, sans le terminal ni l'application Claude. Le jeton vaut un an. (4 October 2026, 11:06:24 +0200)
+>
+> Pour l'instant le fichier contient un jeton invalide de 4 caractères. Ce n'est pas bloquant : les lettres gardent leur accroche automatique tant que le bon jeton n'est pas enregistré. (4 October 2026, 11:06:24 +0200)
