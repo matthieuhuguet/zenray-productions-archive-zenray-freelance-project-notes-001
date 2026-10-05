@@ -2036,3 +2036,38 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 12:11:57 +0200)
 
 > Et tu as considérés d'autres industries que le JV notamment dans le cadre freelance / 3D / Code Software. enfin garde l'aspect tech artist mais vérifie s'il y a pas d'autres industries ou missions ou appels d'offres mais fais en sorte que ce soit vraiment séparé. (5 October 2026, 12:11:57 +0200)
+
+## 5 October 2026, 12:22:56 +0200 : Iteration
+
+<!-- feedback-event:0f38fe775055ea1f40ed40fcecc8be46a169eedd2116de9ba47fa067d435b2d2 (5 October 2026, 12:22:56 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 12:22:56 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 12:22:56 +0200)
+
+> La voie « Autres industries » existe, séparée du jeu vidéo, et elle est en ligne. Elle rapporte peu pour l'instant : 6 fiches après la première passe réelle. Le fichier de la page en production est identique au mien octet pour octet, et les tests passent (110 pour le moteur, la page incluse dans la suite complète). Je n'ai pas regardé la page dans un navigateur. (5 October 2026, 12:22:56 +0200)
+>
+> **Ce que couvre la voie** (5 October 2026, 12:22:56 +0200)
+> - **Appels d'offres publics :** BOAMP (France) et TED (Union européenne). Seuls les avis encore ouverts sont gardés, avec leur date limite de réponse. La page les ferme toute seule une fois la date passée, et la fiche affiche « réponse avant le… ». (5 October 2026, 12:22:56 +0200)
+> - **Missions et offres hors jeu :** les flux ouverts Remotive, Jobicy, Remote OK et Arbeitnow, avec de nouveaux mots-clés (Houdini, 3D, Unity, WebGL, XR, visualisation). (5 October 2026, 12:22:56 +0200)
+>   - Une offre passe dans cette voie si son titre colle à ces métiers et que son texte décrit une autre industrie sans parler de jeu : cinéma, séries, architecture, simulation, jumeau numérique, automobile… (5 October 2026, 12:22:56 +0200)
+>   - Si le titre convient aux deux voies, le jeu vidéo l'emporte. (5 October 2026, 12:22:56 +0200)
+> - **Liens de recherche, jamais lus par le moteur :** Malt (4), Upwork (2), LinkedIn (3), Freelancer, Codeur, ArtStation, Behance et BOAMP. Tu les ouvres toi-même. (5 October 2026, 12:22:56 +0200)
+>
+> **Séparation** (5 October 2026, 12:22:56 +0200)
+> - Deux boutons en haut de page, « Jeu vidéo » et « Autres industries », chacun avec son compteur. (5 October 2026, 12:22:56 +0200)
+> - Chaque voie a ses fiches, ses filtres, son lot du jour, ses sources et ses liens. (5 October 2026, 12:22:56 +0200)
+> - Le choix de la voie est mémorisé dans ton navigateur. (5 October 2026, 12:22:56 +0200)
+>
+> **Limites** (5 October 2026, 12:22:56 +0200)
+> - **Peu de résultats :** BOAMP en donne 4 et TED 3. Les marchés publics en 3D, Houdini ou temps réel sont rares, et beaucoup d'avis TED sont dans la langue de l'acheteur, que mon filtre lit mal. (5 October 2026, 12:22:56 +0200)
+> - **Pas de lettre automatique dans cette voie :** ton modèle est écrit pour des studios, il ne convient ni à un appel d'offres ni à un client industriel. (5 October 2026, 12:22:56 +0200)
+> - **Achats écartés :** un appel d'offres qui ne fait qu'acheter des licences ou du matériel est ignoré. (5 October 2026, 12:22:56 +0200)
+> - **Pas de tableaux d'entreprises :** j'ai sondé quelques employeurs 3D hors jeu, mais seuls Foundry et Shapr3d ont un tableau lisible, et leurs postes sont surtout des postes de développeurs. Je ne les ai donc pas ajoutés. (5 October 2026, 12:22:56 +0200)
+> - **Plateformes freelance :** Malt et Upwork interdisent la lecture automatique, donc elles restent des liens. La vraie source de missions hors jeu, ce sont probablement ces plateformes et ton réseau, pas des annonces. (5 October 2026, 12:22:56 +0200)
+> - **Marchés publics :** y répondre demande un dossier administratif, avec SIRET, attestations et références, qui est bien plus lourd qu'une lettre. (5 October 2026, 12:22:56 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (5 October 2026, 12:22:56 +0200)
+> |---|---|---| (5 October 2026, 12:22:56 +0200)
+> | Regarder d'autres industries, missions et appels d'offres | Oui | Sources BOAMP et TED testées sur les vraies API, passe réelle réussie, 6 fiches dans la voie | (5 October 2026, 12:22:56 +0200)
+> | Garder l'aspect tech artist | Oui | La voie jeu vidéo est inchangée, avec le jeu prioritaire en cas d'égalité | (5 October 2026, 12:22:56 +0200)
+> | Que ce soit vraiment séparé | Oui | Boutons de voie, compteurs, lots et sources séparés ; test de la page « les voies ne se mélangent jamais » | (5 October 2026, 12:22:56 +0200)
+> | Vu à l'écran | Pas vérifié | Pas de navigateur utilisé, règle du projet | (5 October 2026, 12:22:56 +0200)
