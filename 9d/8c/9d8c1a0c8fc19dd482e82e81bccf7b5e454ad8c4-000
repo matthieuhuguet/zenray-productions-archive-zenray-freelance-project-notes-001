@@ -1696,3 +1696,335 @@
 > - **Premiers paragraphes Claude :** aucune lettre n'en porte encore, ils apparaîtront une fois la limite réglée. (4 October 2026, 11:43:02 +0200)
 >
 > Tu peux consulter le panneau « Sources et CV » : l'accroche Claude y est désormais indiquée comme activée via ta session. (4 October 2026, 11:43:02 +0200)
+
+## 5 October 2026, 10:54:05 +0200 : Prompt
+
+<!-- feedback-event:0821f5f57d7004eba0c19132eb876604ff2586ba9da7c6b320ef9d8a5d4dff82 (5 October 2026, 10:54:05 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 10:54:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 10:54:05 +0200)
+
+> la je vois sur mon site derniere recherche il y a 36 min mais il est 10h48 pourquoi tu fais pas plutôt minuit 6h 12h pile puisque c'est toutes les 6 heures et ensuite puisje me fier vraiment à ces offres et ensuite comment je fais pour postuler ça va arriver dans ma boite mail ? je contacte directement 300 studios ou je prends mon temps ? la on va faire les batch ce matin une fois que c'est validé tu m'ouvriras directement l'onglet de la page ou j'ai à remplir les trucs et comme ça on dit X c'est fait et on tient à jour mais d'abord vérifie que les offres présentes sont bonnes et ajoute un maximum de source donc aussi marché international et ou client anglais enfin ce que je veux dire c'est que certes un client chinois serait prématuré mais il faut un maximum de source ... en revanche il faut aussi via zenrayfreelance que je puisse aussi ajouter mes propres recherches d'emplois même si on vise vraiment un outil quasi autonome et avoir un historique à jour sans jamais faire aucune erreur c'est critique go. actuellement 302 à contacter... (5 October 2026, 10:54:05 +0200)
+> /tasks-sequence /think-of-everything (5 October 2026, 10:54:05 +0200)
+
+## 5 October 2026, 10:54:05 +0200 : Prompt
+
+<!-- feedback-event:c5a79e3cac1f1623d344b4789e613fd5bf1d12095ba77c98fe0987b33617aaa2 (5 October 2026, 10:54:05 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 10:54:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 10:54:05 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/3.webp] (5 October 2026, 10:54:05 +0200)
+
+## 5 October 2026, 10:54:05 +0200 : Prompt
+
+<!-- feedback-event:c468c5114c20ce4c833bf7a4d232bdf5e27199a55c66d81d6320a7419129cc4d (5 October 2026, 10:54:05 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 10:54:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 10:54:05 +0200)
+
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (5 October 2026, 10:54:05 +0200)
+
+## 5 October 2026, 10:56:42 +0200 : Prompt
+
+<!-- feedback-event:c5b0864645846e7a52404c462c48058692188498366033e3d084478ec9008b1f (5 October 2026, 10:56:42 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 10:56:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 10:56:42 +0200)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (5 October 2026, 10:56:42 +0200)
+>
+> Summary: (5 October 2026, 10:56:42 +0200)
+> 1. Primary Request and Intent: (5 October 2026, 10:56:42 +0200)
+>    - Original: make ZenRay Freelance an autonomous platform (in the image of ZenRay Assets V2) that automatically collects job and mission offers (AFJV, studios' career boards, LinkedIn as links), scores them against the CV published on matthieuhuguet.com, writes adapted cover letters from his own template (the Asobo letter) with his latest work, gives the employer's career link and email, supports spontaneous applications, internships and salaried jobs, runs every 6 hours plus a button. Everything must be kept as up to date as possible, with history, and with minimum effort for him. (5 October 2026, 10:56:42 +0200)
+>    - Latest message (5 Oct 2026, after seeing the production page):  (5 October 2026, 10:56:42 +0200)
+>      1. Search schedule should run at fixed clock times (00:00, 06:00, 12:00, 18:00, Europe/Paris) instead of "6 hours after last run". (5 October 2026, 10:56:42 +0200)
+>      2. Verify the quality and trustworthiness of the 302 offers ("vérifie que les offres présentes sont bonnes"). (5 October 2026, 10:56:42 +0200)
+>      3. Explain how to apply (email? direct contact of 300 studios or batches?), and plan batches this morning. Once validated, open the page tab directly where he fills things in, so that "X is done" and the history stays current. (5 October 2026, 10:56:42 +0200)
+>      4. Add a maximum of sources, including international markets and English-speaking clients. (5 October 2026, 10:56:42 +0200)
+>      5. Let him add his own job searches inside ZenRayFreelance, with a nearly autonomous tool and an always up-to-date history, never making any error (critical). (5 October 2026, 10:56:42 +0200)
+>      - He invoked /tasks-sequence (decompose into atomic verified tasks, in dependency order, data before UI) and /think-of-everything (one premortem pass, ranked proven risks, GO/NO-GO). (5 October 2026, 10:56:42 +0200)
+>
+> 2. Key Technical Concepts: (5 October 2026, 10:56:42 +0200)
+>    - Mac LaunchAgent service `com.zenray.freelance` (port 3101, loopback bridge `/api/freelance-engine`, header `x-zr-freelance-client: 1`, allowed origins include https://zenray-progress.pages.dev); runs from the main checkout path `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/`; runtime dir `~/Library/Application Support/ZenRayFreelance/` (State.json, Cache/cv.json, DataClone/, Service.log, optional .env). (5 October 2026, 10:56:42 +0200)
+>    - Scheduler (Service.mjs): `intervalHours: 6`, due = last finish + interval; retry 30 minutes after failure; `tickSeconds: 60`; start delay 20 s. The 36 min ago on the page is `lastRun.finishedAt` from the last manual run, and "prochaine dans 5 h" is finish + 6 h. (5 October 2026, 10:56:42 +0200)
+>    - Engine pass: CV read from ZenRayWebsite (`src/cv/cvData.js`, `cvPdf.json`, `cvProjects.generated.json` on branch master via `gh api`), 33 sources collected in parallel, merge into `freelance/applications.json` without touching his fields, offer text archived in `freelance/offers/<id>.json`, letters in `freelance/letters/<id>.json` (append-only versions, suggestion slot), `freelance/engine.json` (state), `freelance/letter-template.json`; one git commit per pass via a private sparse clone (`CloudStore.mjs`), recompute from fresh remote state after a refused push, back-off between attempts (6 attempts). (5 October 2026, 10:56:42 +0200)
+>    - Offer ids: `job_` + sha256(sourceId)[:20], identical to the earlier Python collector; adoption of legacy records by id, variantIds, or canonical link+role key. Closing logic: a vacancy is closed after 2 missed passes at least 4 h apart, only when the source answered in full; search-window sources (GamesIndustry) never close anything. (5 October 2026, 10:56:42 +0200)
+>    - Scoring 0 to 100 from published text only (role tiers, skills, contract, seniority penalties, junior bonus, country, remote), tiers high ≥60, medium ≥40. (5 October 2026, 10:56:42 +0200)
+>    - Sources (config `FreelanceConfig.json`): AFJV, GamesIndustry.biz (search window), Keywords Studios, SmartRecruiters (Ubisoft2, Gameloft, CDPROJEKTRED, peoplecanfly, fusefx, rodeofx, dontnod), Lever (blackbirdinteractive, skydance, paralleldomain, larian, avalanchestudios, crytek), Greenhouse (rockstargames, hangar13, epicgames, swayboxstudios, remedy, riotgames, naughtydog, housemarque, gearbox, neteasegames, bungie), Ashby (bulletfarm, supercell), Recruitee (11bitstudios, focusentertainment), Breezy (playdead), Teamtailor (careers.untoldstudios.tv). Pending dead boards: Voodoo, thatgamecompany, Cloud Chamber, Rebellion. Manual-search links (never scraped): LinkedIn (5 queries), Hitmarker, Welcome to the Jungle, Work With Indies. 16 verified prospect studios for spontaneous applications; `sites` map of official studio websites. (5 October 2026, 10:56:42 +0200)
+>    - Letters: `Letters.mjs` composes from a seed template (Asobo letter split by paragraph, reproduced word for word; FR and EN, variants per kind: offer, freelance, internship, pool, spontaneous); saved studio hooks; `seedVersion: 2` lets an unedited seed update itself; archive versions append-only; a model-written paragraph (Claude) is optional. (5 October 2026, 10:56:42 +0200)
+>    - Claude paragraph writer (`Hooks.mjs`): uses `claude -p` (found by `findClaude`: newest `~/Library/Application Support/Claude/claude-code/*/*/claude.app/Contents/MacOS/claude`), via the CLI sign-in (`claude auth login`, detected by `claude auth status`, cached 5 min if true, 30 s if false) or a token env; model `claude-sonnet-5-5`, effort medium, no tools, no saved session; `validateHook` refuses claims of tastes/plays, links, long dashes, skills not in the CV, more than one paragraph, over 75 words or under 12. Model answers are memoized per run so a refused push never pays twice; max 12 paragraphs per pass; `.env` is reloaded before each pass (`refreshEnv`). (5 October 2026, 10:56:42 +0200)
+>    - Critical GitHub trap: a file over 1 MiB comes back EMPTY (`content: ""`, `encoding: "none"`) from the contents API; fixed with compact store writing, `contentsText` blob fallback in `server/page.js`, a page that refuses to display an empty list or save over an unreadable file, and `cloud.maxStoreBytes` (4,000,000). Store size is about 991,334 bytes (close to 1 MiB); new offers keep a one-line note, the census goes with the archived offer. (5 October 2026, 10:56:42 +0200)
+>    - Page (React, ZenRayProgress): `FreelanceView.jsx` plus `src/components/freelance/` (ui, FreelanceEngineBar, FreelanceLetter, FreelanceSources, FreelanceTemplate), `src/lib/freelanceEngineModel.js`, `freelanceBridge.js`, `freelanceStudioKey.js`. Raw reads use `urlLectureAffichage`, edits use `readJson`/`saveJsonWithRetry`. (5 October 2026, 10:56:42 +0200)
+>    - Project rules: no Claude-browser verification on ZenRayProgress (build + tests); deploy by `npx vite build && npx wrangler pages deploy --branch main` from the clean worktree, then compare production chunk byte for byte. (5 October 2026, 10:56:42 +0200)
+>
+> 3. Files and Code Sections (all under `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/` unless noted; main checkout = ZenRayProgress, worktree = ZenRayProgress-freelance on branch `freelance-engine`): (5 October 2026, 10:56:42 +0200)
+>    - `scripts/Freelance/FreelanceConfig.json`: single parameter interface (service interval, cloud paths, http, website, profile, relevance, life, sources, manualSearches, letters, latestWork, prospects, sites). Needs a new `schedule` (fixed clock times) and new sources/user searches entries. (5 October 2026, 10:56:42 +0200)
+>    - `scripts/Freelance/Service.mjs`: scheduler and bridge (`dueAt()` = last finish + interval, `trigger`, `letter`, `tick`, `handleHttp`, actions status/run/letter). To change for fixed times 00/06/12/18. (5 October 2026, 10:56:42 +0200)
+>    - `scripts/Freelance/Engine.mjs`: `createEngine({... hookWriter, refreshEnv})`, `run`, `letter`, `manualSearchLinks`, `claudeHook` with `memo`, engine.json includes `claude: {enabled, via, ...}`, `storeBytes`. (5 October 2026, 10:56:42 +0200)
+>    - `scripts/Freelance/StoreMerge.mjs` (mergeStore, addProspects, inferSource, isClosed), `lib/Offer.mjs` (ROLE_PATTERN incl. FX artist roles, scoreOffer, buildOffer, engineFromNotes), `Letters.mjs`, `CvSource.mjs`, `CloudStore.mjs`, `Hooks.mjs`, `Env.mjs`, `SetToken.mjs`, `TokenCapture.mjs`, `Main.mjs`, `Run.mjs`, `Client.mjs`, `Daemon.mjs`, `sources/{Afjv,Keywords,GamesIndustry,Ats,Index}.mjs`, plus 9 test files (92 tests at last run). (5 October 2026, 10:56:42 +0200)
+>    - `src/components/FreelanceView.jsx` and `src/components/freelance/*`: page (engine bar, filters, cards with score/badges, letter panel, sources panel, template editor). Needs a "my own searches" feature and a batch/status workflow. (5 October 2026, 10:56:42 +0200)
+>    - `server/page.js` (`contentsText`) and `server/contentsTexteGrosFichier.test.js`. (5 October 2026, 10:56:42 +0200)
+>    - `docs/FREELANCE-ENGINE.md` (full documentation; add INDEX section via `git update-index --cacheinfo` trick to avoid the other session's WIP in `docs/INDEX-ERREURS-FEATURES.md`). (5 October 2026, 10:56:42 +0200)
+>    - `~/.local/bin/claude` wrapper (runs newest bundled Claude Code). (5 October 2026, 10:56:42 +0200)
+>    - Memory/notes: `~/.claude/Memory1/Business/Freelance1.md` (section 4 Oct 2026 including the verbatim Asobo letter), `Projects/zenray-freelance/{FEEDBACK.md,Project1.md}`, `~/.claude/skills/zenray-freelance-prospecting/SKILL.md`, `~/.claude/rules/ZenRayProjects1.md` (pointer section). (5 October 2026, 10:56:42 +0200)
+>    - Last commits on main (all pushed to `origin/freelance-engine`, main not pushed): `3f87b501`, then `c88f01fb` "Claude paragraph limited to about 55 words". Deployed production page matches `3f87b501`'s UI; later commits are service-side only. (5 October 2026, 10:56:42 +0200)
+>
+> 4. Errors and fixes: (5 October 2026, 10:56:42 +0200)
+>    - Contents API empty body above 1 MiB (store reached 1,093,861 bytes; page read it empty for ~3 minutes, no write happened): compact store, blob fallback, page refusal on unreadable file, size guard. Fixed and deployed. (5 October 2026, 10:56:42 +0200)
+>    - Em dash characters appearing literally in source because the tool decodes `\u2014`: replaced by escapes via Python after each write. (5 October 2026, 10:56:42 +0200)
+>    - Tests that spawned the real Claude (provider 'claude' default): fixed with `provider: 'deterministic'` in Engine.test config. (5 October 2026, 10:56:42 +0200)
+>    - Claude hooks inside the commit plan caused 4 refused pushes (long window): memoize model answers per run, back-off in CloudStore. (5 October 2026, 10:56:42 +0200)
+>    - `SetToken.mjs`: old version hid the model's error; now parses stdout JSON and tries fallbacks; clipboard/capture flows; tokens from `setup-token` consistently 401, so switched to `claude auth login` as primary route (Hooks `signedIn()`); malformed `.env` token ignored; junk `.env` removed. (5 October 2026, 10:56:42 +0200)
+>    - Git objects of my last commit vanished twice from the main checkout (probable concurrent gc); recovered with `git fetch origin freelance-engine`; now commits use `-c gc.auto=0 -c maintenance.auto=false` and push at once. (5 October 2026, 10:56:42 +0200)
+>    - I once staged another session's modified `Sidebar.jsx` into my commit; fixed with soft reset, unstage, recommit, `--force-with-lease` push of my own branch only. (5 October 2026, 10:56:42 +0200)
+>    - A deploy was once built from a stale worktree (not including the latest commit); redone after `git merge --ff-only main` in the worktree. (5 October 2026, 10:56:42 +0200)
+>    - Claude paragraphs rejected "too long": prompt tightened to 55 words, limit 75 (sample of 78 words still rejected; may raise limit to about 90). (5 October 2026, 10:56:42 +0200)
+>    - Open bug found at the end: legacy AFJV-adopted records (e.g. Drama Studios) store `engine.language: 'en'` (country 'FR', legacy true), so their letters come out in English; legacy engine blocks are never recomputed after adoption. Needs a recomputation each pass while `legacy: true` (language from country and city, FR/BE/CH/LU or "(NN)" department). (5 October 2026, 10:56:42 +0200)
+>
+> 5. Problem Solving: (5 October 2026, 10:56:42 +0200)
+>    - Solved: end-to-end engine, service under launchd (real passes verified), deployment verified byte for byte, concurrency with page writes tested on a real git repo, large-file hazard, CLI sign-in route. (5 October 2026, 10:56:42 +0200)
+>    - Not yet verified: visual rendering (project rule forbids the Claude browser; only jsdom tests and a render against the real published data with zero console errors), a real Claude-written paragraph accepted in a full pass, the language bug above. (5 October 2026, 10:56:42 +0200)
+>    - Open data-quality questions raised by the user: the trustworthiness of the offers (closed offers, duplicates, stale legacy records, scoring honesty such as "Senior" roles and the 1.7-year experience), the mass of 302 offers vs a realistic batch workflow. (5 October 2026, 10:56:42 +0200)
+>
+> 6. All user messages (verbatim essence, in order): (5 October 2026, 10:56:42 +0200)
+>    - "ZENRAY FREELANCE A CONTINUER ET A FINIR PARFAITEMENT à l'img de zenray assets v2. /progress" plus the long pasted goal, the list of slash skills (/zenrayprogress-context /tasks-sequence /dont-stop /think-of-everything /matthieu-context /zenray-website /claude-md-global /zenray-assets-v2), the Asobo letter template "à adapter et à noter quelque part", and "le cv est sur le site section cv /zenray-website". (5 October 2026, 10:56:42 +0200)
+>    - `<bash-input>claude setup-token</bash-input>` with "zsh: command not found: claude". (5 October 2026, 10:56:42 +0200)
+>    - A pasted terminal output "claude: command not found" again. (5 October 2026, 10:56:42 +0200)
+>    - A screenshot of the setup-token output and: "oui mais je veux pas relancer ça a chaque fois ce doit être automatique / ni le terminal ni claude doivent être relancé attention !!! login at start ..." (5 October 2026, 10:56:42 +0200)
+>    - A terminal paste where SetToken said the clipboard held no token. (5 October 2026, 10:56:42 +0200)
+>    - A paste with a captured token and "Le test du jeton a échoué…" (token visible). (5 October 2026, 10:56:42 +0200)
+>    - A message containing only a token string (I declined to use it). (5 October 2026, 10:56:42 +0200)
+>    - "Le test du jeton a échoué. Réponses du modèle : - modèle claude-sonnet-5-5, effort medium : Failed to authenticate. API Error: 401 OAuth access token is invalid. Rien n'a été écrit. Copie ce message à Claude. peut importe mon account loggué ..." (5 October 2026, 10:56:42 +0200)
+>    - A screenshot of the terminal with "Login successful" and: "login successfull tout est bon et fini ?" (5 October 2026, 10:56:42 +0200)
+>    - Latest (5 Oct, screenshot of the page): "la je vois sur mon site derniere recherche il y a 36 min mais il est 10h48 pourquoi tu fais pas plutôt minuit 6h 12h pile puisque c'est toutes les 6 heures et ensuite puisje me fier vraiment à ces offres et ensuite comment je fais pour postuler ça va arriver dans ma boite mail ? je contacte directement 300 studios ou je prends mon temps ? la on va faire les batch ce matin une fois que c'est validé tu m'ouvriras directement l'onglet de la page ou j'ai à remplir les trucs et comme ça on dit X c'est fait et on tient à jour mais d'abord vérifie que les offres présentes sont bonnes et ajoute un maximum de source donc aussi marché international et ou client anglais enfin ce que je veux dire c'est que certes un client chinois serait prématuré mais il faut un maximum de source ... en revanche il faut aussi via zenrayfreelance que je puisse aussi ajouter mes propres recherches d'emplois même si on vise vraiment un outil quasi autonome et avoir un historique à jour sans jamais faire aucune erreur c'est critique go. actuellement 302 à contacter... /tasks-sequence /think-of-everything" (5 October 2026, 10:56:42 +0200)
+>
+> 7. Pending Tasks (leaf list per /tasks-sequence, in dependency order; data before display): (5 October 2026, 10:56:42 +0200)
+>    1. Fix legacy-record language (recompute `engineFromNotes` fields each pass while `legacy`), then rerun a pass; relax or keep the 75-word paragraph limit and confirm a full pass writes Claude paragraphs. (5 October 2026, 10:56:42 +0200)
+>    2. Audit the data: verify the offers are good (closed or stale ones, duplicates across sources, scoring sanity for senior roles, missing apply links/emails, mislabelled kinds), report a measured quality table, fix findings with tests. (5 October 2026, 10:56:42 +0200)
+>    3. Fixed-time schedule: run at 00:00, 06:00, 12:00, 18:00 Europe/Paris (compute next due from the clock, keep catch-up after sleep, show the real next time on the page), config-driven. (5 October 2026, 10:56:42 +0200)
+>    4. Add many more sources (international and English-speaking markets, more ATS boards/studios, other public job boards where scraping is permitted), verifying each by HTTP before adding; keep LinkedIn and forbidden boards as links. (5 October 2026, 10:56:42 +0200)
+>    5. "My own searches": let him add his own job searches/links/sources in the page (persisted in the data repo, rendered with the manual search links, ideally also as engine-read sources), with a history. (5 October 2026, 10:56:42 +0200)
+>    6. Application workflow for batches: explain how to apply (the tool never sends; email only when published, otherwise the studio's application page; recommend batches of a few per day, best fits first), add a batch view (e.g., "lot du jour") with per-offer "X fait" status, exact-text history, and a way to open the Freelance page directly (he asked: "tu m'ouvriras directement l'onglet de la page") once validated, then keep the history updated. (5 October 2026, 10:56:42 +0200)
+>    7. Think-of-everything pass (one pass) on risks: false offers, double sends, data loss (1 MiB limit, store near 991 KB), concurrency, history never overwritten. (5 October 2026, 10:56:42 +0200)
+>    8. After changes: tests, build, deploy from the clean worktree (merge main ff first), verify production chunk, restart the service, update docs/Memory/skill/PROGRESS/FEEDBACK/checkpoint (Assets project `zenray-freelance`, session id from `CLAUDE_CODE_SESSION_ID`). (5 October 2026, 10:56:42 +0200)
+>    - Also still open from before: posts from ZenRayPostKit as a letter source, "Watch Achievement Industry" unidentified (GamesIndustry.biz used), dead boards to find (Voodoo, thatgamecompany, Cloud Chamber, Rebellion), advise him to revoke exposed tokens. (5 October 2026, 10:56:42 +0200)
+>
+> 8. Current Work: (5 October 2026, 10:56:42 +0200)
+>    Immediately before the summary request I was diagnosing why Drama Studios (French AFJV offer) letters are generated in English: `engine.language` is 'en' with `country 'FR'` and `legacy: True` for records adopted from the old Python collector; the fix (not yet written) is to recompute legacy-derived engine facts every pass. Before that, I had committed and pushed `c88f01fb` (Claude paragraph limited to ~55 words), restarted the service, and found the model's paragraphs 59 to 78 words. The user's latest request (fixed run times, offer verification, applying workflow, more sources, own searches, history) has not been started. (5 October 2026, 10:56:42 +0200)
+>
+> 9. Optional Next Step: (5 October 2026, 10:56:42 +0200)
+>    Start with /tasks-sequence on the latest message: first write the leaf list, then do the data-first leaves. Concretely: (1) fix the legacy language bug and re-run a pass; (2) audit the 302 offers and report measured results; (3) switch the schedule to 00:00/06:00/12:00/18:00 Europe/Paris. Quote of where it stands: his last message "d'abord vérifie que les offres présentes sont bonnes et ajoute un maximum de source … il faut aussi via zenrayfreelance que je puisse aussi ajouter mes propres recherches d'emplois … sans jamais faire aucune erreur c'est critique go." (5 October 2026, 10:56:42 +0200)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl (5 October 2026, 10:56:42 +0200)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (5 October 2026, 10:56:42 +0200)
+
+## 5 October 2026, 10:57:20 +0200 : Iteration
+
+<!-- feedback-event:d805fdf502912a344126e33f2daca7b1cc2e3e714b76c2d46ffef836fbb7d7d0 (5 October 2026, 10:57:20 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 10:57:20 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 10:57:20 +0200)
+
+> Je corrige le bug de langue des offres héritées (lettres en anglais pour des offres françaises) et je passe la planification sur les créneaux 00h/06h/12h/18h. (5 October 2026, 10:57:20 +0200)
+
+## 5 October 2026, 11:11:49 +0200 : Iteration
+
+<!-- feedback-event:b382a40a9b6d6f22f2c3bfeecd6bac6e1cc5022bf4328d0418dcc06b72cca27b (5 October 2026, 11:11:49 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:11:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:11:49 +0200)
+
+> Now commit, bring the service's checkout up to date, restart it, and run a real pass. (5 October 2026, 11:11:49 +0200)
+
+## 5 October 2026, 11:12:07 +0200 : Iteration
+
+<!-- feedback-event:42cf62d4733f40a595531c4ffee43ef38d25dcef310b964d8aedf7231e02f1db (5 October 2026, 11:12:07 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:12:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:12:07 +0200)
+
+> Rebase conflicts in three files; resolving them. (5 October 2026, 11:12:07 +0200)
+
+## 5 October 2026, 11:16:03 +0200 : Iteration
+
+<!-- feedback-event:3d36a376e5c3854fe7a6b13a9e2424a57d06275c34f1858394be997c9e067672 (5 October 2026, 11:16:03 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:16:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:16:03 +0200)
+
+> Passe réelle terminée : 59 nouvelles annonces, prochaine recherche à 12 h pile. Je vérifie maintenant la qualité des données publiées. (5 October 2026, 11:16:03 +0200)
+
+## 5 October 2026, 11:19:00 +0200 : Iteration
+
+<!-- feedback-event:06541704ca96ad3b42d6e50cea352fe16ae7e5a146ffc4b05b15d4d8873d6b2b (5 October 2026, 11:19:00 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:19:00 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:19:00 +0200)
+
+> Tout est en ligne, mais je n'ai pas regardé la page dans un navigateur (règle du projet). La production sert bien le dernier code, vérifié octet pour octet. Les 107 tests du moteur passent. Le service Mac a été relancé et une passe réelle a rapporté 59 nouvelles offres. (5 October 2026, 11:19:00 +0200)
+>
+> **Tes questions** (5 October 2026, 11:19:00 +0200)
+>
+> - **Horaires.** La recherche part maintenant à 00 h, 06 h, 12 h et 18 h, heure de Paris, et la page affiche « prochaine dans 2 h (12 h) ». Si le Mac dort à un créneau, la passe manquée part au réveil. (5 October 2026, 11:19:00 +0200)
+> - **Peut-on se fier aux offres ?** (5 October 2026, 11:19:00 +0200)
+>   - Sur tes 302 offres ouvertes, il y avait 26 doublons (le même poste publié pays par pays), 43 annonces d'avant 2026 (dont 7 de 2022) et des postes senior, manager ou director notés « très pertinents ». (5 October 2026, 11:19:00 +0200)
+>   - J'ai plafonné à 55 les titres senior, ajouté un malus pour les annonces anciennes, et le lot du jour écarte les doublons. Une offre nouvelle sous 20 points sur 100 n'est plus stockée ni lettrée. (5 October 2026, 11:19:00 +0200)
+>   - Après la passe, 361 offres sont ouvertes, dont 27 « très pertinentes », et plus aucun poste senior parmi elles. (5 October 2026, 11:19:00 +0200)
+> - **Comment postuler.** L'outil n'envoie rien, c'est volontaire. (5 October 2026, 11:19:00 +0200)
+>   - Contacter 300 studios d'un coup n'a pas de sens : une candidature relue vaut plus que dix copiées. (5 October 2026, 11:19:00 +0200)
+>   - Le panneau « Lot du jour » en haut de la page propose 5, 8 ou 12 candidatures (8 par défaut), lettre prête. (5 October 2026, 11:19:00 +0200)
+>   - Tu ouvres la fiche, tu relis la lettre, tu l'envoies par la page de candidature du studio (ou par mail quand une adresse est publiée). Puis « Fait » date la candidature dans l'historique. (5 October 2026, 11:19:00 +0200)
+>   - Pour les lots de ce matin, ouvre le lot du jour et valide les premiers : tu me dis, et on ajuste. (5 October 2026, 11:19:00 +0200)
+> - **Plus de sources.** On passe de 33 à 54 sources lues. J'ai sondé en HTTP chaque tableau avant de l'ajouter. (5 October 2026, 11:19:00 +0200)
+>   - 17 tableaux de studios en plus, surtout internationaux : 2K, Roblox, Krafton, Scopely, Take-Two, Insomniac, Bethesda, Outpost VFX, thatgamecompany et d'autres. (5 October 2026, 11:19:00 +0200)
+>   - 4 flux ouverts de postes à distance et internationaux : Remotive, Jobicy, Remote OK et Arbeitnow. Ils ne rapportent encore que 1 ou 2 offres chacun. (5 October 2026, 11:19:00 +0200)
+> - **Mes recherches.** Le panneau « Mes recherches » te laisse coller une page carrières ou taper des mots-clés. (5 October 2026, 11:19:00 +0200)
+>   - Une page Greenhouse, Lever, Ashby, SmartRecruiters, Recruitee ou Breezy est lue seule à chaque passe. (5 October 2026, 11:19:00 +0200)
+>   - Des mots-clés s'ajoutent aux recherches automatiques et à un lien LinkedIn. (5 October 2026, 11:19:00 +0200)
+>   - Toute autre adresse reste un lien à ouvrir toi-même. (5 October 2026, 11:19:00 +0200)
+>   - Un retrait est daté, jamais effacé. (5 October 2026, 11:19:00 +0200)
+>
+> **Points ouverts** (5 October 2026, 11:19:00 +0200)
+>
+> - Les paragraphes d'accroche écrits par Claude sont suspendus : ta limite de session est atteinte jusqu'à 12 h 10. Le moteur ne redemande plus pendant 30 minutes et reprendra seul ensuite. (5 October 2026, 11:19:00 +0200)
+> - Le fichier des studios fait maintenant 1,06 Mo, au-dessus du plafond de lecture de GitHub. La production le lit quand même (373 fiches). (5 October 2026, 11:19:00 +0200)
+> - Je n'ai pas fait de recherche de plus de sources que ces tableaux et flux, ni ajouté LinkedIn au-delà de ses liens de recherche. (5 October 2026, 11:19:00 +0200)
+> - Les jetons que tu as collés dans le chat sont exposés : révoque-les. (5 October 2026, 11:19:00 +0200)
+> - 5 tests de `AssetsService` échouent. Ils ne touchent pas mon travail ; je n'ai pas cherché la cause. (5 October 2026, 11:19:00 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (5 October 2026, 11:19:00 +0200)
+> |---|---|---| (5 October 2026, 11:19:00 +0200)
+> | Recherche à minuit, 6 h, 12 h, 18 h pile | Oui | Tests des créneaux (heure d'été, d'hiver, changement d'heure) ; prochain créneau relevé à 12 h | (5 October 2026, 11:19:00 +0200)
+> | Vérifier que les offres sont bonnes | Oui, corrigé | Audit chiffré des 302 offres ; plus aucun senior parmi les « très pertinentes » après la passe réelle | (5 October 2026, 11:19:00 +0200)
+> | Comment postuler, lots du matin | Panneau prêt | Test d'affichage du lot ; pas regardé dans un navigateur | (5 October 2026, 11:19:00 +0200)
+> | Maximum de sources, international | Oui | 54 sources, passe réelle sans erreur de source | (5 October 2026, 11:19:00 +0200)
+> | Mes propres recherches, historique à jour | Oui | Tests du fichier (ajout, doublon, retrait daté) ; panneau affiché en test | (5 October 2026, 11:19:00 +0200)
+> | Jamais d'erreur | Pas de garantie | Aucune écriture sur un fichier illisible ; un seul commit par passe ; relance si le dépôt est occupé | (5 October 2026, 11:19:00 +0200)
+>
+> Reformulation de ta demande : « Lance la recherche à heure fixe, nettoie les offres de façon honnête, ajoute des sources internationales et un outil pour mes propres recherches, puis prépare mon lot de candidatures du jour. » Le mot utile : un *disjoncteur* arrête une fonction après un refus répété, ici celui de Claude. (5 October 2026, 11:19:00 +0200)
+>
+> Ceci n'est pas une source de vérité sur ce que tu devrais viser : vérifie, et fie-toi à ton for intérieur. (5 October 2026, 11:19:00 +0200)
+
+## 5 October 2026, 11:27:26 +0200 : Prompt
+
+<!-- feedback-event:e6c9ee71d65ab17cfc726bd84ba83a821385ab5445a121b6c0570d71c6166c90 (5 October 2026, 11:27:26 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 11:27:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:27:26 +0200)
+
+> j'ai l'impression que claude utilise trop de compute anyway pour ce travail pour l'instant désactive le ou plutôt automatise le process via une lettre à modifier (à l'avenir conserve ce qui a déjà été fait car ça m'a mangé ma limite juste avec des lettres ce matin donc ce n'est pas possible au long terme de toute manière je vais relire avant d'envoyer donc pas besoin de plug une AI pour ça il faut juste avoir un bon algorithme / programme.) (5 October 2026, 11:27:26 +0200)
+>
+> ne delete pas ton code cependant met le en standby pour l'instant. (5 October 2026, 11:27:26 +0200)
+
+## 5 October 2026, 11:28:51 +0200 : Iteration
+
+<!-- feedback-event:17d982148ba4642607e116ef9af2839de347331ba06c296515676ad009ed54f2 (5 October 2026, 11:28:51 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:28:51 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:28:51 +0200)
+
+> Claude n'écrit plus aucune lettre : les lettres sortent maintenant du programme, à partir de ta lettre Asobo. Le code de l'écrivain est gardé dans `Hooks.mjs`, rien n'est supprimé. (5 October 2026, 11:28:51 +0200)
+>
+> - **Accroches déjà écrites par Claude :** elles restent dans leurs lettres tant que l'annonce et ton CV ne changent pas. Les anciennes versions de lettres restent aussi dans leur archive. (5 October 2026, 11:28:51 +0200)
+> - **Coût :** les lettres ne consomment plus ta limite Claude. (5 October 2026, 11:28:51 +0200)
+> - **Réveil :** il suffit de remettre `"claude"` dans `letters.provider`, dans `FreelanceConfig.json`. (5 October 2026, 11:28:51 +0200)
+> - **Page :** le panneau des sources affiche « en veille depuis le 5 octobre 2026 ». (5 October 2026, 11:28:51 +0200)
+> - **En ligne :** les tests du moteur et de la page passent (238). La production est déployée et le service est relancé, il répond. Je n'ai pas regardé la page dans un navigateur. (5 October 2026, 11:28:51 +0200)
+>
+> Les paragraphes écrits par le programme restent plus génériques que ceux de Claude. Tu les relis de toute façon avant d'envoyer. (5 October 2026, 11:28:51 +0200)
+
+## 5 October 2026, 11:29:40 +0200 : Prompt
+
+<!-- feedback-event:6d73334869dc094c40dac80bc5887a392883d2b8559dd768d49753823673d82e (5 October 2026, 11:29:40 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 11:29:40 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:29:40 +0200)
+
+> explique moi juste le score à gauche je comprends pas ? (5 October 2026, 11:29:40 +0200)
+
+## 5 October 2026, 11:29:40 +0200 : Prompt
+
+<!-- feedback-event:16080c49978d79c110bda5dcfb02ae6ecbf8000872f6ecd7ef3ea8a08427aa33 (5 October 2026, 11:29:40 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 11:29:40 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:29:40 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/4.webp] (5 October 2026, 11:29:40 +0200)
+
+## 5 October 2026, 11:29:49 +0200 : Iteration
+
+<!-- feedback-event:fb4018bad86c35bc688d25740dfa245f95a32fdfb5a399fe2e5868603e91ea54 (5 October 2026, 11:29:49 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:29:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:29:49 +0200)
+
+> Le chiffre à gauche, 89 pour Ripple & Roll, est une note de 0 à 100 qui dit à quel point l'offre colle à ton CV publié sur le site. C'est le programme qui la calcule, à partir du seul texte de l'annonce, et rien d'autre. (5 October 2026, 11:29:49 +0200)
+>
+> **Comment elle se calcule** (5 October 2026, 11:29:49 +0200)
+>
+> | Ce qui ajoute des points | Combien (environ) | (5 October 2026, 11:29:49 +0200)
+> |---|---| (5 October 2026, 11:29:49 +0200)
+> | Intitulé proche de ton métier (Technical Artist, Houdini : le plus haut ; Environment ou VFX Artist : moyen ; 3D Artist : faible) | de 12 à 38 | (5 October 2026, 11:29:49 +0200)
+> | Compétences citées dans l'annonce (Houdini +14, Unreal +12, HDA +8, Python +6, VEX +6, PCG +6…) | jusqu'à 38 | (5 October 2026, 11:29:49 +0200)
+> | Contrat freelance | +14 | (5 October 2026, 11:29:49 +0200)
+> | Contrat salarié | +6 | (5 October 2026, 11:29:49 +0200)
+> | Stage | +2 | (5 October 2026, 11:29:49 +0200)
+> | Poste junior ou stage | +10 | (5 October 2026, 11:29:49 +0200)
+> | Pays ouvert à toi | +6 | (5 October 2026, 11:29:49 +0200)
+> | Télétravail | +4 | (5 October 2026, 11:29:49 +0200)
+>
+> | Ce qui retire des points | Combien | (5 October 2026, 11:29:49 +0200)
+> |---|---| (5 October 2026, 11:29:49 +0200)
+> | Titre senior, lead, manager, director… | −30, et note plafonnée à 55 | (5 October 2026, 11:29:49 +0200)
+> | Plus d'ans d'expérience demandés que tes 1,7 an | jusqu'à −22 | (5 October 2026, 11:29:49 +0200)
+> | Annonce de plus de 120 jours | −10 | (5 October 2026, 11:29:49 +0200)
+> | Annonce de plus d'un an | −25 | (5 October 2026, 11:29:49 +0200)
+>
+> **La pastille de couleur** (5 October 2026, 11:29:49 +0200)
+>
+> | Couleur | Note | (5 October 2026, 11:29:49 +0200)
+> |---|---| (5 October 2026, 11:29:49 +0200)
+> | Verte | 60 et plus : très pertinent | (5 October 2026, 11:29:49 +0200)
+> | Orange | de 40 à 59 : pertinent | (5 October 2026, 11:29:49 +0200)
+> | Grise | moins de 40 | (5 October 2026, 11:29:49 +0200)
+>
+> **Pourquoi 89 pour Ripple & Roll** (5 October 2026, 11:29:49 +0200)
+>
+> - L'intitulé est « Technical Artist » (+38). (5 October 2026, 11:29:49 +0200)
+> - L'annonce cite sans doute Houdini et Unreal. (5 October 2026, 11:29:49 +0200)
+> - Le contrat est freelance (+14). (5 October 2026, 11:29:49 +0200)
+>
+> La note exacte est détaillée dans la fiche. Il faut ouvrir l'offre et déplier « Adéquation avec ton CV : 89 sur 100, pourquoi ». (5 October 2026, 11:29:49 +0200)
+>
+> Le score ne mesure ni la qualité du studio, ni tes chances d'être pris, ni le salaire. Il dit seulement « cette annonce ressemble à ce que tu sais faire ». Les 8 offres du lot sont les 8 plus hautes notes, une seule fois chacune. (5 October 2026, 11:29:49 +0200)
+
+## 5 October 2026, 11:34:17 +0200 : Prompt
+
+<!-- feedback-event:23e7b34dcc48dbd469fcae698757b0a9a2b6137a63cd9bb9c1edefdfc3db17e0 (5 October 2026, 11:34:17 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 11:34:17 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:34:17 +0200)
+
+> Est ce que tu peux simplement simplifier un peu l'interface : c'est cool parce que ton texte fais tutos mais il vaudrait mieux simplifier l'interface la rendre plus minimal avec l'essentiel puis pouvoir cliquer sur des bouttons si on a besoin : contrainte n'enlève aucune infos utilise juste l'espace ou des toggle ou d'autres éléments intelligents d'UX UI. go. (5 October 2026, 11:34:17 +0200)
+>
+> /dont-stop (5 October 2026, 11:34:17 +0200)
+
+## 5 October 2026, 11:34:17 +0200 : Prompt
+
+<!-- feedback-event:c53660bf69e94c7b136ec36bbdfb6100715fcdf436901fe8ca78755b9b4ecdb5 (5 October 2026, 11:34:17 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 11:34:17 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:34:17 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/5.webp] (5 October 2026, 11:34:17 +0200)
+
+## 5 October 2026, 11:36:10 +0200 : Iteration
+
+<!-- feedback-event:beb22d67a9a2cd3b8ea47e6db3895f42b46e1fb4ee093352653dddffc60620b9 (5 October 2026, 11:36:10 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 11:36:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 11:36:10 +0200)
+
+> L'interface est simplifiée et déployée. Le fichier de la page en production est identique au mien octet pour octet, et les tests de la page passent (131). Je ne l'ai pas regardée dans un navigateur, donc recharge la page pour juger le rendu. (5 October 2026, 11:36:10 +0200)
+>
+> - **Lot du jour :** (5 October 2026, 11:36:10 +0200)
+>   - Le paragraphe d'explication est derrière un bouton **?**, avec aussi la lecture du score (vert à partir de 60, orange de 40 à 59). (5 October 2026, 11:36:10 +0200)
+>   - Les tailles 5, 8 et 12 et les compteurs (en attente, doublons écartés) tiennent sur une seule ligne. (5 October 2026, 11:36:10 +0200)
+>   - Chaque offre prend une ligne : la note, « studio · poste », puis la ville, le type et la source en petit dessous. Rien n'est retiré. (5 October 2026, 11:36:10 +0200)
+>   - Les boutons sont plus courts : **Lettre**, **↗** (page de candidature) et **Fait**, avec une infobulle sur chacun. (5 October 2026, 11:36:10 +0200)
+> - **Liste des studios :** (5 October 2026, 11:36:10 +0200)
+>   - Les filtres (pertinence, type, nouveau, fermées, source, tri) sont derrière un bouton **Filtres**. Un point apparaît quand l'un d'eux est actif, et le panneau s'ouvre alors tout seul. (5 October 2026, 11:36:10 +0200)
+>   - Le formulaire d'ajout est derrière **+ studio**. (5 October 2026, 11:36:10 +0200)
+> - **Inchangés :** Mes recherches, Sources et CV, le modèle de lettre. (5 October 2026, 11:36:10 +0200)
+>
+> Dis-moi ce que tu veux encore replier, par exemple la barre de recherche ou la section Progression. (5 October 2026, 11:36:10 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (5 October 2026, 11:36:10 +0200)
+> |---|---|---| (5 October 2026, 11:36:10 +0200)
+> | Interface plus minimale, sans retirer d'info | Oui | Tests de la page verts ; tout est conservé derrière des boutons ou des infobulles | (5 October 2026, 11:36:10 +0200)
+> | En ligne | Oui | Fichier de production identique octet pour octet | (5 October 2026, 11:36:10 +0200)
+> | Vu à l'écran | Pas vérifié | Pas de navigateur utilisé, règle du projet | (5 October 2026, 11:36:10 +0200)
