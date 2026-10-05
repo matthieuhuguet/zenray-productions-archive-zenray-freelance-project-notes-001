@@ -2119,3 +2119,43 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 17:20:54 +0200)
 
 > Fusion poussée sur `origin/main`. Je déploie depuis ce clone et je lance le test de fumee sur la production. (5 October 2026, 17:20:54 +0200)
+
+## 5 October 2026, 17:24:36 +0200 : Iteration
+
+<!-- feedback-event:464b63fd452ab0b807f78aa4e047ff3e53084926eb627a6a8923b6b8c4e5bb60 (5 October 2026, 17:24:36 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 17:24:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 17:24:36 +0200)
+
+> You've hit your session limit · resets 6:10pm (Europe/Paris) (5 October 2026, 17:24:36 +0200)
+
+## 5 October 2026, 17:28:38 +0200 : Prompt
+
+<!-- feedback-event:66cdf89827abf30fbc9ab6d0f4b81d8949dc4006d876867fe872232e66ff9603 (5 October 2026, 17:28:38 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 17:28:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 17:28:38 +0200)
+
+> continue (5 October 2026, 17:28:38 +0200)
+
+## 5 October 2026, 17:29:40 +0200 : Iteration
+
+<!-- feedback-event:d0ab5ee5ddd2ec7fcdcb15334a051064538da12d22bf48b209fdb64378659d17 (5 October 2026, 17:29:40 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 17:29:40 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 17:29:40 +0200)
+
+> Tes 381 fiches n'ont jamais disparu. Elles sont toujours dans le dépôt de données, et la page les affiche de nouveau. (5 October 2026, 17:29:40 +0200)
+>
+> **Ce qui s'est passé** (5 October 2026, 17:29:40 +0200)
+> - Mon travail Freelance (la page, et le code serveur qui lit ton gros fichier) était sur une branche à part, pas sur la branche principale partagée. (5 October 2026, 17:29:40 +0200)
+> - Une autre session a redéployé le site depuis la branche principale, qui n'avait pas mon travail. Elle a remis en ligne l'ancienne page et l'ancien serveur. (5 October 2026, 17:29:40 +0200)
+> - L'ancien serveur ne sait pas lire un fichier de plus d'1 Mo. Ton fichier des studios fait 1,06 Mo, donc il revenait vide et la page affichait « 0 ». C'est une déduction à partir des symptômes, pas une trace de leur déploiement. (5 October 2026, 17:29:40 +0200)
+>
+> **Ce que j'ai fait** (5 October 2026, 17:29:40 +0200)
+> - J'ai fusionné mon travail dans la branche principale, poussé, puis redéployé depuis cette version. (5 October 2026, 17:29:40 +0200)
+> - J'ai écrit un test de production, `CheckProduction.mjs`. Il lit les vraies données et la vraie page, et échoue si la liste est vide. Il était rouge avant la réparation (0 studio). Il est vert maintenant : 381 studios et les 3 repères de la page. (5 October 2026, 17:29:40 +0200)
+> - J'ai relancé le test environ dix minutes après le déploiement : toujours vert. (5 October 2026, 17:29:40 +0200)
+> - J'ai ajouté la règle « un déploiement ne part que de la branche principale à jour, et on vérifie les données » dans `claude-md-global`, commitée. (5 October 2026, 17:29:40 +0200)
+>
+> **Pas réglé** (5 October 2026, 17:29:40 +0200)
+> - Les dossiers locaux de ZenRayProgress ont des fichiers Git corrompus (`bad object HEAD`). Je n'ai déployé que depuis un clone neuf. (5 October 2026, 17:29:40 +0200)
+> - Rien n'empêche une autre session de redéployer plus tard. Le test détectera une régression, il ne l'empêche pas. (5 October 2026, 17:29:40 +0200)
+> - Je n'ai pas regardé la page dans un navigateur. Recharge-la avec Cmd+Maj+R. (5 October 2026, 17:29:40 +0200)
