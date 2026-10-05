@@ -2071,3 +2071,51 @@
 > | Garder l'aspect tech artist | Oui | La voie jeu vidéo est inchangée, avec le jeu prioritaire en cas d'égalité | (5 October 2026, 12:22:56 +0200)
 > | Que ce soit vraiment séparé | Oui | Boutons de voie, compteurs, lots et sources séparés ; test de la page « les voies ne se mélangent jamais » | (5 October 2026, 12:22:56 +0200)
 > | Vu à l'écran | Pas vérifié | Pas de navigateur utilisé, règle du projet | (5 October 2026, 12:22:56 +0200)
+
+## 5 October 2026, 16:45:09 +0200 : Prompt
+
+<!-- feedback-event:d47a1bd9df439061f98353e86484308560e624ba7f120e28e021de18516204df (5 October 2026, 16:45:09 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 16:45:09 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 16:45:09 +0200)
+
+> J'ai un énorme problème le site est passé à 0 prospect tandis qu'on était à plus de 300 énorme regression (5 October 2026, 16:45:09 +0200)
+
+## 5 October 2026, 16:45:09 +0200 : Prompt
+
+<!-- feedback-event:9c1edf23e461985551766bbe22b49fcb1a2c47072b441e10db2ec85305a2e2a7 (5 October 2026, 16:45:09 +0200) -->
+- Project: zenray-freelance; kind: prompt. (5 October 2026, 16:45:09 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 16:45:09 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/images/6.webp] (5 October 2026, 16:45:09 +0200)
+
+## 5 October 2026, 16:51:31 +0200 : Iteration
+
+<!-- feedback-event:55498ebfb4b63e7c44ae2e7001b1881c84e697695b8b9c0ed32b4dcb83f20057 (5 October 2026, 16:51:31 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 16:51:31 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 16:51:31 +0200)
+
+> Je répare la régression : une autre session a redéployé le site depuis une branche sans mes commits. Je fusionne le travail Freelance dans `main`, puis je redéploie. (5 October 2026, 16:51:31 +0200)
+
+## 5 October 2026, 16:52:00 +0200 : Iteration
+
+<!-- feedback-event:7e18b1b9ba1fda202ca3ee419737bf552613ce3bebdbe87b80e8ddb6a14692d2 (5 October 2026, 16:52:00 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 16:52:00 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 16:52:00 +0200)
+
+> Maintenant la règle, avec ses déclencheurs, dans `claude-md-global`. (5 October 2026, 16:52:00 +0200)
+
+## 5 October 2026, 16:52:39 +0200 : Iteration
+
+<!-- feedback-event:e1af1fa2447eb817194ee7e96530c4bcb8503ef18b3f048a7aa034e2f6c2b3f5 (5 October 2026, 16:52:39 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 16:52:39 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 16:52:39 +0200)
+
+> Règle commitée. Le clone neuf est prêt : je fusionne la branche Freelance dans `main` et je vérifie avant de pousser. (5 October 2026, 16:52:39 +0200)
+
+## 5 October 2026, 17:20:54 +0200 : Iteration
+
+<!-- feedback-event:4dd5d38b258baee546130e9ec9559a4e8e4107234f9220870c6813a20d07db99 (5 October 2026, 17:20:54 +0200) -->
+- Project: zenray-freelance; kind: iteration. (5 October 2026, 17:20:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (5 October 2026, 17:20:54 +0200)
+
+> Fusion poussée sur `origin/main`. Je déploie depuis ce clone et je lance le test de fumee sur la production. (5 October 2026, 17:20:54 +0200)
