@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-07T16:08:21.925Z",
+ "scannedAt": "2026-10-07T21:03:37.133Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -133,6 +133,22 @@
   },
   {
    "projectId": "zenray-freelance",
+   "lines": 4,
+   "work": 0,
+   "prompts": 2,
+   "first": "2026-10-07T12:25:29.615Z",
+   "last": "2026-10-07T20:59:26.310Z",
+   "strength": "strong",
+   "conversationId": "codex:01a11653-69f5-7492-b80e-dbcc6a785d87",
+   "provider": "codex",
+   "sessionId": "01a11653-69f5-7492-b80e-dbcc6a785d87",
+   "title": "Conversation codex 01a11653",
+   "updatedAt": "2026-10-07T21:03:25.751Z",
+   "bytes": 5377772,
+   "boundProject": "zenray-assets-v2"
+  },
+  {
+   "projectId": "zenray-freelance",
    "lines": 2,
    "work": 2,
    "prompts": 0,
@@ -143,7 +159,7 @@
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-07T16:07:43.871Z",
+   "updatedAt": "2026-10-07T16:07:07.197943+00:00",
    "bytes": 3010560,
    "boundProject": null
   },
@@ -184,16 +200,16 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
-   "first": "2026-10-07T12:25:29.615Z",
-   "last": "2026-10-07T12:25:29.619Z",
+   "first": "2026-10-07T14:20:09.100Z",
+   "last": "2026-10-07T14:20:09.100Z",
    "strength": "weak",
-   "conversationId": "codex:01a11653-69f5-7492-b80e-dbcc6a785d87",
+   "conversationId": "codex:01a116bc-69de-76e0-bb55-12b769b917d5",
    "provider": "codex",
-   "sessionId": "01a11653-69f5-7492-b80e-dbcc6a785d87",
-   "title": "Conversation codex 01a11653",
-   "updatedAt": "2026-10-07T14:41:34.031Z",
-   "bytes": 3801363,
-   "boundProject": "zenray-assets-v2"
+   "sessionId": "01a116bc-69de-76e0-bb55-12b769b917d5",
+   "title": "Conversation codex 01a116bc",
+   "updatedAt": "2026-10-07T21:03:23.208Z",
+   "bytes": 2202291,
+   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -207,8 +223,8 @@
    "provider": "codex",
    "sessionId": "01a116c2-9a65-7e52-a96c-faaeea84429b",
    "title": "Conversation codex 01a116c2",
-   "updatedAt": "2026-10-07T14:28:24.391Z",
-   "bytes": 758091,
+   "updatedAt": "2026-10-07T21:03:17.156Z",
+   "bytes": 1270643,
    "boundProject": null
   },
   {
@@ -223,24 +239,8 @@
    "provider": "codex",
    "sessionId": "01a116bc-9430-76a0-b32c-d3c4c78a4e98",
    "title": "Conversation codex 01a116bc",
-   "updatedAt": "2026-10-07T14:27:19.294Z",
-   "bytes": 1707218,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 2,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-07T14:20:09.100Z",
-   "last": "2026-10-07T14:20:09.100Z",
-   "strength": "weak",
-   "conversationId": "codex:01a116bc-69de-76e0-bb55-12b769b917d5",
-   "provider": "codex",
-   "sessionId": "01a116bc-69de-76e0-bb55-12b769b917d5",
-   "title": "Conversation codex 01a116bc",
-   "updatedAt": "2026-10-07T14:27:04.491Z",
-   "bytes": 1457996,
+   "updatedAt": "2026-10-07T21:03:06.927Z",
+   "bytes": 1961605,
    "boundProject": null
   },
   {
