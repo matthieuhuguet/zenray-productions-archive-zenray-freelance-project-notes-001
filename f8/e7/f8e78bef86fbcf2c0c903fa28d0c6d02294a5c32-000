@@ -13,3 +13,8 @@
 
 - 7 October 2026 : la lettre de Matthieu pour Drama Studios devient le gabarit du moteur (`SEED_TEMPLATE` seedVersion 3 dans `Letters.mjs`, FR et EN). Texte complet : `LetterTemplate1.md` dans ce dossier. (7 October 2026)
 - 7 October 2026 : 110 tests Freelance verts après mise à jour. Le moteur remplacera le gabarit stocké au prochain passage (00h, 6h, 12h, 18h), seulement s'il est encore en statut `seed`. (7 October 2026)
+
+## 7 October 2026 : Intégration des jeux de simulation et Noyes dans le gabarit
+
+- 7 October 2026 : Remplacement du paragraphe d'expérience généraliste par les 3 jeux de simulation Meerkat Studio (*Santa Simulator* et *Bakery Coffee Simulator* sortis sur Steam, *Pet Grooming Simulator* contrat freelance rémunéré), *Noyes* (jeu étudiant) et le projet d'archviz à Aix-en-Provence. (7 October 2026)
+- 7 October 2026 : Code mis à jour dans `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE` v4), `Letters.test.js` (149 tests vitest passants) et `LetterTemplate1.md`. Règle active pour toutes les futures lettres FR et EN. (7 October 2026)

@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-07T16:02:18.142Z",
+ "scannedAt": "2026-10-07T16:08:21.925Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -133,18 +133,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 1,
-   "work": 1,
+   "lines": 2,
+   "work": 2,
    "prompts": 0,
    "first": "2026-10-06T22:34:49.334Z",
-   "last": "2026-10-06T22:34:49.334Z",
+   "last": "2026-10-07T16:04:52.593Z",
    "strength": "weak",
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-07T16:01:50.776Z",
-   "bytes": 2674688,
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-07T16:07:43.871Z",
+   "bytes": 3010560,
    "boundProject": null
   },
   {
