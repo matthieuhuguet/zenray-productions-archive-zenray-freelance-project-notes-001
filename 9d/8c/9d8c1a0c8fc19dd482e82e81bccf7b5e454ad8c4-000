@@ -3115,3 +3115,217 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:23:44 +0200)
 
 > Je sonde les 11 sites un par un : robots.txt, structure des pages, sitemaps. ArtStation répond déjà 403 aux lectures automatiques. (7 October 2026, 10:23:44 +0200)
+
+## 7 October 2026, 10:35:50 +0200 : Iteration
+
+<!-- feedback-event:cd896a03c05082362a963b18a43c54348447ccff88686ab044bc0ccebbca6e50 (7 October 2026, 10:35:50 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:35:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:35:50 +0200)
+
+> Maintenant les tests des lecteurs d'index, du notificateur, de la déduplication et du cache. (7 October 2026, 10:35:50 +0200)
+
+## 7 October 2026, 10:38:31 +0200 : Iteration
+
+<!-- feedback-event:d6fddc16d3887d43526bdc8fd29fdb53c9c92ff73bf3c4040870e6bc60e5c1c4 (7 October 2026, 10:38:31 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:38:31 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:38:31 +0200)
+
+> Maintenant un passage à blanc complet sur les index, dans un dossier isolé pour ne pas toucher au service. (7 October 2026, 10:38:31 +0200)
+
+## 7 October 2026, 10:42:46 +0200 : Iteration
+
+<!-- feedback-event:caef051fe3fd4f25b17239730b679aa922cdc92bb564150b6fff6ddc8995aec0 (7 October 2026, 10:42:46 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:42:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:42:46 +0200)
+
+> Une autre session a poussé entre-temps (index des conversations). Je repars de `origin/main` à jour et je re-passe la préservation du texte de lettre. (7 October 2026, 10:42:46 +0200)
+
+## 7 October 2026, 10:43:54 +0200 : Iteration
+
+<!-- feedback-event:1af935b7d07e78a84812c50c8af13f6487e692c6e03f6cead63685b7f8029e36 (7 October 2026, 10:43:54 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:43:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:43:54 +0200)
+
+> Passe réelle en cours (étape « collecte », les index tournent). J'attends sa fin avant de vérifier les données. (7 October 2026, 10:43:54 +0200)
+
+## 7 October 2026, 10:44:33 +0200 : Iteration
+
+<!-- feedback-event:28bc08f6395c9ddd5d7781e51115cf8c55be7bc21a74f91e660452b1348cdb1d (7 October 2026, 10:44:33 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:44:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:44:33 +0200)
+
+> La passe réelle tourne encore (collecte des sources) ; j'attends sa fin pour comparer les données avant et après. (7 October 2026, 10:44:33 +0200)
+
+## 7 October 2026, 10:47:25 +0200 : Iteration
+
+<!-- feedback-event:cb1216c423e441e6e3af794fe22fb255662ae61e26747d22f2ea7b4c1e79eb60 (7 October 2026, 10:47:25 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:47:25 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:47:25 +0200)
+
+> Passe 2 en cours (les index repartent, mais avec le cache : beaucoup moins de pages à lire). J'attends son verdict. (7 October 2026, 10:47:25 +0200)
+
+## 7 October 2026, 10:48:31 +0200 : Iteration
+
+<!-- feedback-event:cf6f9a7e81282f9535e5ea1d02c6aa55f8a4f51538e1cb32029f46043a7ae4bd (7 October 2026, 10:48:31 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:48:31 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:48:31 +0200)
+
+> You've hit your session limit · resets 1:30pm (Europe/Paris) (7 October 2026, 10:48:31 +0200)
+
+## 7 October 2026, 10:48:34 +0200 : Prompt
+
+<!-- feedback-event:66aa3feb362fdd898fea56b67b58800d2a1ff69081ef6d52150608c965e721a4 (7 October 2026, 10:48:34 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 10:48:34 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:48:34 +0200)
+
+> <task-notification> (7 October 2026, 10:48:34 +0200)
+> <task-id>bvvzufyy4</task-id> (7 October 2026, 10:48:34 +0200)
+> <tool-use-id>toolu_018G9gU7qLC1CbfFZ3M5aHtp</tool-use-id> (7 October 2026, 10:48:34 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/tasks/bvvzufyy4.output</output-file> (7 October 2026, 10:48:34 +0200)
+> <status>completed</status> (7 October 2026, 10:48:34 +0200)
+> <summary>Monitor "Heartbeat on the service log" stream ended</summary> (7 October 2026, 10:48:34 +0200)
+> <event>2026-10-07T08:48:22.388Z source indexes: {"ok":true,"boards":7} (7 October 2026, 10:48:34 +0200)
+> 2026-10-07T08:48:26.287Z run ok: {"ok":true,"added":13,"closed":0,"letters":4,"details":13,"prospects":0,"committed":true,"commit":"04ad4308a0fa22ef5e2c32e54c9cc25189c68fcc","durationMs":80874,"finishedAt":"2026-10-07T08:48:23.837Z"} (7 October 2026, 10:48:34 +0200)
+> 2026-10-07T08:48:26.361Z notified: file, macos</event> (7 October 2026, 10:48:34 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (7 October 2026, 10:48:34 +0200)
+> </task-notification> (7 October 2026, 10:48:34 +0200)
+
+## 7 October 2026, 10:48:37 +0200 : Iteration
+
+<!-- feedback-event:c298241a7731792d2b9c5e71eaf7483a717e4edfcf3bd3ce8a062398e7043d9c (7 October 2026, 10:48:37 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:48:37 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:48:37 +0200)
+
+> You've hit your session limit · resets 1:30pm (Europe/Paris) (7 October 2026, 10:48:37 +0200)
+
+## 7 October 2026, 10:49:06 +0200 : Prompt
+
+<!-- feedback-event:bbc73a8395b8b3b2e6d86b850c9cbc5117eae6453f0906e063970015e852cca1 (7 October 2026, 10:49:06 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 10:49:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:06 +0200)
+
+> <task-notification> (7 October 2026, 10:49:06 +0200)
+> <task-id>b7c626dgs</task-id> (7 October 2026, 10:49:06 +0200)
+> <tool-use-id>toolu_01L5fu1EPRRbsgFvjhqakEL3</tool-use-id> (7 October 2026, 10:49:06 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/tasks/b7c626dgs.output</output-file> (7 October 2026, 10:49:06 +0200)
+> <status>completed</status> (7 October 2026, 10:49:06 +0200)
+> <summary>Monitor "Look at the log again after 100 seconds" stream ended</summary> (7 October 2026, 10:49:06 +0200)
+> <event>2026-10-07T08:48:22.388Z source indexes: {"ok":true,"boards":7} (7 October 2026, 10:49:06 +0200)
+> 2026-10-07T08:48:26.287Z run ok: {"ok":true,"added":13,"closed":0,"letters":4,"details":13,"prospects":0,"committed":true,"commit":"04ad4308a0fa22ef5e2c32e54c9cc25189c68fcc","durationMs":80874,"finishedAt":"2026-10-07T08:48:23.837Z"} (7 October 2026, 10:49:06 +0200)
+> 2026-10-07T08:48:26.361Z notified: file, macos</event> (7 October 2026, 10:49:06 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (7 October 2026, 10:49:06 +0200)
+> </task-notification> (7 October 2026, 10:49:06 +0200)
+
+## 7 October 2026, 10:49:08 +0200 : Iteration
+
+<!-- feedback-event:07efd78fc1e626974cdb86f2bfa25d95d0c3a958ec5ec0a62d4ae5a0c5b49472 (7 October 2026, 10:49:08 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:49:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:08 +0200)
+
+> You've hit your session limit · resets 1:30pm (Europe/Paris) (7 October 2026, 10:49:08 +0200)
+
+## 7 October 2026, 10:49:19 +0200 : Prompt
+
+<!-- feedback-event:813bd51572fcabf5e551dae93b7e072821d8650907f0a993eb0b73030545374f (7 October 2026, 10:49:19 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 10:49:19 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:19 +0200)
+
+> <task-notification> (7 October 2026, 10:49:19 +0200)
+> <task-id>bxa3iixlm</task-id> (7 October 2026, 10:49:19 +0200)
+> <tool-use-id>toolu_01Y8Pet1kTth1Lu39jWS1KuS</tool-use-id> (7 October 2026, 10:49:19 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/tasks/bxa3iixlm.output</output-file> (7 October 2026, 10:49:19 +0200)
+> <status>completed</status> (7 October 2026, 10:49:19 +0200)
+> <summary>Monitor "wait" stream ended</summary> (7 October 2026, 10:49:19 +0200)
+> <event>done</event> (7 October 2026, 10:49:19 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (7 October 2026, 10:49:19 +0200)
+> </task-notification> (7 October 2026, 10:49:19 +0200)
+
+## 7 October 2026, 10:49:20 +0200 : Iteration
+
+<!-- feedback-event:412dafdc741ec6d011829b5acefc0927b653633f59d53cf4ce53d803cb2ae2fb (7 October 2026, 10:49:20 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:49:20 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:20 +0200)
+
+> You've hit your session limit · resets 1:30pm (Europe/Paris) (7 October 2026, 10:49:20 +0200)
+
+## 7 October 2026, 10:49:25 +0200 : Prompt
+
+<!-- feedback-event:bfc690f25e11bcae241761d5b74a2f880dae555caf274f030e4eaa80b53adf96 (7 October 2026, 10:49:25 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 10:49:25 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:25 +0200)
+
+> <task-notification> (7 October 2026, 10:49:25 +0200)
+> <task-id>b8dvlbe7c</task-id> (7 October 2026, 10:49:25 +0200)
+> <tool-use-id>toolu_01ExKE6NdTsDmdKoGB5mHTeb</tool-use-id> (7 October 2026, 10:49:25 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd/tasks/b8dvlbe7c.output</output-file> (7 October 2026, 10:49:25 +0200)
+> <status>completed</status> (7 October 2026, 10:49:25 +0200)
+> <summary>Monitor "wait" stream ended</summary> (7 October 2026, 10:49:25 +0200)
+> <event>tick</event> (7 October 2026, 10:49:25 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (7 October 2026, 10:49:25 +0200)
+> </task-notification> (7 October 2026, 10:49:25 +0200)
+
+## 7 October 2026, 10:49:27 +0200 : Iteration
+
+<!-- feedback-event:caac3f709764e739d56499937794035aecd4c6e98a983f406d6ef2aa93798e86 (7 October 2026, 10:49:27 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 10:49:27 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 10:49:27 +0200)
+
+> You've hit your session limit · resets 1:30pm (Europe/Paris) (7 October 2026, 10:49:27 +0200)
+
+## 7 October 2026, 11:04:30 +0200 : Prompt
+
+<!-- feedback-event:59f01b4f2a04782420d4a72c6ad462a41a2c6fdf95e4f1639a80362be1cec184 (7 October 2026, 11:04:30 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 11:04:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 11:04:30 +0200)
+
+> <task-notification> (7 October 2026, 11:04:30 +0200)
+> <task-id>b8lkkb422</task-id> (7 October 2026, 11:04:30 +0200)
+> <summary>Monitor event: "Wait for the second pass"</summary> (7 October 2026, 11:04:30 +0200)
+> <event>[Monitor expired after 15m with no events delivered. Re-arm it if you still need the watch — and widen the filter if silence was unexpected.]</event> (7 October 2026, 11:04:30 +0200)
+> </task-notification> (7 October 2026, 11:04:30 +0200)
+
+## 7 October 2026, 11:05:01 +0200 : Iteration
+
+<!-- feedback-event:6e13cb5cd32f1b08c981394efea1c3b6ba772470b8e434c6d98a5f303b691f4e (7 October 2026, 11:05:01 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 11:05:01 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 11:05:01 +0200)
+
+> Passe 2 terminée (13 nouvelles, cache efficace). Vérification finale : aucune perte, lanes corrigées, production. (7 October 2026, 11:05:01 +0200)
+
+## 7 October 2026, 11:05:11 +0200 : Prompt
+
+<!-- feedback-event:91d1b824d263f90b87f6a60624d2b4f596990b5eed7ab8e1f91b5f6afda4eff7 (7 October 2026, 11:05:11 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 11:05:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 11:05:11 +0200)
+
+> [Usage limit reached; a short grace allowance remains, then this turn is cut off without warning. Judge what's left: if it's genuinely only a few steps, finish it properly, then stop and say so without extra polishing. Otherwise don't attempt it all: finish the piece in hand and at most two more like it, then stop. The allowance also pays for any subagents you have running: they don't get this message and will keep going, so it's up to you how to handle them. Either way, end by telling the user their usage limit was reached, what's done and what's left.] (7 October 2026, 11:05:11 +0200)
+
+## 7 October 2026, 11:05:28 +0200 : Iteration
+
+<!-- feedback-event:4b9156ce18a8d139a78cbd35f42ad9574c5a60354210568f0eecdc3faf4a04cd (7 October 2026, 11:05:28 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 11:05:28 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5fd92a10-03f3-4126-89e0-4dfe033274bd.jsonl. (7 October 2026, 11:05:28 +0200)
+
+> Ta limite d'usage est atteinte. Sept des onze sources sont intégrées au moteur et tournent, mais il manque l'envoi par mail et les consignations de fin de tour. (7 October 2026, 11:05:28 +0200)
+>
+> **Fait** (7 October 2026, 11:05:28 +0200)
+> - **Sept index lus automatiquement :** DevQuest, Games Jobs Index, Hitmarker, GameJobs.co, Work With Indies, Games Jobs Direct et Remote Game Jobs. (7 October 2026, 11:05:28 +0200)
+> - **Lecture polie :** le moteur lit `robots.txt` avant chaque site, respecte son Disallow et son Crawl-delay (5 s chez Games Jobs Direct), et ne relit pas ce qu'il a déjà vu. (7 October 2026, 11:05:28 +0200)
+> - **Sources à l'infini :** une page https publique collée dans « Mes recherches » est lue par le moteur (son offre, ou les liens d'offres qu'elle contient). Pour un site qui a un sitemap, quelques lignes de configuration suffisent. (7 October 2026, 11:05:28 +0200)
+> - **Doublons :** une offre d'un index déjà présente chez le studio n'est pas ajoutée une seconde fois. (7 October 2026, 11:05:28 +0200)
+> - **Quatre sources restent des liens, avec la raison au survol :** ASGC (pas de liste lisible), ArtStation (répond 403, je ne le contourne pas), Skillsearch (cabinet de recrutement) et PlayHire (formation). (7 October 2026, 11:05:28 +0200)
+> - **Notifications :** après une passe qui trouve du neuf, une notification macOS et un fichier de résumé dans `Digests/`. (7 October 2026, 11:05:28 +0200)
+> - **Deux passes réelles :** 393 fiches, puis 533, puis 546. Aucune fiche perdue et aucun de tes champs modifié. La production a répondu correctement au test que j'ai lancé. (7 October 2026, 11:05:28 +0200)
+> - **Régression évitée :** le nouveau texte de ton modèle de lettre (2 projets NDA, sans mention d'outil) n'existait que dans le dossier du service, jamais commité. Il est maintenant dans `origin/main`. (7 October 2026, 11:05:28 +0200)
+>
+> **Pas fait, ta décision** (7 October 2026, 11:05:28 +0200)
+> - **Mail à matth.huguet@gmail.com :** rien n'est envoyé. Mail.app n'a aucun compte sur ce Mac et aucun identifiant n'est stocké. Il faut choisir entre Resend, un SMTP, ou Cloudflare Email Service sur zenray.studio. (7 October 2026, 11:05:28 +0200)
+> - **Page non vérifiée visuellement :** tu peux la recharger avec Cmd+Maj+R. (7 October 2026, 11:05:28 +0200)
+>
+> **Restant** (7 October 2026, 11:05:28 +0200)
+> - Les conditions d'utilisation de Hitmarker et des autres sites n'ont pas été vérifiées, seulement leurs `robots.txt`. (7 October 2026, 11:05:28 +0200)
+> - La consignation Assets de fin de tour n'est pas faite. (7 October 2026, 11:05:28 +0200)
+> - Les passes de 12 h et 18 h confirmeront le fonctionnement dans le temps. (7 October 2026, 11:05:28 +0200)
+> - Après la 2e passe, 3 offres des index sont encore dans la voie « Autres industries » ; je n'ai pas vérifié si elles retombent en « Jeu vidéo » à la prochaine passe. (7 October 2026, 11:05:28 +0200)
+>
+> Quand tu veux, relance-moi sur le choix du mail. (7 October 2026, 11:05:28 +0200)

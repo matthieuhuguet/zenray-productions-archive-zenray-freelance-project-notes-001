@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-07T08:32:24.634Z",
+ "scannedAt": "2026-10-07T09:18:53.953Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "5fd92a10-03f3-4126-89e0-4dfe033274bd",
    "title": "Zenray Freelance automation",
-   "updatedAt": "2026-10-07T08:31:54.862Z",
-   "bytes": 12246593,
+   "updatedAt": "2026-10-07T09:05:28.740Z",
+   "bytes": 23172,
    "boundProject": "zenray-freelance"
   },
   {
@@ -159,8 +159,8 @@
    "provider": "claude",
    "sessionId": "2562b086-836d-49c5-80c7-0c935a98513c",
    "title": "Vegetations Creating Materials October 2026",
-   "updatedAt": "2026-10-07T08:31:36.250Z",
-   "bytes": 23748,
+   "updatedAt": "2026-10-07T08:47:49.444Z",
+   "bytes": 23732,
    "boundProject": "vegetation-assets-collection-01"
   },
   {
