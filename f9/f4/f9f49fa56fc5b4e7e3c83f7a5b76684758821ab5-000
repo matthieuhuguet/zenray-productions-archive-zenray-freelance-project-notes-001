@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-07T15:35:03.741Z",
+ "scannedAt": "2026-10-07T15:40:03.994Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -143,8 +143,8 @@
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-07T15:33:32.574876+00:00",
-   "bytes": 1822720,
+   "updatedAt": "2026-10-07T15:39:05.738472+00:00",
+   "bytes": 1916928,
    "boundProject": null
   },
   {
