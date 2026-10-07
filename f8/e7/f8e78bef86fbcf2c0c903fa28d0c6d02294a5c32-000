@@ -18,3 +18,25 @@
 
 - 7 October 2026 : Remplacement du paragraphe d'expérience généraliste par les 3 jeux de simulation Meerkat Studio (*Santa Simulator* et *Bakery Coffee Simulator* sortis sur Steam, *Pet Grooming Simulator* contrat freelance rémunéré), *Noyes* (jeu étudiant) et le projet d'archviz à Aix-en-Provence. (7 October 2026)
 - 7 October 2026 : Code mis à jour dans `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE` v4), `Letters.test.js` (149 tests vitest passants) et `LetterTemplate1.md`. Règle active pour toutes les futures lettres FR et EN. (7 October 2026)
+
+## 07 October 2026 : Mapping ZenRay Assets V2, chronologie et affichage grand format des dates de prospection
+
+- 07 October 2026 : Mapping ZenRay Assets V2 mis a jour dans `Projects.json` pour relier le repertoire durable `~/.claude/Memory1/MotivationLetters` (dossiers des offres et lettres envoyees) comme source memoire supplementaire du projet `zenray-freelance`. (07 October 2026)
+- 07 October 2026 : Audit detaille de la section Contacte (11 studios avec statut contacte ou date de contact enregistree) : (07 October 2026)
+  1. Drama Studios : offre publiee le 23 juillet 2026, detectee le 30 septembre 2026, premier contact le 7 octobre 2026 (7 jours apres decouverte), lettre de motivation personnalisee envoyee, derniere activite le 7 octobre 2026. (07 October 2026)
+  2. Genius Game FZCO : offre publiee le 1 septembre 2026, detectee le 30 septembre 2026, premier contact le 6 octobre 2026 (6 jours apres decouverte), 1 message envoye. (07 October 2026)
+  3. Larian Studios : offre publiee le 4 aout 2026, detectee le 30 septembre 2026, premier contact le 5 octobre 2026 (5 jours apres decouverte), derniere activite le 6 octobre 2026. (07 October 2026)
+  4. Voodoo : offre publiee le 2 octobre 2026, detectee le 5 octobre 2026, premier contact le 6 octobre 2026 (1 jour apres decouverte), 1 message envoye. (07 October 2026)
+  5. Keywords Studios : offre publiee le 26 juin 2026, detectee le 30 septembre 2026, premier contact le 7 octobre 2026 (7 jours apres decouverte), 1 message envoye. (07 October 2026)
+  6. d3t (Keywords Studios) : offre publiee le 20 aout 2026, detectee le 30 septembre 2026, premier contact le 7 octobre 2026 (7 jours apres decouverte), 1 message envoye. (07 October 2026)
+  7. Ripple & Roll (2 offres) : detectees le 30 septembre 2026, contactees le 7 octobre 2026 (7 jours apres decouverte), 1 message envoye chacune. (07 October 2026)
+  8. Asobo Studio : contacte le 29 mai 2026 (le jour meme), statut refuse le 12 septembre 2026. (07 October 2026)
+  9. Myriam Martins : contactee le 26 juillet 2026 (le jour meme), statut refuse le 12 septembre 2026. (07 October 2026)
+  10. Matteo Martinez : contacte le 26 juillet 2026 (le jour meme), reponse recue le 12 septembre 2026. (07 October 2026)
+- 07 October 2026 : Module `freelanceStudios.js` dote de calculs de chronologie robuste (`chronologyOf`, `foundDateOf`, `contactedDateOf`, `daysDiff`, `toIsoDate`), prenant en charge les horodatages millisecondes et formats ISO varies. (07 October 2026)
+- 07 October 2026 : Interface `FreelanceView.jsx` enrichie selon les consignes visuelles : (07 October 2026)
+  - Dates mises en valeur en grand format (15 a 18 pixels avec police AnthropicSerif pour les chiffres). (07 October 2026)
+  - Badges de categories enrichis avec dates exactes (Nouveau avec date de decouverte, Fermee avec date de cloture, Contacte avec date de contact, Trouvee avec date). (07 October 2026)
+  - Bloc chronologique dedie sur chaque carte de studio montrant le delai entre decouverte de l'offre et prise de contact. (07 October 2026)
+  - Grille chronologique complete dans la vue detaillee d'un studio (Offre trouvee, Premier contact, Chronologie et delai, Publication originale). (07 October 2026)
+  - Sous-titre explicatif sur la section Contacte resume le flux des candidatures. (07 October 2026)

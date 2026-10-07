@@ -3329,3 +3329,17 @@
 > - Après la 2e passe, 3 offres des index sont encore dans la voie « Autres industries » ; je n'ai pas vérifié si elles retombent en « Jeu vidéo » à la prochaine passe. (7 October 2026, 11:05:28 +0200)
 >
 > Quand tu veux, relance-moi sur le choix du mail. (7 October 2026, 11:05:28 +0200)
+
+## 7 October 2026, 18:10:26 +0200 : Prompt
+
+<!-- feedback-event:52beb137edd45886056d52f9a723781feb8f9bb8b9c90ac5a6aa0096c0667d3e (7 October 2026, 18:10:26 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 18:10:26 +0200)
+
+> via /zenray-assets-v2 trouve le mapping zenray-freelance section Contacté et via les différents tag de catégorie AJOUTE DES DATES PARTOUT : DATE QUAND TU AS TROUVÉ L'OFFRE ET CONTACTÉ LE ... MET LE EN + GROS BREF AJOUTE UN MAXIMUM DE DETAILS DE DATE + NOTAMMENT LA CHRONOLOGIE /think-of-everything /goal /dont-stop (7 October 2026, 18:10:26 +0200)
+
+## 7 October 2026, 18:10:32 +0200 : Iteration
+
+<!-- feedback-event:4205b683f0ec87209e57fee200d819bf2d491c2a550df898070ef4fbfe751b5d (7 October 2026, 18:10:32 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 18:10:32 +0200)
+
+> Mise a jour complete de la chronologie Freelance et de la section Contacte : mapping ZenRay Assets V2 relie a MotivationLetters, dates enrichies sur les badges et cartes de studios avec typographie agrandie (15 a 18px AnthropicSerif pour les chiffres), module chronologyOf teste (18 tests unitaires passants), build Vite valide en 10.15s. (7 October 2026, 18:10:32 +0200)
