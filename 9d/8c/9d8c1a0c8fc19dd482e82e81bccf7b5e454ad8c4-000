@@ -3343,3 +3343,17 @@
 - Project: zenray-freelance; kind: iteration. (7 October 2026, 18:10:32 +0200)
 
 > Mise a jour complete de la chronologie Freelance et de la section Contacte : mapping ZenRay Assets V2 relie a MotivationLetters, dates enrichies sur les badges et cartes de studios avec typographie agrandie (15 a 18px AnthropicSerif pour les chiffres), module chronologyOf teste (18 tests unitaires passants), build Vite valide en 10.15s. (7 October 2026, 18:10:32 +0200)
+
+## 7 October 2026, 18:35:00 +0200 : Prompt
+
+<!-- feedback-event:b823e410f438a20464f1d413346f00115e76a6cf4ec2912411e3bce740203f1a (7 October 2026, 18:35:00 +0200) -->
+- Project: zenray-freelance; kind: prompt. (7 October 2026, 18:35:00 +0200)
+
+> dans zenray-freelance permet moi d'ajouter des pièces jointes notamment img / pdf / media / son / video mais en soit c'est déjà possible via le code de zenray progress dans le cadre de la page d'une offre via drag and drop. ou selection d'un dossier ... upload. tout doit fonctionner en synergie avec create aussi /dont-stop /prompt-stacking (7 October 2026, 18:35:00 +0200)
+
+## 7 October 2026, 18:35:00 +0200 : Iteration
+
+<!-- feedback-event:cb941e754a6703554620f4cf32607106037bce43063f2789d7ea777e3c988a82 (7 October 2026, 18:35:00 +0200) -->
+- Project: zenray-freelance; kind: iteration. (7 October 2026, 18:35:00 +0200)
+
+> Ajout du système de pièces jointes multi-formats dans la vue d'une offre ZenRay Freelance (`StudioDetail`) en synergie complète avec Create. Support du drag-and-drop récursif (fichiers individuels et dossiers entiers via `filesFromDataTransfer` et `filesFromInput`), ingestion cloud vers `pages/Freelance/Attachments/<StudioName>` avec création des manifestes et indexation recherche via `captureFiles`, association directe d'un nœud Create existant sans re-upload, boutons de navigation bidirectionnelle (« Create ↗ » et « Ouvrir dans Create ↗ » via l'événement `zr:create-folder`), aperçus intégrés (lecteur audio natif, visionneuse image/vidéo/pdf), badge de comptage `📎 X pièces` sur chaque carte de studio, et fusion concurrente sécurisée par identifiant (`applyStudioChange`). 26 tests unitaires passants dans `freelanceStudios.test.js`, build Vite réussi en 9.14s et déploiement vérifié sur Cloudflare Pages. (7 October 2026, 18:35:00 +0200)
