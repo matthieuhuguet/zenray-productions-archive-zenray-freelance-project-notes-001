@@ -1,6 +1,6 @@
 # Lettre type ZenRay Freelance, version de Matthieu (7 October 2026)
 
-Source de vérité du code : `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE`, `seedVersion: 3`). Les emplacements `{studio}`, `{role}`, `{latestWork}`, `{hook}`, `{portfolio}`, `{age}` sont remplis par le moteur. (7 October 2026)
+Source de vérité du code : `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE`, `seedVersion: 4`). Les emplacements `{studio}`, `{role}`, `{latestWork}`, `{hook}`, `{portfolio}`, `{age}` sont remplis par le moteur. (7 October 2026)
 
 ## Français (7 October 2026)
 
@@ -14,11 +14,11 @@ Je m'appelle Matthieu Huguet, j'ai 25 ans et je travaille comme Technical Artist
 
 J'ai étudié un Bachelor Game Design à LISAA Paris, un Master à ARTFX Montpellier, puis des cours de technical art à Gnomon et via CS50 de Harvard, avant de passer freelance début 2025.
 
-J'ai travaillé sur 2 projets sous NDA avec Meerkat Studio et sur un projet d'archviz pour un client privé à Aix-en-Provence depuis 2025. Tout mon travail est visible sur matthieuhuguet.com.
+En production, j’ai travaillé comme Technical Artist freelance avec Meerkat Studio sur trois jeux de simulation : Santa Simulator (sorti sur Steam), Bakery Coffee Simulator (sorti sur Steam) et Pet Grooming Simulator (contrat rémunéré). Plus tôt durant mes études, j’ai co-développé Noyes (jeu étudiant). J’ai également réalisé un projet d’archviz pour un client privé à Aix-en-Provence. Tout mon travail est visible sur {portfolio}.
 
-En ce moment, je travaille à intégrer et construire des solutions avec Houdini et Unreal, qui génèrent du level design via des HDA et me permettent d'itérer rapidement dessus. Mes derniers travaux publiés : Fleur de Lys, Procedural Lily, Ceramic Tiles et HDA Stairs Component.
+En ce moment, je travaille à intégrer et construire des solutions avec Houdini et Unreal, qui génèrent du level design via des HDA et me permettent d'itérer rapidement dessus.{latestWork}
 
-Votre offre d'{role} correspond à mon quotidien : Unreal Engine et Blueprints et création de systèmes 3D via Houdini.
+{hook}
 
 Ce que je recherche aujourd'hui, c'est un contrat au sein d'une équipe engagée dans un projet ambitieux. J'ai besoin de travailler avec des professionnels expérimentés et de faire partie d'une dynamique collective, ce que le travail en solo, même formateur, ne peut pas m'apporter.
 
@@ -38,11 +38,11 @@ My name is Matthieu Huguet, I am 25 and I work as a freelance Technical Artist, 
 
 I studied a Game Design Bachelor at LISAA Paris, a Master's at ARTFX Montpellier, then technical art courses at Gnomon and through Harvard CS50, before going freelance in early 2025.
 
-I worked on 2 NDA projects with Meerkat Studio and on an archviz project for a private client in Aix-en-Provence since 2025. All my work can be seen at matthieuhuguet.com.
+In production, I worked as a freelance Technical Artist with Meerkat Studio on three simulation titles: Santa Simulator (shipped on Steam), Bakery Coffee Simulator (shipped on Steam), and Pet Grooming Simulator (paid contract). Earlier in my studies, I co-developed Noyes (student game). I also completed an archviz lighting project for a private client in Aix-en-Provence. All my work can be seen at {portfolio}.
 
-Right now I am working on integrating and building solutions with Houdini and Unreal that generate level design through HDAs and let me iterate on it quickly. My latest published work: Fleur de Lys, Procedural Lily, Ceramic Tiles and HDA Stairs Component.
+Right now I am working on integrating and building solutions with Houdini and Unreal that generate level design through HDAs and let me iterate on it quickly.{latestWork}
 
-Your opening for {role} lines up with my day-to-day work: Unreal Engine and Blueprints and 3D systems creation through Houdini.
+{hook}
 
 What I am looking for today is a contract with a team committed to an ambitious project. I need to work with experienced professionals and be part of a collective dynamic, something that working solo, however formative, cannot provide.
 
@@ -50,7 +50,11 @@ I would be happy to talk with you by phone or video call, whenever suits you.
 
 Matthieu Huguet
 
-## Notes (7 October 2026)
-- Premier envoi : Drama Studios, Environment Technical Artist, Rennes (CDI, hybride). (7 October 2026)
-- Retiré par Matthieu par rapport à la lettre Asobo : la ligne Cursor et Claude. Ajouté : « 2 projets sous NDA », « depuis 2025 ». (7 October 2026)
-- La phrase « Votre offre correspond à mon quotidien : ... » est propre à Drama ; pour les autres studios le moteur la calcule depuis l'overlap offre/CV. (7 October 2026)
+## Notes et Expériences Clés (7 October 2026)
+- Remplacé définitivement la mention vague de "NDA Meerkat Studio" par les 3 jeux de simulation réels :
+  - *Santa Simulator* (Shipped on Steam)
+  - *Bakery Coffee Simulator* (Shipped on Steam)
+  - *Pet Grooming Simulator* (Unreleased but paid freelance contract)
+  - *Noyes* (Student game)
+  - Projet Archviz client privé à Aix-en-Provence.
+- À réutiliser systématiquement dans toutes les futures lettres de motivation (FR et EN). (7 October 2026)
