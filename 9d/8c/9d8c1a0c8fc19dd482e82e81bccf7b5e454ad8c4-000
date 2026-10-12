@@ -6437,3 +6437,75 @@
 > | Pas de contradiction avec l'ancien | Fait | Réconciliation écrite dans la section (curseurs sur demande, règle des deux occurrences) | (12 October 2026, 10:55:24 +0200)
 >
 > Premier exemple déjà en place : le mail « Demander un retour » de ZenRay Freelance, où chaque phrase est un paramètre et que tu peux modifier sur la page avec un bouton « Revenir au texte d'origine ». (12 October 2026, 10:55:24 +0200)
+
+## 12 October 2026, 11:19:47 +0200 : Prompt
+
+<!-- feedback-event:39707d4c27cc2df84cf4a76579a0d2ef552aca3134cbc48e67bdb4159dad88c9 (12 October 2026, 11:19:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (12 October 2026, 11:19:47 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5eff1aab-c6ea-4a74-81cf-51380f6fc653.jsonl. (12 October 2026, 11:19:47 +0200)
+
+> je trouve qu'il manque des nuances par rapport au texte initial corrige légèrement ou fais le un peu plus long = Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (houdini) ou d'une texture substance designer 3D, tu dois inclure lorsque possible des paramètres procéduraux qui permettent de modifier directement ton résultat avec une interface claire et la volonté de faire modifier les paramètres par moi-même sans back and forth. Cette priorité passe en priorité zéro. C'est la première ligne de pour  (12 October 2026, 11:19:47 +0200)
+> /claude-md-global  (12 October 2026, 11:19:47 +0200)
+>
+> (dans ce que tu as notés) (12 October 2026, 11:19:47 +0200)
+
+## 12 October 2026, 11:20:34 +0200 : Iteration
+
+<!-- feedback-event:56c49f5a3b7edb8f85f71548e4686b8b2ce2a09a01a7233468eb03b10b7834ed (12 October 2026, 11:20:34 +0200) -->
+- Project: zenray-freelance; kind: iteration. (12 October 2026, 11:20:34 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5eff1aab-c6ea-4a74-81cf-51380f6fc653.jsonl. (12 October 2026, 11:20:34 +0200)
+
+> Tu avais raison : ma version condensée perdait des nuances de ton texte. La première ligne de [CLAUDE.md](/Users/zenray/.claude/CLAUDE.md) reprend maintenant tes mots presque tels quels, avec seulement la grammaire et la ponctuation corrigées : (12 October 2026, 11:20:34 +0200)
+>
+> > **PRIORITÉ 0 ABSOLUE, TOUT CE QUE JE CRÉE SE MODIFIE SANS MOI.** Ses mots : « Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (Houdini) ou d'une texture Substance Designer 3D ; tu dois inclure, lorsque possible, des paramètres procéduraux qui permettent de modifier directement ton résultat, avec une interface claire et la volonté de me faire modifier les paramètres par moi-même, sans back and forth. Cette priorité passe en priorité zéro. » Texte intégral et projets réutilisables (V_001 à V_999) : `rules/ParametricHda1.md`, sections du 12 October 2026. (12 October 2026, 11:20:34 +0200)
+>
+> Les seules retouches de ton texte sont « de me faire modifier » à la place de « de faire modifier » (le « me » manquait), des virgules autour de « lorsque possible », et un point-virgule après « Substance Designer 3D ». Tout le reste est à toi, y compris « Quoi que ce soit », « tout le code », « directement ton résultat » et « par moi-même ». (12 October 2026, 11:20:34 +0200)
+>
+> J'ai noté la correction dans [ParametricHda1.md](/Users/zenray/.claude/rules/ParametricHda1.md) et dans le journal. Le fichier tient à 65 172 octets (marge 364) et les miroirs Codex et Gemini à 65 399. Pour gagner la place, j'ai raccourci un paragraphe de renvoi sans rien en retirer d'utile : il listait déjà ce que `SkillsAndMemory1.md` contient. (12 October 2026, 11:20:34 +0200)
+
+## 12 October 2026, 12:47:24 +0200 : Prompt
+
+<!-- feedback-event:63ec75c5aa6b18e8866f357908db2498387db393179c85d701ac04ce12499e13 (12 October 2026, 12:47:24 +0200) -->
+- Project: zenray-freelance; kind: prompt. (12 October 2026, 12:47:24 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5eff1aab-c6ea-4a74-81cf-51380f6fc653.jsonl. (12 October 2026, 12:47:24 +0200)
+
+> Par contre je vois pas l'option pour avoir le texte sur la vue freelance ? (12 October 2026, 12:47:24 +0200)
+
+## 12 October 2026, 12:48:11 +0200 : Iteration
+
+<!-- feedback-event:5db33c5ce861ae0b255eb939ac2d6ceb34acb803c56468e45c99faa8af45a8f6 (12 October 2026, 12:48:11 +0200) -->
+- Project: zenray-freelance; kind: iteration. (12 October 2026, 12:48:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5eff1aab-c6ea-4a74-81cf-51380f6fc653.jsonl. (12 October 2026, 12:48:11 +0200)
+
+> La carte « Refusé » de la liste n'a aucune action : le mail n'existe que dans la fiche ouverte. J'ajoute un bouton directement sur la carte, dans la liste. (12 October 2026, 12:48:11 +0200)
+
+## 12 October 2026, 12:50:41 +0200 : Standing rule
+
+<!-- feedback-event:75195fcb291439c84733da7b262dae61cc6bc6e9cd280dfd84615e15bf310e40 (12 October 2026, 12:50:41 +0200) -->
+- Project: zenray-freelance; kind: rule. (12 October 2026, 12:50:41 +0200)
+
+> 12 October 2026 : correction de visibilité : le mail « demander un retour » n'était visible que dans la fiche ouverte, Matthieu ne le trouvait pas depuis la vue Freelance. La carte d'un refus (section Refusé de la liste) porte maintenant le badge Refusé avec la date et les boutons Copier le mail, Copier objet + mail, FR/EN, Ouvrir la fiche. Règle : une action attendue se place là où il regarde, pas derrière un clic. Commit a6e90ee3, déployé, chunk en ligne vérifié. (12 October 2026, 12:50:41 +0200)
+
+## 12 October 2026, 12:50:46 +0200 : Iteration
+
+<!-- feedback-event:2cb80c556d423f3c6a4e78c9beea43aa36e913e344e72f5d28c665d9a0169d70 (12 October 2026, 12:50:46 +0200) -->
+- Project: zenray-freelance; kind: iteration. (12 October 2026, 12:50:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/5eff1aab-c6ea-4a74-81cf-51380f6fc653.jsonl. (12 October 2026, 12:50:46 +0200)
+
+> Tu avais raison : le mail n'existait que dans la fiche ouverte, donc invisible depuis la liste Freelance. C'est corrigé et en ligne. (12 October 2026, 12:50:46 +0200)
+>
+> Recharge la page. Dans la vue Freelance, la section **Refusé** (là où est Voodoo) porte désormais, sous chaque carte : (12 October 2026, 12:50:46 +0200)
+> - **Copier le mail** : copie la demande de retour, prête à coller. (12 October 2026, 12:50:46 +0200)
+> - **Copier objet + mail**. (12 October 2026, 12:50:46 +0200)
+> - **FR / EN** : change la langue avant de copier. (12 October 2026, 12:50:46 +0200)
+> - **pas encore envoyé** : devient « envoyé le … » quand tu le marques depuis la fiche. (12 October 2026, 12:50:46 +0200)
+> - **Ouvrir la fiche** : pour modifier le texte et le marquer envoyé. (12 October 2026, 12:50:46 +0200)
+>
+> La carte affiche aussi un badge **Refusé · 12 octobre 2026**. (12 October 2026, 12:50:46 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 October 2026, 12:50:46 +0200)
+> |---|---|---| (12 October 2026, 12:50:46 +0200)
+> | Avoir le texte depuis la vue Freelance, sans ouvrir la fiche | Fait | Nouveau test : sur la liste, un clic copie le mail anglais, la bascule FR copie la version française, rien n'est enregistré ; 12 tests de la vue verts | (12 October 2026, 12:50:46 +0200)
+> | En ligne | Fait | Le bundle servi est identique au build local ; le code publié contient « Copier le mail » et « Refus reçus » | (12 October 2026, 12:50:46 +0200)
+>
+> Je n'ai pas ouvert la page dans un navigateur (règle du dépôt) : le rendu visuel repose sur les tests et le contrôle du bundle. Si la section n'apparaît pas après rechargement, dis-moi ce que tu vois, une capture avec un cercle rouge suffira. (12 October 2026, 12:50:46 +0200)
