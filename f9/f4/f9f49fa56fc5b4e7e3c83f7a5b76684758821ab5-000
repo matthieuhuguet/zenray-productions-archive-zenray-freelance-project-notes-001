@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-15T05:56:03.551Z",
+ "scannedAt": "2026-10-15T06:07:03.541Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -392,6 +392,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-14T17:02:13.865Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "Motion Design Vector and Music",
+   "updatedAt": "2026-10-15T06:05:24.749Z",
+   "bytes": 21414,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T21:17:42.293Z",
    "last": "2026-10-15T02:24:16.055Z",
    "strength": "weak",
@@ -402,22 +418,6 @@
    "updatedAt": "2026-10-15T05:55:30.982Z",
    "bytes": 34520,
    "boundProject": "zenray-progress"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-14T17:02:13.865Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T05:53:23.348Z",
-   "bytes": 24476190,
-   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
