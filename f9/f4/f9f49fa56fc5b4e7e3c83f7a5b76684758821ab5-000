@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-15T03:17:02.030Z",
+ "scannedAt": "2026-10-15T03:23:02.041Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -392,6 +392,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T21:17:42.293Z",
+   "last": "2026-10-15T02:24:16.055Z",
+   "strength": "weak",
+   "conversationId": "claude:5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
+   "provider": "claude",
+   "sessionId": "5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
+   "title": "performance assets and drive",
+   "updatedAt": "2026-10-15T03:22:43.221Z",
+   "bytes": 34519,
+   "boundProject": "zenray-progress"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
    "last": "2026-10-14T17:02:13.865Z",
    "strength": "weak",
@@ -402,22 +418,6 @@
    "updatedAt": "2026-10-15T03:15:45.015Z",
    "bytes": 24290656,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T21:17:42.293Z",
-   "last": "2026-10-15T02:24:16.055Z",
-   "strength": "weak",
-   "conversationId": "claude:5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
-   "provider": "claude",
-   "sessionId": "5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
-   "title": "performance assets and drive",
-   "updatedAt": "2026-10-15T02:52:50.836Z",
-   "bytes": 34522,
-   "boundProject": "zenray-progress"
   },
   {
    "projectId": "zenray-freelance",
