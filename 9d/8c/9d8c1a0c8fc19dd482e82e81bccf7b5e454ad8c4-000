@@ -6509,3 +6509,17 @@
 > | En ligne | Fait | Le bundle servi est identique au build local ; le code publié contient « Copier le mail » et « Refus reçus » | (12 October 2026, 12:50:46 +0200)
 >
 > Je n'ai pas ouvert la page dans un navigateur (règle du dépôt) : le rendu visuel repose sur les tests et le contrôle du bundle. Si la section n'apparaît pas après rechargement, dis-moi ce que tu vois, une capture avec un cercle rouge suffira. (12 October 2026, 12:50:46 +0200)
+
+## 16 October 2026, 14:05:27 +0200 : Standing rule
+
+<!-- feedback-event:20e1e87f7d88de2b4abf10d5a1d6c959379d0155249634d96d5271e95a83c94e (16 October 2026, 14:05:27 +0200) -->
+- Project: zenray-freelance; kind: rule. (16 October 2026, 14:05:27 +0200)
+
+> 16 October 2026 : boucle de candidature : jamais d'envoi ni de compte ni de mur anti-bot contourné, questions sensibles laissées à Matthieu, « contacté » seulement après son accord (ApplyLoop.mjs mark-sent). Skill zenray-freelance. (16 October 2026, 14:05:27 +0200)
+
+## 16 October 2026, 15:02:51 +0200 : Standing rule
+
+<!-- feedback-event:dd21202bc82e9d974912b465f15bee73bcb83f5b32597555fe0d4cc848369558 (16 October 2026, 15:02:51 +0200) -->
+- Project: zenray-freelance; kind: rule. (16 October 2026, 15:02:51 +0200)
+
+> 16 October 2026 : la boucle de candidature s'appelle « ZenRay Apply » ; commande unique node scripts/Freelance/Apply.mjs <N> --open puis Apply.mjs sent apres envoi par Matthieu ; scripts locaux, rien a deployer ; skill zenray-freelance. (16 October 2026, 15:02:51 +0200)
