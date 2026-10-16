@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-16T13:33:29.616Z",
+ "scannedAt": "2026-10-16T13:44:09.399Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "6770fb4c-3c30-4bc8-939a-b209ab0ddb1b",
    "title": "1 zenray freelance",
-   "updatedAt": "2026-10-16T13:07:13.892Z",
-   "bytes": 36866,
+   "updatedAt": "2026-10-16T13:34:29.179Z",
+   "bytes": 36723,
    "boundProject": null
   },
   {
@@ -351,8 +351,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T13:32:20.089Z",
-   "bytes": 209242364,
+   "updatedAt": "2026-10-16T13:44:08.728Z",
+   "bytes": 228034948,
    "boundProject": null
   },
   {
@@ -1048,22 +1048,6 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-16T11:40:57.498Z",
-   "last": "2026-10-16T11:40:57.498Z",
-   "strength": "weak",
-   "conversationId": "claude:d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
-   "provider": "claude",
-   "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
-   "title": "4 sport section",
-   "updatedAt": "2026-10-16T13:33:06.262Z",
-   "bytes": 36463,
-   "boundProject": "zenray-progress"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
    "last": "2026-10-16T11:43:19.042Z",
    "strength": "weak",
@@ -1071,9 +1055,25 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-16T13:19:01.943Z",
-   "bytes": 37055,
+   "updatedAt": "2026-10-16T13:41:00.326Z",
+   "bytes": 36746,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-16T11:40:57.498Z",
+   "last": "2026-10-16T11:40:57.498Z",
+   "strength": "weak",
+   "conversationId": "claude:d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
+   "provider": "claude",
+   "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
+   "title": "4 sport section",
+   "updatedAt": "2026-10-16T13:39:58.004Z",
+   "bytes": 36784,
+   "boundProject": "zenray-progress"
   },
   {
    "projectId": "zenray-freelance",
