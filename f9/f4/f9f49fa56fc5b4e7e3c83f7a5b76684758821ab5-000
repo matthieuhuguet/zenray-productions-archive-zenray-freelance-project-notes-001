@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T14:46:33.267Z",
+ "scannedAt": "2026-10-17T14:53:33.734Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -351,8 +351,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T14:45:46.468Z",
-   "bytes": 239744277,
+   "updatedAt": "2026-10-17T14:50:51.845Z",
+   "bytes": 240527301,
    "boundProject": null
   },
   {
@@ -984,22 +984,6 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-17T14:21:27.442Z",
-   "last": "2026-10-17T14:21:27.442Z",
-   "strength": "weak",
-   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "provider": "claude",
-   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "StudioPhoto",
-   "updatedAt": "2026-10-17T14:43:51.552Z",
-   "bytes": 36689,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-17T13:32:54.286Z",
    "last": "2026-10-17T13:32:54.286Z",
    "strength": "weak",
@@ -1007,8 +991,24 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T14:39:58.882Z",
-   "bytes": 39708,
+   "updatedAt": "2026-10-17T14:53:32.776Z",
+   "bytes": 4337455,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T14:21:27.442Z",
+   "last": "2026-10-17T14:21:27.442Z",
+   "strength": "weak",
+   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "provider": "claude",
+   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "title": "StudioPhoto",
+   "updatedAt": "2026-10-17T14:53:21.417Z",
+   "bytes": 36761,
    "boundProject": null
   },
   {
