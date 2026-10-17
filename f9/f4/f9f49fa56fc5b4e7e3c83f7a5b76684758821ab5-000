@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T15:07:33.788Z",
+ "scannedAt": "2026-10-17T15:14:33.994Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -991,8 +991,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto",
-   "updatedAt": "2026-10-17T15:07:15.802Z",
-   "bytes": 14916815,
+   "updatedAt": "2026-10-17T15:14:21.150Z",
+   "bytes": 15328803,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
