@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T20:43:36.493Z",
+ "scannedAt": "2026-10-17T20:48:36.444Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T20:43:10.233Z",
-   "bytes": 259946915,
+   "updatedAt": "2026-10-17T20:47:57.797Z",
+   "bytes": 22057,
    "boundProject": null
   },
   {
@@ -904,6 +904,22 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-17T13:32:54.286Z",
+   "last": "2026-10-17T13:32:54.286Z",
+   "strength": "weak",
+   "conversationId": "claude:dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
+   "provider": "claude",
+   "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
+   "title": "Plan to Google Calendar",
+   "updatedAt": "2026-10-17T20:47:44.129Z",
+   "bytes": 39594,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-17T19:13:58.896Z",
    "last": "2026-10-17T19:13:58.896Z",
    "strength": "weak",
@@ -913,22 +929,6 @@
    "title": "Vérifier upload et renommage fichiers",
    "updatedAt": "2026-10-17T20:32:28.352Z",
    "bytes": 36549,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-17T13:32:54.286Z",
-   "last": "2026-10-17T13:32:54.286Z",
-   "strength": "weak",
-   "conversationId": "claude:dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
-   "provider": "claude",
-   "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
-   "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T19:42:23.900Z",
-   "bytes": 39601,
    "boundProject": null
   },
   {
