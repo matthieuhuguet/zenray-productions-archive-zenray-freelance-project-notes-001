@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T14:58:33.796Z",
+ "scannedAt": "2026-10-17T15:07:33.788Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -30,8 +30,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-08T23:47:39.172Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-08T23:46:56.976361+00:00",
    "bytes": 3915776,
    "boundProject": "zenray-freelance"
   },
@@ -991,9 +991,9 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto",
-   "updatedAt": "2026-10-17T14:57:33.934Z",
-   "bytes": 36723,
-   "boundProject": null
+   "updatedAt": "2026-10-17T15:07:15.802Z",
+   "bytes": 14916815,
+   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "zenray-freelance",
