@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T21:09:36.436Z",
+ "scannedAt": "2026-10-17T21:17:36.464Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T21:00:51.107Z",
-   "bytes": 22321,
+   "updatedAt": "2026-10-17T21:17:31.246Z",
+   "bytes": 22318,
    "boundProject": null
   },
   {
@@ -911,8 +911,40 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T21:09:32.092Z",
-   "bytes": 5970984,
+   "updatedAt": "2026-10-17T21:17:20.931Z",
+   "bytes": 39335,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T21:13:01.652Z",
+   "last": "2026-10-17T21:13:01.652Z",
+   "strength": "weak",
+   "conversationId": "claude:7c5566dd-4ce2-4ed7-9035-5e45ce611a65",
+   "provider": "claude",
+   "sessionId": "7c5566dd-4ce2-4ed7-9035-5e45ce611a65",
+   "title": "Win Without Pitching Manifesto traduction",
+   "updatedAt": "2026-10-17T21:13:19.044Z",
+   "bytes": 36590,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T21:11:47.774Z",
+   "last": "2026-10-17T21:11:47.774Z",
+   "strength": "weak",
+   "conversationId": "claude:5c508494-e631-4aa7-b26b-f32cbf292c7c",
+   "provider": "claude",
+   "sessionId": "5c508494-e631-4aa7-b26b-f32cbf292c7c",
+   "title": "PDF file rename",
+   "updatedAt": "2026-10-17T21:12:01.653Z",
+   "bytes": 36785,
    "boundProject": null
   },
   {
