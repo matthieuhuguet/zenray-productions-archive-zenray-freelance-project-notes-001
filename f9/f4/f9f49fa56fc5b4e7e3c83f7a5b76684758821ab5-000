@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-17T21:00:36.434Z",
+ "scannedAt": "2026-10-17T21:09:36.436Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -335,8 +335,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-17T21:00:36.053Z",
-   "bytes": 261938521,
+   "updatedAt": "2026-10-17T21:00:51.107Z",
+   "bytes": 22321,
    "boundProject": null
   },
   {
@@ -911,8 +911,8 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T20:59:51.753Z",
-   "bytes": 5381434,
+   "updatedAt": "2026-10-17T21:09:32.092Z",
+   "bytes": 5970984,
    "boundProject": null
   },
   {
