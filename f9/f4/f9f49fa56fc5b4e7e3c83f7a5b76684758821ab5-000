@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-18T17:25:59.261Z",
+ "scannedAt": "2026-10-18T18:03:54.381Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-08T23:47:39.172Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-08T23:46:56.976361+00:00",
    "bytes": 3915776,
    "boundProject": "zenray-freelance"
   },
@@ -312,6 +312,22 @@
    "lines": 10,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-18T17:55:21.104Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "3 motion design and editing video",
+   "updatedAt": "2026-10-18T18:03:41.456Z",
+   "bytes": 340028818,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 10,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T00:43:49.456Z",
    "last": "2026-10-14T11:34:59.327Z",
    "strength": "weak",
@@ -322,22 +338,6 @@
    "updatedAt": "2026-10-14T13:36:42.695Z",
    "bytes": 46514632,
    "boundProject": "zenray-motion-design"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 9,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-17T14:05:32.257Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T10:02:02.400Z",
-   "bytes": 22324,
-   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -871,22 +871,6 @@
    "projectId": "zenray-freelance",
    "lines": 2,
    "work": 0,
-   "prompts": 1,
-   "first": "2026-10-11T11:56:32.733Z",
-   "last": "2026-10-11T11:56:32.734Z",
-   "strength": "weak",
-   "conversationId": "codex:01a12ad2-5a97-7ce2-9df7-044b2c43bb67",
-   "provider": "codex",
-   "sessionId": "01a12ad2-5a97-7ce2-9df7-044b2c43bb67",
-   "title": "Conversation codex 01a12ad2",
-   "updatedAt": "2026-10-11T11:57:48.734Z",
-   "bytes": 760044,
-   "boundProject": "conversation-codex-bda04145d7f792b08c0d8f03"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 2,
-   "work": 0,
    "prompts": 0,
    "first": "2026-10-03T10:42:47.993Z",
    "last": "2026-10-03T11:51:58.639Z",
@@ -911,8 +895,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T17:25:34.130Z",
-   "bytes": 36752,
+   "updatedAt": "2026-10-18T17:42:58.191Z",
+   "bytes": 36767,
    "boundProject": null
   },
   {
