@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-18T23:27:37.766Z",
+ "scannedAt": "2026-10-18T23:46:37.829Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -277,18 +277,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 12,
+   "lines": 13,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-18T20:24:51.117Z",
+   "last": "2026-10-18T23:35:20.588Z",
    "strength": "weak",
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T22:52:07.963Z",
-   "bytes": 22320,
+   "updatedAt": "2026-10-18T23:39:36.416Z",
+   "bytes": 22317,
    "boundProject": null
   },
   {
@@ -408,6 +408,22 @@
    "lines": 5,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T23:42:54.000Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T23:45:53.859Z",
+   "bytes": 79267730,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T00:43:49.456Z",
    "last": "2026-10-12T10:19:36.916Z",
    "strength": "weak",
@@ -417,22 +433,6 @@
    "title": "Motion Design GLSL (fork) Sonnet 5.5 Après Modules",
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T22:38:41.083Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T23:26:22.218Z",
-   "bytes": 77221366,
    "boundProject": null
   },
   {
