@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-19T08:43:04.057Z",
+ "scannedAt": "2026-10-19T09:13:04.118Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -63,8 +63,8 @@
    "provider": "codex",
    "sessionId": "01a1511f-9f4c-7410-a6eb-d2e93353fa70",
    "title": "Conversation codex 01a1511f",
-   "updatedAt": "2026-10-18T23:19:33.062Z",
-   "bytes": 9903059,
+   "updatedAt": "2026-10-19T09:02:50.208Z",
+   "bytes": 10198864,
    "boundProject": "zenray-progress"
   },
   {
@@ -392,6 +392,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-19T09:09:10.856Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-19T09:12:00.555Z",
+   "bytes": 89440709,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
    "last": "2026-10-15T13:12:56.448Z",
    "strength": "weak",
@@ -401,22 +417,6 @@
    "title": "Limite de motion design prompt de recherche",
    "updatedAt": "2026-10-15T18:45:10.638Z",
    "bytes": 30695,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-18T23:42:54.000Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T08:42:50.578Z",
-   "bytes": 36937,
    "boundProject": null
   },
   {
