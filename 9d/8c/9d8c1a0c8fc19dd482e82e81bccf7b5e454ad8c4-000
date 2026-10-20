@@ -6702,3 +6702,66 @@
 > 2. Liste des bindings : une ligne par **projet**, ou une ligne par **conversation** liée à un projet ? (20 October 2026, 12:46:32 +0200)
 >
 > Dis « go » ou corrige, et j'exécute. (20 October 2026, 12:46:32 +0200)
+
+## 20 October 2026, 13:22:37 +0200 : Prompt
+
+<!-- feedback-event:48625050996273e5c6a1e273bebd755dcc61a35238c7c63dd7deb9731f3d581d (20 October 2026, 13:22:37 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 13:22:37 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:22:37 +0200)
+
+> TU AS CODÉ BINDINGS ? LIST. ? (20 October 2026, 13:22:37 +0200)
+
+## 20 October 2026, 13:22:37 +0200 : Iteration
+
+<!-- feedback-event:65b53cd341005c7e3849077cc1a9d2e31716652dc4bedba65e57e76731a8f161 (20 October 2026, 13:22:37 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 13:22:37 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:22:37 +0200)
+
+> Non, rien n'est codé. Dans ta demande, « go » portait sur la vue bindings. J'ai pourtant tout mis en attente, et c'est mon erreur. Je la code maintenant. (20 October 2026, 13:22:37 +0200)
+
+## 20 October 2026, 13:24:03 +0200 : Iteration
+
+<!-- feedback-event:d948a6e2ffb26b703f9b97c2d001b50a46201dfe80743b37bff56687ab3d15f1 (20 October 2026, 13:24:03 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 13:24:03 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:24:03 +0200)
+
+> Non, je n'avais pas codé la vue bindings. C'est fait maintenant, mais **pas encore en ligne**. (20 October 2026, 13:24:03 +0200)
+>
+> Dans ZenRay Assets, une pastille **Liens projets** s'ajoute à côté de Projets, Conversations et Sans miniature. Elle ouvre une liste, une ligne par projet qui a des conversations liées. Chaque ligne montre : (20 October 2026, 13:24:03 +0200)
+> - le nom du projet, cliquable pour l'ouvrir ; (20 October 2026, 13:24:03 +0200)
+> - le nombre de conversations Claude, Codex et Gemini ; (20 October 2026, 13:24:03 +0200)
+> - la date de la dernière activité. (20 October 2026, 13:24:03 +0200)
+>
+> Un clic sur la ligne la déplie et affiche les conversations, qu'on peut aussi ouvrir. En bas, un récap : « N conversations liées à N projets · N sans projet ». (20 October 2026, 13:24:03 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (20 October 2026, 13:24:03 +0200)
+> |---|---|---| (20 October 2026, 13:24:03 +0200)
+> | Un petit bouton qui montre tous les projets liés, en liste | Oui | Code dans [`assetsBindings.js`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/assetsBindings.js) et [`AssetsTube.jsx`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsTube.jsx). 60 tests verts dont 5 nouveaux, et `vite build` passe. | (20 October 2026, 13:24:03 +0200)
+> | Le voir sur le site | Pas encore | Je n'ai pas déployé. Je n'ai pas non plus ouvert la page dans un navigateur. | (20 October 2026, 13:24:03 +0200)
+> | Source LinkedIn dans Freelance | En attente | C'est la seule chose qui devait attendre ton accord. | (20 October 2026, 13:24:03 +0200)
+>
+> Pour le déploiement, tu me dis « déploie » ? Pour LinkedIn, la version « tu colles l'annonce » te va ? (20 October 2026, 13:24:03 +0200)
+
+## 20 October 2026, 13:26:06 +0200 : Prompt
+
+<!-- feedback-event:d0082e4d63b88e2cce632f2b2f326897d47c030b622a4f4e108ccc3e02cef1dd (20 October 2026, 13:26:06 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 13:26:06 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:26:06 +0200)
+
+> DÉPLOIE (20 October 2026, 13:26:06 +0200)
+
+## 20 October 2026, 13:26:44 +0200 : Iteration
+
+<!-- feedback-event:4005ca8a409f8a7248e3bd0d0d45c177c9c87589df0b607f54de61b87ba296bc (20 October 2026, 13:26:44 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 13:26:44 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:26:44 +0200)
+
+> Je laisse tourner les tests et le build dans le clone propre, puis je reprends. (20 October 2026, 13:26:44 +0200)
+
+## 20 October 2026, 13:27:04 +0200 : Iteration
+
+<!-- feedback-event:17cc4a70488cff5009fbb1ba09d25530de07b38ba2c03830f024d8666d5d3023 (20 October 2026, 13:27:04 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 13:27:04 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:27:04 +0200)
+
+> Le commit, le push et le déploiement sont lancés. J'attends la fin pour vérifier le bundle servi. (20 October 2026, 13:27:04 +0200)
