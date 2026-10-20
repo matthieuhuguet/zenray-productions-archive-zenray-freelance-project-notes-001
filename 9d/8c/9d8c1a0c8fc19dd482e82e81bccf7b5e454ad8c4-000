@@ -6523,3 +6523,136 @@
 - Project: zenray-freelance; kind: rule. (16 October 2026, 15:02:51 +0200)
 
 > 16 October 2026 : la boucle de candidature s'appelle « ZenRay Apply » ; commande unique node scripts/Freelance/Apply.mjs <N> --open puis Apply.mjs sent apres envoi par Matthieu ; scripts locaux, rien a deployer ; skill zenray-freelance. (16 October 2026, 15:02:51 +0200)
+
+## 20 October 2026, 12:24:49 +0200 : Prompt
+
+<!-- feedback-event:4f37db2e3cac3c5a10830cc02dfe250a5f2f5413787b2fa73a23f306c4cbd6a5 (20 October 2026, 12:24:49 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 12:24:49 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:24:49 +0200)
+
+> zenray freelance prends les derniers texte et essaie de fit avec cette offre que j'ai vu ce matin : 🎮 [Unreal Engine](https://www.linkedin.com/showcase/unreal-engine-for-design-visualization/) wizard wanted! 🕹️We’re preparing an upcoming training session dedicated to video game development, and we’re looking for an experienced Unreal Engine professional to join us from November 16 to December 4, 2026.We’re looking for someone passionate about game development, who enjoys sharing their knowledge and helping students develop their skills.The training will cover topics such as:🎮 Blueprint Visual Scripting and gameplay mechanics🕹️ Game logic, interactive systems and prototyping🌍 Level design and interactive environments⚡ Real-time rendering and optimization 🇬🇧 The ability to teach in English is essential.Do you have solid experience with Unreal Engine and a passion for teaching? Or perhaps you know someone who would be a great fit?We’d love to hear from you! Feel free to get in touch or share this post with your network. Every recommendation helps! 🙌😎 Learn & Teach with us : [https://www.projprod.com/](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Eprojprod%2Ecom%2F&urlhash=JE3-&mt=o_VPjjGnIatU466QQki2v1_0PQ7isVTcvhTntAV_UOwSItyVL3WywYGDfyyqjxaLrgVNWj7C4YFwDsp-FhTvR8J-R0VKnGZhNGcgVd2tDkn8TXujuvmSBLY02w&isSdui=true)[#ProjProd](https://www.linkedin.com/search/results/all/?keywords=%23projprod&origin=HASH_TAG_FROM_FEED) [#UnrealEngine](https://www.linkedin.com/search/results/all/?keywords=%23unrealengine&origin=HASH_TAG_FROM_FEED) [#GameDevelopment](https://www.linkedin.com/search/results/all/?keywords=%23gamedevelopment&origin=HASH_TAG_FROM_FEED) [#Blueprints](https://www.linkedin.com/search/results/all/?keywords=%23blueprints&origin=HASH_TAG_FROM_FEED) [#VideoGames](https://www.linkedin.com/search/results/all/?keywords=%23videogames&origin=HASH_TAG_FROM_FEED) [#Realtime3D](https://www.linkedin.com/search/results/all/?keywords=%23realtime3d&origin=HASH_TAG_FROM_FEED) [#Training](https://www.linkedin.com/search/results/all/?keywords=%23training&origin=HASH_TAG_FROM_FEED) (20 October 2026, 12:24:49 +0200)
+>
+>
+>
+>
+> adapte par rapport à mon texte initial (20 October 2026, 12:24:49 +0200)
+
+## 20 October 2026, 12:25:56 +0200 : Iteration
+
+<!-- feedback-event:8b4da8900a7440c4cd808dfaede7a3244af82f618c90c2150912d9b3d12e91bd (20 October 2026, 12:25:56 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:25:56 +0200)
+
+> Adaptation de la lettre type (SEED_TEMPLATE v4) pour l'offre LinkedIn ProjProd : formateur Unreal Engine du 16 novembre au 4 décembre 2026 (Blueprints, Gameplay, Level Design, Rendering & Optimization, cours en anglais). (20 October 2026, 12:25:56 +0200)
+
+## 20 October 2026, 12:25:56 +0200 : Iteration
+
+<!-- feedback-event:e83929de8ddfe2aaf63ef7115bc2bdaf77e0e304195b55bc4926ebd5d5b741bf (20 October 2026, 12:25:56 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:25:56 +0200)
+- Source: checkpoint:antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012. (20 October 2026, 12:25:56 +0200)
+
+> Lettre ProjProd Unreal Engine Trainer (16 nov - 4 dec 2026) adaptée en EN et FR depuis le texte initial de Matthieu et archivée dans MotivationLetters. (20 October 2026, 12:25:56 +0200)
+
+## 20 October 2026, 12:25:56 +0200 : Iteration
+
+<!-- feedback-event:3da85ff5bf1e9418299ce059dbeaddaa22f077581f19631fcc858c4645036277 (20 October 2026, 12:25:56 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:25:56 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:25:56 +0200)
+
+> Voici ton texte initial (`SEED_TEMPLATE` v4 avec les jeux (20 October 2026, 12:25:56 +0200)
+
+## 20 October 2026, 12:29:03 +0200 : Prompt
+
+<!-- feedback-event:4fdbbe9db2370e00565b750d067dad242fa73d5f3ac00cb02872d9cb70245d9d (20 October 2026, 12:29:03 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 12:29:03 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:29:03 +0200)
+
+> tu peux rajouter une phrase en faisant une web search afin de pas faire de conneries en mode j'ai beaucoup aimé les cours de stéphane brava (ceo de projprod il fait des vidéo youtube). go et je suis ouvert au mission courte. (20 October 2026, 12:29:03 +0200)
+
+## 20 October 2026, 12:29:41 +0200 : Iteration
+
+<!-- feedback-event:a2112c3268e33efbeb8727fe7ab17970248309f435261eb255dfb2f6d63d012b (20 October 2026, 12:29:41 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:29:41 +0200)
+
+> Vérification web : le CEO de ProjProd s'orthographie Stéphane Biava (et non Brava), Unreal Authorized Instructor sur la chaîne YouTube @ProjProd. Phrase d'appréciation et ouverture aux missions courtes ajoutées dans Letter.md. (20 October 2026, 12:29:41 +0200)
+
+## 20 October 2026, 12:29:41 +0200 : Iteration
+
+<!-- feedback-event:cd7dc66c137f2d8a899492db12b2ad4b70941b19f9c030f12d6d98c98dd3abc5 (20 October 2026, 12:29:41 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:29:41 +0200)
+- Source: checkpoint:antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012. (20 October 2026, 12:29:41 +0200)
+
+> Orthographe vérifiée (Stéphane Biava, @ProjProd) et ouverture aux missions courtes ajoutées dans la lettre ProjProd EN et FR. (20 October 2026, 12:29:41 +0200)
+
+## 20 October 2026, 12:29:41 +0200 : Iteration
+
+<!-- feedback-event:72a75bf811986776012eaedc9743f4173025353dad80ad17e333a67bc653ae02 (20 October 2026, 12:29:41 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:29:41 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:29:41 +0200)
+
+> Bien vu d'avoir demandé la vérification : son nom exact est **Stéphane Biava** (et non Brava), fondateur de ProjProd et *Epic Games Unreal Authorized Instructor* sur la chaîne YouTube `@ProjProd`. (20 October 2026, 12:29:41 +0200)
+>
+> Voici les deux versions mises à jour avec la phrase sur Stéphane Biava et ton ouverture aux missions courtes : (20 October 2026, 12:29:41 +0200)
+>
+> *** (20 October 2026, 12:29:41 +0200)
+>
+> ### Version anglaise (20 October 2026, 12:29:41 +0200)
+>
+> **Subject:** Unreal Engine Trainer (Nov 16 to Dec 4, 2026) : Matthieu Huguet, Technical Artist (20 October 2026, 12:29:41 +0200)
+>
+> Hello ProjProd team, (20 October 2026, 12:29:41 +0200)
+>
+> I am writing about your search for an Unreal Engine professional to lead your video game development training (20 October 2026, 12:29:41 +0200)
+
+## 20 October 2026, 12:30:39 +0200 : Prompt
+
+<!-- feedback-event:ccba4ac31438ef306f3873092e4f6620879b888729f894b113a74b952c5ae94c (20 October 2026, 12:30:39 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 12:30:39 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:30:39 +0200)
+
+> education@projprod.com met via  (20 October 2026, 12:30:39 +0200)
+>
+>  une fiche et dit que je l'ai ai contacté go :) update le site notamment c'est via zenray freelance directement pas besoin de coder (20 October 2026, 12:30:39 +0200)
+
+## 20 October 2026, 12:32:00 +0200 : Iteration
+
+<!-- feedback-event:d089e27258845599d805e28d2d34ba40d161e4e0a8d8a22c43899747127e6881 (20 October 2026, 12:32:00 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:32:00 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:32:00 +0200)
+
+> Je vais ajouter la fiche **ProjProd** (`education@projprod.com`, poste *Unreal Engine Trainer (16 Nov - 4 Dec 2026)*, statut `contacted` aujourd'hui `2026-10-20` avec ta lettre archivée) directement dans `freelance/applications.json` et `freelance/letters/projprod (20 October 2026, 12:32:00 +0200)
+
+## 20 October 2026, 12:38:47 +0200 : Prompt
+
+<!-- feedback-event:540031a63f3a14f898daa08dd5a91c26dba3477200c4ffb06a5224f27180bad4 (20 October 2026, 12:38:47 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 12:38:47 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:38:47 +0200)
+
+> go (20 October 2026, 12:38:47 +0200)
+
+## 20 October 2026, 12:40:59 +0200 : Iteration
+
+<!-- feedback-event:c8632cae029efde9e4681d865a936f8f21b87a9dbb7b8629ef94d861f60e40c1 (20 October 2026, 12:40:59 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:40:59 +0200)
+
+> Fiche ProjProd (education@projprod.com, Unreal Engine Trainer 16 Nov - 4 Dec 2026) ajoutée au statut contacted dans freelance/applications.json et freelance/letters/projprod.json sur zenray-data (commit 4868f4aee70c82274a1cd069a0b63eccd0b44ccd). (20 October 2026, 12:40:59 +0200)
+
+## 20 October 2026, 12:40:59 +0200 : Iteration
+
+<!-- feedback-event:3a92fef67de9019916e57de5e9ac7141372c8bf30d59eea4bf7ddb6f05936317 (20 October 2026, 12:40:59 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:40:59 +0200)
+- Source: checkpoint:antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012. (20 October 2026, 12:40:59 +0200)
+
+> Fiche ProjProd (education@projprod.com) publiée au statut Contacté sur zenray-data (commit 4868f4aee70c82274a1cd069a0b63eccd0b44ccd). (20 October 2026, 12:40:59 +0200)
+
+## 20 October 2026, 12:40:59 +0200 : Iteration
+
+<!-- feedback-event:c830b9ae8d72f484e97aeb066126df2b9fbbfe198c7730972e168f6983b06101 (20 October 2026, 12:40:59 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:40:59 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:40:59 +0200)
+
+> C'est en ligne sur la vue Freelance de ZenRayProgress (recharge la page, la fiche **ProjProd** apparaît directement dans la colonne **Contacté**). (20 October 2026, 12:40:59 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (20 October 2026, 12:40:59 +0200)
+> |---|---|---| (20 October 2026, 12:40:59 +0200)
+> | Créer la fiche **ProjProd** (`education@projprod.com`) et la passer au statut **Contacté** aujourd'hui (`2026-10-20`) | Oui | Publiée via [`CloudStore.mjs`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/CloudStore.mjs) dans `freelance/applications.json` et `freelance/letters/projprod.json` sur `zenray-data` (commit `4868f4aee70c82274a1cd069a0b63eccd0b44ccd`). | (20 October 2026, 12:40:59 +0200)
+> | Conserver le message envoyé (EN + FR avec Stéphane Biava) dans la fiche et dans Memory | Oui | Message enregistré dans l'historique de la fiche, indexé dans [`/Users/zenray/.claude/Memory1/MotivationLetters/index.md`](file:///Users/zenray/.claude/Memory1/MotivationLetters/index.md) et [`/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Project1.md`](file:///Users/zenray/.claude/Memory1/Projects/zenray-freelance/Project1.md). | (20 October 2026, 12:40:59 +0200)

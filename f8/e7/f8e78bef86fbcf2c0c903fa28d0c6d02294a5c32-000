@@ -52,3 +52,7 @@
 
 - 16 October 2026 : nom « ZenRay Apply ». Commande unique `node scripts/Freelance/Apply.mjs 20 --open` dans le dépôt ZenRayProgress, puis `Apply.mjs sent` après l'envoi par Matthieu. Scripts locaux commités (d3f8282c, b247f6cb, 3c878b9b), non poussés, non déployés (rien à déployer : ils tournent sur le Mac). Skill : `zenray-freelance`. Doc : `ZenRayProgress/docs/FREELANCE-ENGINE.md`, section du 16 October 2026. (16 October 2026)
 - 16 October 2026 : bouton « Préparer N candidatures » ajouté à la page Freelance et déployé (commit « Préparer N candidatures », origin/main à jour). Le service local doit tourner. Tout est consigné dans le skill `zenray-freelance`. (16 October 2026)
+
+## 20 October 2026 : Fiche ProjProd ajoutée et marquée Contacté
+
+- 20 October 2026 : Fiche `projprod` (`ProjProd`, *Unreal Engine Trainer (16 Nov - 4 Dec 2026)*, contact `education@projprod.com`, Stéphane Biava) ajoutée au statut `contacted` (`2026-10-20`) dans `freelance/applications.json` et `freelance/letters/projprod.json` sur `zenray-data` via `CloudStore.mjs` (commit `4868f4aee70c82274a1cd069a0b63eccd0b44ccd`). (20 October 2026)

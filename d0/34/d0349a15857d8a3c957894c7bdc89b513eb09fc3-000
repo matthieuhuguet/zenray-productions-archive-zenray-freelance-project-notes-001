@@ -1,0 +1,103 @@
+# Resume zenray-freelance (20 October 2026 at 12:25)
+
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (20 October 2026 at 12:25)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Rules.md) (6 rules). (20 October 2026 at 12:25)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/FEEDBACK.md), 186 entries, last Prompt at 20 October 2026, 12:24:49 +0200. (20 October 2026 at 12:25)
+
+## Latest conversations (20 October 2026 at 12:25)
+
+- LATEST antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, last activity 20 October 2026 at 12:24 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (20 October 2026 at 12:25)
+- claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653, « ZENRAY FREELANCE », last activity 12 October 2026 at 12:50 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653 --out <file.md>`. (20 October 2026 at 12:25)
+- gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, « Conversation Gemini f3054ac7 », last activity 9 October 2026 at 01:46 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (20 October 2026 at 12:25)
+
+## Last 6 prompts of Matthieu, oldest first (20 October 2026 at 12:25)
+
+### 9 October 2026, 01:46:36 +0200 · Prompt · antigravity:f3054ac7
+
+> ADAPTE UNE NOUVELLE LETTRE Game / Level Designer - Projet Platformer 3D
+> 113 candidates • Permanent contractLa Rochelle (17)
+> Position Duties
+> Chez AARISE, nous avons fait le choix d'une structure humaine et horizontale, où chaque voix compte et participe activement aux décisions quotidiennes. Forts de notre expertise sur Unreal Engine 5, nous lançons la production d'un tout nouveau projet ambitieux : un Platformer 3D type Collectathon.
+> 
+> Nous recherchons notre futur·e Game Designer avec un fort profil Level Design pour s'installer avec nous à La Rochelle et co-créer les fondations de ce nouveau projet.
+> 
+> Vos Missions
+> 
+> En collaboration directe avec l'équipe de développement et le pôle artistique,
+> [... 3299 more characters in FEEDBACK.md]
+
+### 12 October 2026, 10:53:19 +0200 · Prompt · claude:5eff1aab
+
+> Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (houdini) ou d'une texture substance designer 3D, tu dois inclure lorsque possible des paramètres procéduraux qui permettent de modifier directement ton résultat avec une interface claire et la volonté de faire modifier les paramètres par moi-même sans back and forth. Cette priorité passe en priorité zéro. C'est la première ligne de pour /claude-md-global
+
+### 12 October 2026, 10:53:21 +0200 · Prompt · claude:5eff1aab
+
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global
+> 
+> # La doctrine globale : la porte, pas le fichier
+> 
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste
+> 
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne
+> porte plus que les concepts.
+> 
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais**
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauve
+> [... 20318 more characters in FEEDBACK.md]
+
+### 12 October 2026, 11:19:47 +0200 · Prompt · claude:5eff1aab
+
+> je trouve qu'il manque des nuances par rapport au texte initial corrige légèrement ou fais le un peu plus long = Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (houdini) ou d'une texture substance designer 3D, tu dois inclure lorsque possible des paramètres procéduraux qui permettent de modifier directement ton résultat avec une interface claire et la volonté de faire modifier les paramètres par moi-même sans back and forth. Cette priorité passe en priorité zéro. C'est la première ligne de pour
+> /claude-md-global
+> 
+> (dans ce que tu as notés)
+
+### 12 October 2026, 12:47:24 +0200 · Prompt · claude:5eff1aab
+
+> Par contre je vois pas l'option pour avoir le texte sur la vue freelance ?
+
+### 20 October 2026, 12:24:49 +0200 · Prompt · antigravity:f3054ac7
+
+> zenray freelance prends les derniers texte et essaie de fit avec cette offre que j'ai vu ce matin : 🎮 [Unreal Engine](https://www.linkedin.com/showcase/unreal-engine-for-design-visualization/) wizard wanted! 🕹️We’re preparing an upcoming training session dedicated to video game development, and we’re looking for an experienced Unreal Engine professional to join us from November 16 to December 4, 2026.We’re looking for someone passionate about game development, who enjoys sharing their knowledge and helping students develop their skills.The training will cover topics such as:🎮 Blueprint Visual Scripting and gameplay mechanics🕹️ Game logic, interactive systems and prototyping🌍 Level desig
+> [... 1465 more characters in FEEDBACK.md]
+
+
+## Last 3 iterations or checkpoints (20 October 2026 at 12:25)
+
+### 12 October 2026, 11:20:34 +0200 · Iteration · claude:5eff1aab
+
+> Tu avais raison : ma version condensée perdait des nuances de ton texte. La première ligne de [CLAUDE.md](/Users/zenray/.claude/CLAUDE.md) reprend maintenant tes mots presque tels quels, avec seulement la grammaire et la ponctuation corrigées :
+> 
+> > **PRIORITÉ 0 ABSOLUE, TOUT CE QUE JE CRÉE SE MODIFIE SANS MOI.** Ses mots : « Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (Houdini) ou d'une texture Substance Designer 3D ; tu dois inclure, lorsque possible, des paramètres procéduraux qui permettent de modifier directement ton résultat, avec une interface claire et la volonté de me faire m
+> [... 908 more characters in FEEDBACK.md]
+
+### 12 October 2026, 12:48:11 +0200 · Iteration · claude:5eff1aab
+
+> La carte « Refusé » de la liste n'a aucune action : le mail n'existe que dans la fiche ouverte. J'ajoute un bouton directement sur la carte, dans la liste.
+
+### 12 October 2026, 12:50:46 +0200 · Iteration · claude:5eff1aab
+
+> Tu avais raison : le mail n'existait que dans la fiche ouverte, donc invisible depuis la liste Freelance. C'est corrigé et en ligne.
+> 
+> Recharge la page. Dans la vue Freelance, la section **Refusé** (là où est Voodoo) porte désormais, sous chaque carte :
+> - **Copier le mail** : copie la demande de retour, prête à coller.
+> - **Copier objet + mail**.
+> - **FR / EN** : change la langue avant de copier.
+> - **pas encore envoyé** : devient « envoyé le … » quand tu le marques depuis la fiche.
+> - **Ouvrir la fiche** : pour modifier le texte et le marquer envoyé.
+> 
+> La carte affiche aussi un badge **Refusé · 12 octobre 2026**.
+> 
+> | Ce que tu voulais | Fait ? | Comment je le sais |
+> |---|---|---|
+> | Avoir le texte 
+> [... 582 more characters in FEEDBACK.md]
+
+
+## Last order of work (20 October 2026 at 12:25)
+
+- None recorded. (20 October 2026 at 12:25)
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (20 October 2026 at 12:25)
