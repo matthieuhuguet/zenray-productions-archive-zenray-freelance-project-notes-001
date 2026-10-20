@@ -6656,3 +6656,49 @@
 > |---|---|---| (20 October 2026, 12:40:59 +0200)
 > | Créer la fiche **ProjProd** (`education@projprod.com`) et la passer au statut **Contacté** aujourd'hui (`2026-10-20`) | Oui | Publiée via [`CloudStore.mjs`](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/CloudStore.mjs) dans `freelance/applications.json` et `freelance/letters/projprod.json` sur `zenray-data` (commit `4868f4aee70c82274a1cd069a0b63eccd0b44ccd`). | (20 October 2026, 12:40:59 +0200)
 > | Conserver le message envoyé (EN + FR avec Stéphane Biava) dans la fiche et dans Memory | Oui | Message enregistré dans l'historique de la fiche, indexé dans [`/Users/zenray/.claude/Memory1/MotivationLetters/index.md`](file:///Users/zenray/.claude/Memory1/MotivationLetters/index.md) et [`/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Project1.md`](file:///Users/zenray/.claude/Memory1/Projects/zenray-freelance/Project1.md). | (20 October 2026, 12:40:59 +0200)
+
+## 20 October 2026, 12:46:14 +0200 : Prompt
+
+<!-- feedback-event:5d7638f4ef5b4fbeb5e1530a1c95c74eb34811e3818e8d7971f55029021c90db (20 October 2026, 12:46:14 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 12:46:14 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:46:14 +0200)
+
+> D'ailleurs est ce que dans les sources de freelance tu peux ajouter les annonces de studios linkedin ? ou directement linkedin d'abord via une analyse du code ?  (20 October 2026, 12:46:14 +0200)
+>
+>  rajouter la source à zenray freelance. (20 October 2026, 12:46:14 +0200)
+>
+>
+>
+>
+> + dans progress une vue dans zenray assets de tout les projets via un petit bouton de list bindings : tu vois y'a projets / conversations et bien il faudrait un petit bouttons qui revelent la vue avec la même vue UI mais sous forme de list de tout les projets qui sont bind go ça me permettrait d'y voir plus clair. (20 October 2026, 12:46:14 +0200)
+
+## 20 October 2026, 12:46:32 +0200 : Iteration
+
+<!-- feedback-event:97ded973fdded5a595adf17612742f278e8346a21863c83fefecfa2a8bc83b31 (20 October 2026, 12:46:32 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 12:46:32 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 12:46:32 +0200)
+
+> Analyse du code terminée, **aucune modification faite** (`/wait-validation`). Deux chantiers à valider. (20 October 2026, 12:46:32 +0200)
+>
+> ## 1. Source LinkedIn dans ZenRay Freelance (20 October 2026, 12:46:32 +0200)
+>
+> **État actuel :** LinkedIn n'est pas une source. C'est une section `manualSearches` dans [FreelanceConfig.json](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Freelance/FreelanceConfig.json) : la page construit des liens de recherche LinkedIn et tu les ouvres toi-même. La règle du projet dit « jamais de scraping de LinkedIn ». Les vraies sources (`Ats.mjs`, `Keywords.mjs`, `AFJV`, `GamesIndustry`…) lisent des API ou des pages publiques. (20 October 2026, 12:46:32 +0200)
+>
+> **Pourquoi je n'ajouterais pas un scraper :** LinkedIn interdit le scraping et bloque les comptes qui s'y essaient. Ça touche aussi ta règle « jamais de mur anti-bot contourné ». (20 October 2026, 12:46:32 +0200)
+>
+> **Ce que je propose à la place (sans scraping) :** (20 October 2026, 12:46:32 +0200)
+> - **Collage d'une annonce** : tu colles le texte d'un post ou d'une offre LinkedIn, et le moteur crée la fiche (studio, poste, lien, score, lettre). C'est ce qu'on vient de faire à la main pour ProjProd. (20 October 2026, 12:46:32 +0200)
+> - Une commande `Add.mjs --from linkedin` basée sur `CloudStore` et `buildOffer`. Elle crée une fiche `engine.source = 'linkedin'`, qui sera dédupliquée avec les autres sources. (20 October 2026, 12:46:32 +0200)
+> - Les liens de recherche existants restent tels quels. (20 October 2026, 12:46:32 +0200)
+>
+> ## 2. Vue « list bindings » dans ZenRay Assets (20 October 2026, 12:46:32 +0200)
+>
+> Sur ta capture, les onglets sont **Projets 41 / Conversations 661 / Sans miniature 9**. Je vois dans [AssetsWorkspaceView.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsWorkspaceView.jsx) que les conversations et le pont `bridge.request` sont déjà là. (20 October 2026, 12:46:32 +0200)
+>
+> **Proposition :** un petit bouton à côté de ces onglets. Il ouvre une vue en liste (même style que l'UI actuelle) avec une ligne par projet lié : nom, conversations liées (Claude/Codex/Gemini/Antigravity), dernière activité, et le contenu de `SessionBindings.json`. Le contenu vient du pont existant, sans nouveau service. Tests vitest + build, et déploiement seulement si tu le demandes. (20 October 2026, 12:46:32 +0200)
+>
+> Deux questions avant de coder : (20 October 2026, 12:46:32 +0200)
+> 1. LinkedIn : le **collage d'annonce** te convient ? (20 October 2026, 12:46:32 +0200)
+> 2. Liste des bindings : une ligne par **projet**, ou une ligne par **conversation** liée à un projet ? (20 October 2026, 12:46:32 +0200)
+>
+> Dis « go » ou corrige, et j'exécute. (20 October 2026, 12:46:32 +0200)
