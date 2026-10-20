@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-20T13:00:37.012Z",
+ "scannedAt": "2026-10-20T13:12:38.599Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -15,8 +15,8 @@
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-20T12:13:59.649485+00:00",
-   "bytes": 8822784,
+   "updatedAt": "2026-10-20T13:08:25.844104+00:00",
+   "bytes": 14595072,
    "boundProject": "zenray-freelance"
   },
   {
@@ -50,6 +50,22 @@
    "updatedAt": "2026-10-07T09:05:28.740Z",
    "bytes": 23255,
    "boundProject": "zenray-freelance"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 6,
+   "work": 1,
+   "prompts": 2,
+   "first": "2026-10-20T11:49:30.168Z",
+   "last": "2026-10-20T13:10:45.525Z",
+   "strength": "strong",
+   "conversationId": "codex:01a15924-aa22-7300-9533-52fc3fd3f30f",
+   "provider": "codex",
+   "sessionId": "01a15924-aa22-7300-9533-52fc3fd3f30f",
+   "title": "Conversation codex 01a15924",
+   "updatedAt": "2026-10-20T13:12:36.462Z",
+   "bytes": 28601254,
+   "boundProject": "uv-match-height-20-october-2026"
   },
   {
    "projectId": "zenray-freelance",
@@ -149,22 +165,6 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 2,
-   "first": "2026-10-20T11:49:30.168Z",
-   "last": "2026-10-20T12:03:02.292Z",
-   "strength": "strong",
-   "conversationId": "codex:01a15924-aa22-7300-9533-52fc3fd3f30f",
-   "provider": "codex",
-   "sessionId": "01a15924-aa22-7300-9533-52fc3fd3f30f",
-   "title": "Conversation codex 01a15924",
-   "updatedAt": "2026-10-20T13:00:23.660Z",
-   "bytes": 15748268,
-   "boundProject": "uv-match-height-20-october-2026"
-  },
-  {
-   "projectId": "zenray-freelance",
    "lines": 40,
    "work": 0,
    "prompts": 0,
@@ -197,18 +197,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 27,
+   "lines": 28,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-20T12:25:36.732Z",
+   "last": "2026-10-20T13:04:51.907Z",
    "strength": "weak",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T13:00:14.846Z",
-   "bytes": 250856807,
+   "updatedAt": "2026-10-20T13:12:37.723Z",
+   "bytes": 254210356,
    "boundProject": null
   },
   {
