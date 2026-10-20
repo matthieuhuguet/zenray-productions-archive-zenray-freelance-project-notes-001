@@ -6765,3 +6765,35 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:27:04 +0200)
 
 > Le commit, le push et le déploiement sont lancés. J'attends la fin pour vérifier le bundle servi. (20 October 2026, 13:27:04 +0200)
+
+## 20 October 2026, 13:56:41 +0200 : Prompt
+
+<!-- feedback-event:85023beee906e857d52b64a7a2172dfd9cd36d723fdb7a0513376d734c3634d4 (20 October 2026, 13:56:41 +0200) -->
+- Project: zenray-freelance; kind: prompt. (20 October 2026, 13:56:41 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 13:56:41 +0200)
+
+> C'est la vue Plan j'avais un worker cloudflare cloud qui tournait pour mon plan / plan était rélié à google agenda via l'API mais j'ai atteint ma limite donc j'aimerai si possible que tu me le remettent directement en local sur mon mac le code doit toujours exister il faut juste le trouver et le rendre en mode on et désactiver le worker cloud pour éviter les conflits  (20 October 2026, 13:56:41 +0200)
+>
+>
+>
+>
+> chaque plan du coup doit m'envoyer sur mon google agenda tout ce qui est noté sur Plan bref le code existe déjà (vice versa une task est noté  (20 October 2026, 13:56:41 +0200)
+>
+>
+>
+>
+> Par contre il faut améliorer le design de Plan dans le sens ou une tâche qui se stack doit en général prendre 90 min ou 15x4 min mais j'ai un problème dans le design je peux pas choisir l'heure et l'enregistrer et puisque tout start à 9h alors tout se stack. : donc ce qu'il faut faire dans plan c'est si y'a déjà une tâche tu l'adaptes dans le slot de 90 min suivant et tu me permet de modifier les choses.  (20 October 2026, 13:56:41 +0200)
+>
+>
+>
+>
+> vérifier le liens google agenda / plan et vice versa fonctionne dans les deux sens ... sans un cout cpu qui doit être ultra marginal et optimisé et benchmarké avant de rendre ton rendu  (20 October 2026, 13:56:41 +0200)
+>
+>   (20 October 2026, 13:56:41 +0200)
+>
+>   (20 October 2026, 13:56:41 +0200)
+>
+>
+>
+>
+> puis déploie fais tout proprement (20 October 2026, 13:56:41 +0200)
