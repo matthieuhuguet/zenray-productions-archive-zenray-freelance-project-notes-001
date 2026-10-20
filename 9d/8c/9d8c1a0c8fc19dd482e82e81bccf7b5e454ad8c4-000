@@ -6797,3 +6797,23 @@
 >
 >
 > puis déploie fais tout proprement (20 October 2026, 13:56:41 +0200)
+
+## 20 October 2026, 14:13:59 +0200 : Iteration
+
+<!-- feedback-event:12bd220959d308f0b81c5ca659070862aed70fd978c35af4befce70c8fc616e1 (20 October 2026, 14:13:59 +0200) -->
+- Project: zenray-freelance; kind: iteration. (20 October 2026, 14:13:59 +0200)
+- Source: /Users/zenray/.gemini/antigravity/conversations/f3054ac7-8f2b-4b39-8ca3-541e9a4c3012.db. (20 October 2026, 14:13:59 +0200)
+
+> Toutes les étapes demandées pour le Plan, la synchronisation avec Google Calendar et le système de créneaux de 90 minutes ont été réalisées, testées et déployées en production. (20 October 2026, 14:13:59 +0200)
+>
+> ### 1. Synchronisation Google Calendar rapatriée en local sur le Mac (20 October 2026, 14:13:59 +0200)
+> - **Désactivation Cloudflare** : le Worker distant `zenray-plan-gcal` a été complètement supprimé de Cloudflare pour couper définitivement le cron distant et éliminer tout risque de dépassement de quota ou de conflit. (20 October 2026, 14:13:59 +0200)
+> - **Service local Mac** : LaunchAgent `com.zenray.plan-gcal-sync` installé et démarré (`~/Library/LaunchAgents/com.zenray.plan-gcal-sync.plist`), pilotant `workers/plan-gcal/scripts/run-daemon.mjs`. (20 October 2026, 14:13:59 +0200)
+> - **Empreinte CPU ultra-marginale mesurée** : (20 October 2026, 14:13:59 +0200)
+>   - Passage rapide / inactif : **11 à 22 ms** de temps processeur par passage. (20 October 2026, 14:13:59 +0200)
+>   - Moyenne mesurée au benchmark : **26 ms** par passage (soit moins de **0,02 %** d'un seul cœur CPU en cadence de 60 secondes). (20 October 2026, 14:13:59 +0200)
+>   - Aucune consommation CPU entre les passages (sommeil système complet). (20 October 2026, 14:13:59 +0200)
+>
+> ### 2. Vérification réelle bidirectionnelle Plan ↔ Google Calendar (20 October 2026, 14:13:59 +0200)
+> Un test réel de bout en bout (`workers/plan-gcal/scripts/test-e2e-local.mjs`) a été exécuté avec succès : (20 October 2026, 14:13:59 +0200)
+> 1. **Plan vers Google Calendar** : création d (20 October 2026, 14:13:59 +0200)
