@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-21T10:28:59.648Z",
+ "scannedAt": "2026-10-21T10:29:56.706Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -367,8 +367,8 @@
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T10:28:56.128Z",
-   "bytes": 32012314,
+   "updatedAt": "2026-10-21T10:29:56.272Z",
+   "bytes": 32194854,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
