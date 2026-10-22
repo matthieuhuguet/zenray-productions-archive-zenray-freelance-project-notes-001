@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-22T11:01:41.646Z",
+ "scannedAt": "2026-10-22T11:10:42.268Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -191,8 +191,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-22T11:01:05.500Z",
-   "bytes": 376614880,
+   "updatedAt": "2026-10-22T11:10:37.651Z",
+   "bytes": 377438966,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -424,6 +424,22 @@
    "lines": 5,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-22T10:36:25.328Z",
+   "last": "2026-10-22T11:06:06.575Z",
+   "strength": "weak",
+   "conversationId": "claude:c599a27c-4ba9-4fbc-b29f-9cf95d1bbcb6",
+   "provider": "claude",
+   "sessionId": "c599a27c-4ba9-4fbc-b29f-9cf95d1bbcb6",
+   "title": "Iphone Photos",
+   "updatedAt": "2026-10-22T11:10:41.767Z",
+   "bytes": 3357319,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T00:43:49.456Z",
    "last": "2026-10-12T10:19:36.916Z",
    "strength": "weak",
@@ -433,22 +449,6 @@
    "title": "Motion Design GLSL (fork) Sonnet 5.5 Après Modules",
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-22T10:36:25.328Z",
-   "last": "2026-10-22T10:38:52.008Z",
-   "strength": "weak",
-   "conversationId": "claude:c599a27c-4ba9-4fbc-b29f-9cf95d1bbcb6",
-   "provider": "claude",
-   "sessionId": "c599a27c-4ba9-4fbc-b29f-9cf95d1bbcb6",
-   "title": "Iphone Photos",
-   "updatedAt": "2026-10-22T10:58:46.037Z",
-   "bytes": 38215,
    "boundProject": null
   },
   {
