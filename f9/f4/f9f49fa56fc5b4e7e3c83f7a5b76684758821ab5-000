@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T16:00:04.078Z",
+ "scannedAt": "2026-10-23T17:35:33.189Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -207,8 +207,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-23T15:59:40.957Z",
-   "bytes": 22404,
+   "updatedAt": "2026-10-23T17:34:08.906Z",
+   "bytes": 457302584,
    "boundProject": null
   },
   {
@@ -360,6 +360,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T15:13:39.496Z",
+   "last": "2026-10-23T17:33:24.058Z",
+   "strength": "weak",
+   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "provider": "claude",
+   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "title": "zenray plan calendar",
+   "updatedAt": "2026-10-23T17:35:20.420Z",
+   "bytes": 13705963,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
    "last": "2026-10-15T13:12:56.448Z",
    "strength": "weak",
@@ -399,8 +415,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray sales",
-   "updatedAt": "2026-10-23T15:59:42.290Z",
-   "bytes": 39055,
+   "updatedAt": "2026-10-23T17:19:53.218Z",
+   "bytes": 39801,
    "boundProject": "zenray-plan"
   },
   {
@@ -447,24 +463,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T15:50:05.341Z",
-   "bytes": 38276,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 3,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T15:13:39.496Z",
-   "last": "2026-10-23T15:45:24.690Z",
-   "strength": "weak",
-   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
-   "provider": "claude",
-   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
-   "title": "zenray plan calendar",
-   "updatedAt": "2026-10-23T15:45:56.125Z",
-   "bytes": 38452,
+   "updatedAt": "2026-10-23T17:06:04.804Z",
+   "bytes": 38269,
    "boundProject": null
   },
   {
@@ -497,6 +497,22 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T16:50:10.711Z",
+   "last": "2026-10-23T16:50:10.711Z",
+   "strength": "weak",
+   "conversationId": "claude:c17a2353-0521-4a5e-915b-c4946edfec1f",
+   "provider": "claude",
+   "sessionId": "c17a2353-0521-4a5e-915b-c4946edfec1f",
+   "title": "Sales1 : statut, URSSAF, impôts, Japon",
+   "updatedAt": "2026-10-23T17:19:41.964Z",
+   "bytes": 41590,
    "boundProject": null
   },
   {
