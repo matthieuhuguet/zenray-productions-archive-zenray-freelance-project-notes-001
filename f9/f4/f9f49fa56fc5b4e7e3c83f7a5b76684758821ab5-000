@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T14:40:30.611Z",
+ "scannedAt": "2026-10-23T14:47:30.557Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -424,6 +424,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T12:18:13.325Z",
+   "last": "2026-10-23T14:46:34.160Z",
+   "strength": "weak",
+   "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
+   "provider": "claude",
+   "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
+   "title": "zenray meeting",
+   "updatedAt": "2026-10-23T14:47:26.096Z",
+   "bytes": 38421,
+   "boundProject": "zenray-plan"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T11:00:00.778Z",
    "last": "2026-10-23T12:21:30.205Z",
    "strength": "weak",
@@ -466,22 +482,6 @@
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T12:18:13.325Z",
-   "last": "2026-10-23T12:18:13.325Z",
-   "strength": "weak",
-   "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
-   "provider": "claude",
-   "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
-   "title": "zenray meeting",
-   "updatedAt": "2026-10-23T14:40:27.947Z",
-   "bytes": 38476,
-   "boundProject": "zenray-plan"
   },
   {
    "projectId": "zenray-freelance",
