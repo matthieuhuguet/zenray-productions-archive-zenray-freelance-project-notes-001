@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T17:35:33.189Z",
+ "scannedAt": "2026-10-23T19:22:28.478Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -184,6 +184,22 @@
    "lines": 25,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-14T11:34:59.327Z",
+   "last": "2026-10-23T18:24:36.427Z",
+   "strength": "weak",
+   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "provider": "claude",
+   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
+   "title": "zenray motion design",
+   "updatedAt": "2026-10-23T19:21:37.994Z",
+   "bytes": 22405,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 25,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-11T14:09:59.235Z",
    "last": "2026-10-11T23:10:26.021Z",
    "strength": "weak",
@@ -194,22 +210,6 @@
    "updatedAt": "2026-10-12T04:52:19.855Z",
    "bytes": 21122,
    "boundProject": "zenray-height"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 19,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-23T15:16:27.938Z",
-   "strength": "weak",
-   "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "provider": "claude",
-   "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "zenray motion design",
-   "updatedAt": "2026-10-23T17:34:08.906Z",
-   "bytes": 457302584,
-   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -367,8 +367,8 @@
    "provider": "claude",
    "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
    "title": "zenray plan calendar",
-   "updatedAt": "2026-10-23T17:35:20.420Z",
-   "bytes": 13705963,
+   "updatedAt": "2026-10-23T17:39:34.036Z",
+   "bytes": 38449,
    "boundProject": null
   },
   {
@@ -415,9 +415,25 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray sales",
-   "updatedAt": "2026-10-23T17:19:53.218Z",
-   "bytes": 39801,
+   "updatedAt": "2026-10-23T19:08:40.874Z",
+   "bytes": 40322,
    "boundProject": "zenray-plan"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 4,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T12:18:13.325Z",
+   "last": "2026-10-23T14:58:32.140Z",
+   "strength": "weak",
+   "conversationId": "claude:084dbdd0-d209-42a2-a43c-58c433808206",
+   "provider": "claude",
+   "sessionId": "084dbdd0-d209-42a2-a43c-58c433808206",
+   "title": "zenray sales",
+   "updatedAt": "2026-10-23T17:36:59.572Z",
+   "bytes": 38354,
+   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -463,9 +479,9 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T17:06:04.804Z",
-   "bytes": 38269,
-   "boundProject": null
+   "updatedAt": "2026-10-23T19:13:34.107Z",
+   "bytes": 38265,
+   "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
    "projectId": "zenray-freelance",
@@ -504,6 +520,22 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T17:48:27.060Z",
+   "last": "2026-10-23T17:48:27.060Z",
+   "strength": "weak",
+   "conversationId": "claude:d49f025f-07cd-4056-947d-c1294c570e01",
+   "provider": "claude",
+   "sessionId": "d49f025f-07cd-4056-947d-c1294c570e01",
+   "title": "Assets : capture bloquée par U+2028 dans un transcript",
+   "updatedAt": "2026-10-23T18:04:43.904Z",
+   "bytes": 41814,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T16:50:10.711Z",
    "last": "2026-10-23T16:50:10.711Z",
    "strength": "weak",
@@ -513,7 +545,7 @@
    "title": "Sales1 : statut, URSSAF, impôts, Japon",
    "updatedAt": "2026-10-23T17:19:41.964Z",
    "bytes": 41590,
-   "boundProject": null
+   "boundProject": "zenray-sales-23-october-2026"
   },
   {
    "projectId": "zenray-freelance",
@@ -529,7 +561,7 @@
    "title": "Deep research zenray-sales : enrichir Sales1.md",
    "updatedAt": "2026-10-23T15:59:21.783Z",
    "bytes": 41401,
-   "boundProject": null
+   "boundProject": "zenray-sales-23-october-2026"
   },
   {
    "projectId": "zenray-freelance",
