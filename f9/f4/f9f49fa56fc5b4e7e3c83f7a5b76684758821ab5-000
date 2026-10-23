@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T15:05:30.803Z",
+ "scannedAt": "2026-10-23T15:35:03.731Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -197,18 +197,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 16,
+   "lines": 19,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
-   "last": "2026-10-21T17:09:07.625Z",
+   "last": "2026-10-23T15:16:27.938Z",
    "strength": "weak",
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-22T22:09:46.176Z",
-   "bytes": 22379,
+   "updatedAt": "2026-10-23T15:34:50.112Z",
+   "bytes": 441580814,
    "boundProject": null
   },
   {
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T15:05:10.313Z",
-   "bytes": 38390,
+   "updatedAt": "2026-10-23T15:32:55.926Z",
+   "bytes": 38346,
    "boundProject": "zenray-plan"
   },
   {
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T12:37:24.607Z",
-   "bytes": 38493,
+   "updatedAt": "2026-10-23T15:34:38.475Z",
+   "bytes": 28016237,
    "boundProject": null
   },
   {
@@ -481,6 +481,38 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T15:28:42.729Z",
+   "last": "2026-10-23T15:28:42.729Z",
+   "strength": "weak",
+   "conversationId": "claude:21bf5c30-b775-4f4b-a369-b58c562c84b7",
+   "provider": "claude",
+   "sessionId": "21bf5c30-b775-4f4b-a369-b58c562c84b7",
+   "title": "Deep research zenray-sales : enrichir Sales1.md",
+   "updatedAt": "2026-10-23T15:34:54.061Z",
+   "bytes": 2983491,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T15:13:39.496Z",
+   "last": "2026-10-23T15:13:39.496Z",
+   "strength": "weak",
+   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "provider": "claude",
+   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "title": "zenray plan calendar",
+   "updatedAt": "2026-10-23T15:34:37.127Z",
+   "bytes": 4724783,
    "boundProject": null
   },
   {
