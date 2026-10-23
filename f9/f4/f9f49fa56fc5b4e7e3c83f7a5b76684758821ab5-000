@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T21:29:28.696Z",
+ "scannedAt": "2026-10-23T21:33:28.691Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -328,6 +328,22 @@
    "lines": 7,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T11:00:00.778Z",
+   "last": "2026-10-23T21:32:46.770Z",
+   "strength": "weak",
+   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
+   "provider": "claude",
+   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
+   "title": "zenray knowledge",
+   "updatedAt": "2026-10-23T21:32:57.540Z",
+   "bytes": 38272,
+   "boundProject": "zenray-knowledge-23-october-2026"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 7,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-22T10:36:25.328Z",
    "last": "2026-10-22T17:55:52.346Z",
    "strength": "weak",
@@ -386,22 +402,6 @@
    "updatedAt": "2026-10-15T18:45:10.638Z",
    "bytes": 30696,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T11:00:00.778Z",
-   "last": "2026-10-23T21:10:43.512Z",
-   "strength": "weak",
-   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
-   "provider": "claude",
-   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
-   "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T21:29:23.803Z",
-   "bytes": 34476056,
-   "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
    "projectId": "zenray-freelance",
