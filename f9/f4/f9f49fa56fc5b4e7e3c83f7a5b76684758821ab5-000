@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-23T23:49:32.558Z",
+ "scannedAt": "2026-10-24T12:13:34.830Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
+   "title": "Conversation Gemini f3054ac7",
+   "updatedAt": "2026-10-20T13:13:15.692Z",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -376,6 +376,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-23T20:51:55.558Z",
+   "last": "2026-10-24T12:12:06.179Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-24T12:12:38.523Z",
+   "bytes": 38215,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T15:13:39.496Z",
    "last": "2026-10-23T17:33:24.058Z",
    "strength": "weak",
@@ -418,22 +434,6 @@
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T20:51:55.558Z",
-   "last": "2026-10-23T21:14:30.809Z",
-   "strength": "weak",
-   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "provider": "claude",
-   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
-   "title": "zenray calendar plan",
-   "updatedAt": "2026-10-23T22:47:04.509Z",
-   "bytes": 38373,
-   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-freelance",
