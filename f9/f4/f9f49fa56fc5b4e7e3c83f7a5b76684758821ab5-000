@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-25T11:37:25.195Z",
+ "scannedAt": "2026-10-25T14:08:54.816Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -536,6 +536,22 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-25T13:40:53.907Z",
+   "last": "2026-10-25T13:40:53.907Z",
+   "strength": "weak",
+   "conversationId": "claude:49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "provider": "claude",
+   "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "title": "zenray argent",
+   "updatedAt": "2026-10-25T14:04:12.731Z",
+   "bytes": 38366,
+   "boundProject": "qlmarkdown-designs-25-october-2026"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T11:28:08.321Z",
    "last": "2026-10-25T11:28:08.321Z",
    "strength": "weak",
@@ -543,8 +559,8 @@
    "provider": "claude",
    "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
    "title": "Chicorée avantages/inconvénients et citation lion",
-   "updatedAt": "2026-10-25T11:37:02.065Z",
-   "bytes": 38327,
+   "updatedAt": "2026-10-25T13:56:04.497Z",
+   "bytes": 38383,
    "boundProject": null
   },
   {
