@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-25T14:56:37.140Z",
+ "scannedAt": "2026-10-25T15:12:26.216Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -543,8 +543,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T14:48:39.792Z",
-   "bytes": 37898,
+   "updatedAt": "2026-10-25T15:02:50.654Z",
+   "bytes": 4732937,
    "boundProject": "zenray-meshes"
   },
   {
@@ -559,8 +559,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T14:47:29.524Z",
-   "bytes": 6198441,
+   "updatedAt": "2026-10-25T15:02:18.422Z",
+   "bytes": 6453265,
    "boundProject": null
   },
   {
