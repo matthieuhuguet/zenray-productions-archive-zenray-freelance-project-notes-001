@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-25T16:03:44.605Z",
+ "scannedAt": "2026-10-25T16:23:49.010Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -447,8 +447,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T16:03:34.943Z",
-   "bytes": 5698131,
+   "updatedAt": "2026-10-25T16:22:42.177Z",
+   "bytes": 37893,
    "boundProject": "zenray-meshes"
   },
   {
@@ -527,8 +527,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T16:03:43.052Z",
-   "bytes": 8038242,
+   "updatedAt": "2026-10-25T16:23:32.434Z",
+   "bytes": 8752048,
    "boundProject": null
   },
   {
@@ -561,6 +561,38 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T16:05:21.061Z",
+   "last": "2026-10-25T16:05:21.061Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-25T16:23:47.271Z",
+   "bytes": 2819557,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T16:10:14.040Z",
+   "last": "2026-10-25T16:10:14.040Z",
+   "strength": "weak",
+   "conversationId": "claude:d55fb432-deed-4cea-b23f-17e27998f613",
+   "provider": "claude",
+   "sessionId": "d55fb432-deed-4cea-b23f-17e27998f613",
+   "title": "reply ok",
+   "updatedAt": "2026-10-25T16:10:18.638Z",
+   "bytes": 1376754,
    "boundProject": null
   },
   {
