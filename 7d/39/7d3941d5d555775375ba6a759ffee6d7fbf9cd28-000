@@ -1,0 +1,85 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Freelance GT Standard</title>
+<!-- 26 October 2026: three proposals of the ZenRay Freelance "Lot du jour" in GT Standard (Grilli Type).
+     Titles GT Standard, every interface text and every number GT Standard L, body (studio names, roles) Literata. One template, three token sets. -->
+<style>
+@font-face{font-family:'GT Standard L';src:url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Standard-L-Regular.woff2') format('woff2');font-weight:400;font-style:normal}
+@font-face{font-family:'GT Standard L';src:url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Standard-L-Bold.woff2') format('woff2');font-weight:700;font-style:normal}
+@font-face{font-family:'Literata';src:url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2') format('woff2');font-weight:200 900;font-style:normal}
+:root{
+ --font-title:'GT Standard L',sans-serif; --font-ui:'GT Standard L',sans-serif; --font-body:'Literata',Georgia,serif;
+ --bg:#f4f1ea; --sheet:#fbf9f4; --card:#fffdf8; --line:#e2ddd1; --rule:#ece7dc; --ink:#22201c; --muted:#6e685d; --hover:#f1ece1;
+ --ready:#1f8a6b; --blocked:#9a958a; --alert:#c2412f;
+ --ui:15px; --radius:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1b1a18;--sheet:#211f1c;--card:#262421;--line:#3a3732;--rule:#302d29;--ink:#ece8df;--muted:#a29c90;--hover:#2d2a26}}
+:root[data-theme=dark]{--bg:#1b1a18;--sheet:#211f1c;--card:#262421;--line:#3a3732;--rule:#302d29;--ink:#ece8df;--muted:#a29c90;--hover:#2d2a26}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--ui)/1.45 var(--font-ui);padding:28px 16px 80px;font-feature-settings:"tnum"}
+.page{max-width:1240px;margin:0 auto}
+.intro h1{font:700 26px/1.2 var(--font-title);margin:0 0 4px;letter-spacing:-.01em}.intro p{color:var(--muted);margin:0 0 6px;max-width:820px}
+.label{font:700 12px var(--font-ui);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:46px 0 10px}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:16px;padding:28px 32px}
+/* the variant tokens */
+.v{--t-weight:700;--t-size:40px;--t-track:-.02em;--t-case:none;--h2-weight:700;--h2-size:22px;--h2-case:none;--h2-track:0;--name-font:var(--font-body);--name-size:17px;--btn-radius:9px;--pill-radius:999px;--list:flex}
+.v.b{--t-weight:400;--t-size:52px;--t-track:-.035em;--h2-weight:400;--h2-size:28px;--btn-radius:999px}
+.v.c{--t-weight:700;--t-size:30px;--t-case:uppercase;--t-track:.04em;--h2-size:13px;--h2-case:uppercase;--h2-track:.1em;--btn-radius:4px;--pill-radius:4px;--list:grid}
+.head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.head h2{font:var(--t-weight) var(--t-size)/1.05 var(--font-title);letter-spacing:var(--t-track);text-transform:var(--t-case);margin:0}
+.muted{color:var(--muted)} .num{font-family:var(--font-ui)}
+.alert{color:var(--alert);border:1px solid color-mix(in srgb,var(--alert) 35%,transparent);background:color-mix(in srgb,var(--alert) 8%,transparent);padding:3px 10px;border-radius:var(--pill-radius);font-size:.92em}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:var(--pill-radius);padding:5px 14px;color:var(--ink);font:inherit}.pill.off{color:var(--muted)}.pill.on{border-color:var(--ink)}
+.btn{font:inherit;border-radius:var(--btn-radius);padding:9px 16px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}.btn.dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip{font-size:.9em;border:1px solid var(--line);border-radius:var(--pill-radius);padding:3px 10px}.chip b{color:var(--ready);font-weight:400}
+.spacer{flex:1}
+.panel{margin-top:22px;border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px 24px}
+.panel h3{font:var(--h2-weight) var(--h2-size)/1.1 var(--font-title);text-transform:var(--h2-case);letter-spacing:var(--h2-track);margin:0}
+.size{min-width:44px;text-align:center}
+.apply{margin-top:14px;border:1px solid var(--rule);border-radius:12px;padding:14px 18px;background:var(--sheet)}
+.items{margin-top:12px;display:grid;gap:8px}
+.item{display:var(--list);gap:12px;align-items:baseline;min-width:0;max-width:100%;overflow:hidden;grid-template-columns:78px 190px minmax(0,1fr)}
+.dot{width:9px;height:9px;border-radius:99px;flex:none;display:inline-block}
+.state{font-size:.85em;color:var(--muted);white-space:nowrap}
+.name{font:500 var(--name-size)/1.3 var(--name-font);white-space:nowrap;flex:none}
+.note{color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.95em}
+.v.c .item{padding:6px 0;border-bottom:1px solid var(--rule)}
+.idx{font-size:.85em;color:var(--muted);white-space:nowrap;flex:none}
+@media (max-width:760px){.sheet{padding:18px 16px}.v.c .item{grid-template-columns:70px minmax(0,1fr)}.v.c .note{grid-column:1/-1}.v{--t-size:32px}.v.b{--t-size:38px}}
+</style></head><body><div class="page">
+<div class="intro"><h1>ZenRay Freelance en GT Standard</h1>
+<p>Trois propositions de la même vue. Titres en GT Standard, toute l'interface et tous les chiffres en GT Standard L, noms et postes des studios en Literata. Les notes trop longues sont coupées par « … » au lieu de déborder du cadre.</p></div>
+<div id="out"></div></div>
+<script>
+// 26 October 2026: one template, three variants (A faithful, B large light title, C editorial table). Data copied from Matthieu's capture.
+const V=[{k:'a',t:'A. Fidèle à la page actuelle',d:'Même mise en page, titres en GT Standard gras, liste en ligne.'},
+ {k:'b',t:'B. Grand titre léger',d:'Titre GT Standard Regular plus grand et serré, boutons arrondis.'},
+ {k:'c',t:'C. Tableau éditorial',d:'Titres en capitales espacées, liste en colonnes alignées : index, état, studio, note.'}];
+const items=[['ZR-0002','ready','Ubisoft','9 filled (letter in), CV to attach, 1 for you: check suggestion: City*'],
+['ZR-0001','ready','People Can Fly','9 filled (letter in), CV to attach, 1 for you: check suggestion: City'],
+['ZR-0003','ready','Crystal Dynamics','11 filled (letter in), CV attached, 26 for you: check suggestion: Country* Country* Phone / What is your expected graduation date?* / What is your expected graduation date?*'],
+['ZR-0004','ready','Crystal Dynamics','11 filled (letter in), CV attached, 26 for you: check suggestion: Country* Country* Phone / What is your expected graduation date?*'],
+['ZR-0006','ready','Scopely','14 filled (no letter box), CV attached, 7 for you: check suggestion: Country Country Phone / Do you currently, or will you in the future, require visa sponsorship to work in'],
+['ZR-0005','ready','Larian Studios','7 filled (no letter box), CV attached, 4 for you: The applicant acknowledges and accepts that (a) any information whatsoever discl / This position is onsite'],
+['ZR-0008','ready','Moon Active','3 filled (no letter box), CV attached, 1 for you: Name Name'],
+['ZR-0009','ready','Blackbird Interactive','8 filled (no letter box), CV attached, 5 for you: Portfolio Password URL / How many years of gaming industry experience do you have? / Are you currently living in Canada?'],
+['ZR-0007','blocked','Ubisoft','bot wall (not bypassed): open this one by hand'],
+['ZR-0010','blocked','Ubisoft Montreal','no form on this page (employer link one click further)']];
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+out.innerHTML=V.map(v=>`<div class="label">${v.t} · <span style="text-transform:none;letter-spacing:0;font-weight:400">${v.d}</span></div>
+<section class="sheet v ${v.k}">
+ <div class="head"><h2>ZenRay Freelance</h2><span class="muted">742 à contacter (13 nouvelles) · 15 contactés · 1 réponse · 13 messages · 77 périmés</span><span class="alert">Passer 12 offres fermées en Périmé</span></div>
+ <div class="row"><span class="pill on">Jeu vidéo · 742</span><span class="pill off">Autres industries · 24</span></div>
+ <div class="row"><button class="btn dark">Rechercher maintenant</button><span class="muted">dernière recherche il y a 5 h · 2 nouvelles annonces · prochaine dans 58 min (12 h)</span><span class="chip">✉ matth.huguet@gmail.com · 6 h <b>accusés filtrés</b></span><span class="spacer"></span><span>Sources et CV ▸</span></div>
+ <div class="panel">
+  <div class="row" style="margin-top:0"><h3>Lot du jour</h3><span class="spacer"></span><span class="muted">10 à envoyer · 0 faite aujourd’hui ▾</span></div>
+  <div class="row">${[3,5,10,20,50].map(n=>`<span class="pill size ${n===10?'on':''}">${n}</span>`).join('')}<span class="pill size">?</span><button class="btn dark">Ouvrir les 10 pages</button><button class="btn">Tout marquer fait</button><span class="spacer"></span><span class="muted">229 en attente · 22 doublons écartés</span></div>
+  <div class="apply">
+   <div class="row" style="margin-top:0"><button class="btn dark">Préparer 10 candidatures</button><span class="muted">8 prêtes · 2 bloquées · 17 s</span><button class="btn">Ouvrir les 8 prêtes</button><button class="btn">J’ai envoyé les prêtes</button></div>
+   <p class="muted" style="margin:10px 0 0">Rien n’est envoyé d’ici : tu relis, tu réponds aux questions sensibles, tu envoies, puis « J’ai envoyé ».</p>
+   <div class="items">${items.map(([i,s,n,note])=>v.k==='c'
+     ? `<div class="item"><span class="idx">${i}</span><span class="state"><span class="dot" style="background:var(--${s})"></span> ${s==='ready'?'prête':'bloquée'}</span><span style="min-width:0;display:flex;gap:12px;align-items:baseline"><span class="name">${esc(n)}</span><span class="note" title="${esc(note)}">${esc(note)}</span></span></div>`
+     : `<div class="item"><span class="dot" style="background:var(--${s})"></span><span class="idx">${i}</span><span class="name">${esc(n)}</span><span class="note" title="${esc(note)}">${esc(note)}</span></div>`).join('')}</div>
+  </div>
+ </div>
+</section>`).join('');
+</script></body></html>

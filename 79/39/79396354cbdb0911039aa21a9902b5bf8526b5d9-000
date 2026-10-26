@@ -1,0 +1,19 @@
+{
+  "date": "26 October 2026",
+  "slug": "freelance-gt-standard",
+  "folder": "2026-10-26-freelance-gt-standard",
+  "version": 1,
+  "title": "ZenRay Freelance en GT Standard, trois propositions",
+  "module": "freelance",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-freelance",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-freelance-gt-standard-26-october-2026",
+  "files": [
+    "index.html",
+    "preview.png"
+  ],
+  "indexSha256": "ef8ba0640210377e4f0e27eea2cbeaf0c2e98b05af9eb38755d40ecb44451040",
+  "filedAt": "2026-10-26T10:05:41.790Z",
+  "note": null
+}
