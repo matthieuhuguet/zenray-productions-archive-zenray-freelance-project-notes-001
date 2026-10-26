@@ -6953,3 +6953,52 @@
 > | :--- | :--- | :--- | (26 October 2026, 13:53:01 +0100)
 > | Un simple mock-up pixel-perfect de `ZenRay Freelance` qui change uniquement les 3 polices (`GT Ultra`, `Literata`, `GT Standard L`) | Oui | Le fichier [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html) reprend le DOM et le CSS exacts de ta capture sans modifier aucun espacement ni composant. | (26 October 2026, 13:53:01 +0100)
 > | `GT Ultra 400` sur les titres et sur tous les nombres, dates et durées (`770`, `2 (26 October 2026, 13:53:01 +0100)
+
+## 26 October 2026, 13:54:28 +0100 : Prompt
+
+<!-- feedback-event:244f76c55efbd7f6c32e1b4cc8daf33882df279469c18e2441bd3c3177c606bd (26 October 2026, 13:54:28 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:54:28 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:54:28 +0100)
+
+> Mais what the fuck, qu'est-ce que tu branles? Ça doit être dans un... Putain, mais... C'est quoi ton délire, genre? Ça doit être dans un html... Bon, change uniquement le titre. En fait, change uniquement le titre dans ZenRay plan, actuellement dans le code qui est en caps, et mets-le en ZenRay... En GT ultra en regular et c'est tout, c'est la dernière chose que je te demande. T'as une seule ligne de code à changer. et déploie rapidement dans plan (26 October 2026, 13:54:28 +0100)
+
+## 26 October 2026, 13:55:52 +0100 : Iteration
+
+<!-- feedback-event:032eecc3b92db9b86419e9fd95a186fed858f017fe7f2a4ce55c03c5f50548db (26 October 2026, 13:55:52 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:55:52 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:55:52 +0100)
+
+> Le titre est passé en `GT Ultra` Regular (`400`, sans capitales forcées) dans [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/freelance/paper.css](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/freelance/paper.css) et le déploiement sur `zenray-progress.pages.dev` est en cours d'envoi. (26 October 2026, 13:55:52 +0100)
+
+## 26 October 2026, 13:56:27 +0100 : Prompt
+
+<!-- feedback-event:04a58e791a80511fbf363d2d3ab241282e5a1d7d804a32e6c8b94b4d6aa49a65 (26 October 2026, 13:56:27 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:56:27 +0100)
+- Source: antigravity. (26 October 2026, 13:56:27 +0100)
+
+> Mais what the fuck, qu'est-ce que tu branles? Ça doit être dans un... Putain, mais... C'est quoi ton délire, genre? Ça doit être dans un html... Bon, change uniquement le titre. En fait, change uniquement le titre dans ZenRay plan, actuellement dans le code qui est en caps, et mets-le en ZenRay... En GT ultra en regular et c'est tout, c'est la dernière chose que je te demande. T'as une seule ligne de code à changer. et déploie rapidement dans plan (26 October 2026, 13:56:27 +0100)
+
+## 26 October 2026, 13:56:27 +0100 : Iteration
+
+<!-- feedback-event:a61a6864dc4ca73acb6f3a91ef060986103b25df2f9c99086a2e31231d7109ce (26 October 2026, 13:56:27 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:56:27 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:56:27 +0100)
+
+> C'est fait et déployé en ligne sur `https://zenray-progress.pages.dev` : dans [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/freelance/paper.css](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/freelance/paper.css), le titre qui était en capitales (`GT Standard L` 700 `uppercase`) est passé en `GT Ultra` Regular (`400`, casse normale). (26 October 2026, 13:56:27 +0100)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (26 October 2026, 13:56:27 +0100)
+> | :--- | :--- | :--- | (26 October 2026, 13:56:27 +0100)
+> | Passer le titre en capitales en `GT Ultra` Regular (`4 (26 October 2026, 13:56:27 +0100)
+
+## 26 October 2026, 14:05:31 +0100 : Prompt
+
+<!-- feedback-event:2319bdab923708dea4b12cd81ceb6bde025671cca6b5f56a792fea0edc2f37ab (26 October 2026, 14:05:31 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 14:05:31 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 14:05:31 +0100)
+
+> sur zenray plan maintenant regarde certaines occurences de date n'ont pas été mises en gt ultra alors que c'est consigné : lit les rêgles puis corrige et déploie  (26 October 2026, 14:05:31 +0100)
+>
+>
+>
+>
+> La règle dit, si il y a un numéro dans une date, la règle dit, s'il y a un numéro, alors on utilise GT Ultra. Cependant, si une date, comme par exemple 26 octobre 2026, contient octobre à l'intérieur et qu'octobre est une fonte différente, alors octobre devient GT Ultra. Ce qui est logique en soi. vérifie d'abord que ce soit bien consigné, puis valide le code pour déployer par rapport à toutes les occurrences qui doivent être corrigées par rapport à GT Ultra (26 October 2026, 14:05:31 +0100)
