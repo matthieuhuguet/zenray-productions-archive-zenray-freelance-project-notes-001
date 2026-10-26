@@ -6861,3 +6861,28 @@
 >
 > 1. **Durée passée à 90 min fixes** : la tâche `Nibir Khan RDV` (samedi 24 octobre 2026) ainsi que les prochaines tâches planifiées ont été mises à jour à **90 minutes** dans le Plan. (20 October 2026, 15:12:33 +0200)
 > 2. **Synchronisation Google Calendar instantanée** : le daemon local a envoyé la mise à jour à Google Agenda. L'événement est désormais positionné de **09:00 (20 October 2026, 15:12:33 +0200)
+
+## 26 October 2026, 13:37:29 +0100 : Prompt
+
+<!-- feedback-event:68ea291cf39600b317dfd22dd50712022dc6cb9be3551b0192fed5df40575915 (26 October 2026, 13:37:29 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:37:29 +0100)
+
+> /zenray-resume-coordinator zenray plan sur /progress Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typographie et ZenRay Edit qui normalement doivent te faire changer uniquement, je veux uniquement que tu changes les fontes à partir du pixel perfect de ce qu'on a actuellement. Donc c'est-à-dire, par exemple, le ZenRay Freelance, là tu vois, il va falloir que tu mettes GT Ultra. Donc tu as trois occurrences de fontes à mettre, c'est-à-dire GT Ultra, Literata et GT Standard L. je veux voir ton design directement avant que je valide /zenray-edit (26 October 2026, 13:37:29 +0100)
+
+## 26 October 2026, 13:36:22 +0100 : Prompt
+
+<!-- feedback-event:0565e515e99400e169461561554a8d6b71cb4c48e2125cd4053eb08a87578809 (26 October 2026, 13:36:22 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:36:22 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:36:22 +0100)
+
+> zenray plan sur  (26 October 2026, 13:36:22 +0100)
+>
+>  Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typographie et ZenRay Edit qui normalement doivent te faire changer uniquement, je veux uniquement que tu changes les fontes à partir du pixel perfect de ce qu'on a actuellement. Donc c'est-à-dire, par exemple, le ZenRay Freelance, là tu vois, il va falloir que tu mettes GT Ultra. Donc tu as trois occurrences de fontes à mettre, c'est-à-dire GT Ultra, Literata et GT Standard L. je veux voir ton design directement avant que je valide (26 October 2026, 13:36:22 +0100)
+
+## 26 October 2026, 13:45:12 +0100 : Iteration
+
+<!-- feedback-event:0fb91c2a1e58ff9ccc68da2fa6b1db12bbe905604928b04a26cd4760b2c194bc (26 October 2026, 13:45:12 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:45:12 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:45:12 +0100)
+
+> Je capture la structure exacte de la vue `ZenRay Freelance` avec ses données locales en cours avant d'appliquer les trois polices (`GT Ultra`, `Literata`, `GT Standard L`). (26 October 2026, 13:45:12 +0100)

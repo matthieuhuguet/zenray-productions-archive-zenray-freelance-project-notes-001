@@ -1,103 +1,95 @@
-# Resume zenray-freelance (20 October 2026 at 12:25)
+# Resume zenray-freelance (26 October 2026 at 13:37)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (20 October 2026 at 12:25)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Rules.md) (6 rules). (20 October 2026 at 12:25)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/FEEDBACK.md), 186 entries, last Prompt at 20 October 2026, 12:24:49 +0200. (20 October 2026 at 12:25)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (26 October 2026 at 13:37)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Rules.md) (6 rules). (26 October 2026 at 13:37)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-freelance/FEEDBACK.md), 213 entries, last Iteration at 20 October 2026, 15:12:33 +0200. (26 October 2026 at 13:37)
 
-## Latest conversations (20 October 2026 at 12:25)
+## Latest conversations (26 October 2026 at 13:37)
 
-- LATEST antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, last activity 20 October 2026 at 12:24 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (20 October 2026 at 12:25)
-- claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653, « ZENRAY FREELANCE », last activity 12 October 2026 at 12:50 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653 --out <file.md>`. (20 October 2026 at 12:25)
-- gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, « Conversation Gemini f3054ac7 », last activity 9 October 2026 at 01:46 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (20 October 2026 at 12:25)
+- LATEST antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, last activity 20 October 2026 at 15:12 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (26 October 2026 at 13:37)
+- gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012, « grep zenrayfreelance context j'apply faut que je réponde quoi la ? get », last activity 20 October 2026 at 12:40 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012 --out <file.md>`. (26 October 2026 at 13:37)
+- claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653, « ZENRAY FREELANCE », last activity 12 October 2026 at 12:50 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:5eff1aab-c6ea-4a74-81cf-51380f6fc653 --out <file.md>`. (26 October 2026 at 13:37)
 
-## Last 6 prompts of Matthieu, oldest first (20 October 2026 at 12:25)
+## Last 6 prompts of Matthieu, oldest first (26 October 2026 at 13:37)
 
-### 9 October 2026, 01:46:36 +0200 · Prompt · antigravity:f3054ac7
+### 20 October 2026, 12:46:14 +0200 · Prompt · antigravity:f3054ac7
 
-> ADAPTE UNE NOUVELLE LETTRE Game / Level Designer - Projet Platformer 3D
-> 113 candidates • Permanent contractLa Rochelle (17)
-> Position Duties
-> Chez AARISE, nous avons fait le choix d'une structure humaine et horizontale, où chaque voix compte et participe activement aux décisions quotidiennes. Forts de notre expertise sur Unreal Engine 5, nous lançons la production d'un tout nouveau projet ambitieux : un Platformer 3D type Collectathon.
+> D'ailleurs est ce que dans les sources de freelance tu peux ajouter les annonces de studios linkedin ? ou directement linkedin d'abord via une analyse du code ?
 > 
-> Nous recherchons notre futur·e Game Designer avec un fort profil Level Design pour s'installer avec nous à La Rochelle et co-créer les fondations de ce nouveau projet.
+>  rajouter la source à zenray freelance.
 > 
-> Vos Missions
 > 
-> En collaboration directe avec l'équipe de développement et le pôle artistique,
-> [... 3299 more characters in FEEDBACK.md]
-
-### 12 October 2026, 10:53:19 +0200 · Prompt · claude:5eff1aab
-
-> Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (houdini) ou d'une texture substance designer 3D, tu dois inclure lorsque possible des paramètres procéduraux qui permettent de modifier directement ton résultat avec une interface claire et la volonté de faire modifier les paramètres par moi-même sans back and forth. Cette priorité passe en priorité zéro. C'est la première ligne de pour /claude-md-global
-
-### 12 October 2026, 10:53:21 +0200 · Prompt · claude:5eff1aab
-
-> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global
 > 
-> # La doctrine globale : la porte, pas le fichier
 > 
-> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste
+> + dans progress une vue dans zenray assets de tout les projets via un petit bouton de list bindings : tu vois y'a projets / conversations et bien il faudrait un petit bouttons qui revelent la vue avec la même vue UI mais sous forme de list de tout les projets qui sont bind go ça me permettrait d'y voir plus clair.
+
+### 20 October 2026, 13:22:37 +0200 · Prompt · antigravity:f3054ac7
+
+> TU AS CODÉ BINDINGS ? LIST. ?
+
+### 20 October 2026, 13:26:06 +0200 · Prompt · antigravity:f3054ac7
+
+> DÉPLOIE
+
+### 20 October 2026, 13:56:41 +0200 · Prompt · antigravity:f3054ac7
+
+> C'est la vue Plan j'avais un worker cloudflare cloud qui tournait pour mon plan / plan était rélié à google agenda via l'API mais j'ai atteint ma limite donc j'aimerai si possible que tu me le remettent directement en local sur mon mac le code doit toujours exister il faut juste le trouver et le rendre en mode on et désactiver le worker cloud pour éviter les conflits
 > 
-> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de
-> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle
-> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne
-> porte plus que les concepts.
 > 
-> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais**
-> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauve
-> [... 20318 more characters in FEEDBACK.md]
-
-### 12 October 2026, 11:19:47 +0200 · Prompt · claude:5eff1aab
-
-> je trouve qu'il manque des nuances par rapport au texte initial corrige légèrement ou fais le un peu plus long = Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (houdini) ou d'une texture substance designer 3D, tu dois inclure lorsque possible des paramètres procéduraux qui permettent de modifier directement ton résultat avec une interface claire et la volonté de faire modifier les paramètres par moi-même sans back and forth. Cette priorité passe en priorité zéro. C'est la première ligne de pour
-> /claude-md-global
 > 
-> (dans ce que tu as notés)
-
-### 12 October 2026, 12:47:24 +0200 · Prompt · claude:5eff1aab
-
-> Par contre je vois pas l'option pour avoir le texte sur la vue freelance ?
-
-### 20 October 2026, 12:24:49 +0200 · Prompt · antigravity:f3054ac7
-
-> zenray freelance prends les derniers texte et essaie de fit avec cette offre que j'ai vu ce matin : 🎮 [Unreal Engine](https://www.linkedin.com/showcase/unreal-engine-for-design-visualization/) wizard wanted! 🕹️We’re preparing an upcoming training session dedicated to video game development, and we’re looking for an experienced Unreal Engine professional to join us from November 16 to December 4, 2026.We’re looking for someone passionate about game development, who enjoys sharing their knowledge and helping students develop their skills.The training will cover topics such as:🎮 Blueprint Visual Scripting and gameplay mechanics🕹️ Game logic, interactive systems and prototyping🌍 Level desig
-> [... 1465 more characters in FEEDBACK.md]
-
-
-## Last 3 iterations or checkpoints (20 October 2026 at 12:25)
-
-### 12 October 2026, 11:20:34 +0200 · Iteration · claude:5eff1aab
-
-> Tu avais raison : ma version condensée perdait des nuances de ton texte. La première ligne de [CLAUDE.md](/Users/zenray/.claude/CLAUDE.md) reprend maintenant tes mots presque tels quels, avec seulement la grammaire et la ponctuation corrigées :
 > 
-> > **PRIORITÉ 0 ABSOLUE, TOUT CE QUE JE CRÉE SE MODIFIE SANS MOI.** Ses mots : « Quoi que ce soit que tu crées, il faut toujours faire en sorte que tout le code que tu crées soit éditable, modifiable, paramétrable à la manière d'un HDA (Houdini) ou d'une texture Substance Designer 3D ; tu dois inclure, lorsque possible, des paramètres procéduraux qui permettent de modifier directement ton résultat, avec une interface claire et la volonté de me faire m
-> [... 908 more characters in FEEDBACK.md]
-
-### 12 October 2026, 12:48:11 +0200 · Iteration · claude:5eff1aab
-
-> La carte « Refusé » de la liste n'a aucune action : le mail n'existe que dans la fiche ouverte. J'ajoute un bouton directement sur la carte, dans la liste.
-
-### 12 October 2026, 12:50:46 +0200 · Iteration · claude:5eff1aab
-
-> Tu avais raison : le mail n'existait que dans la fiche ouverte, donc invisible depuis la liste Freelance. C'est corrigé et en ligne.
+> chaque plan du coup doit m'envoyer sur mon google agenda tout ce qui est noté sur Plan bref le code existe déjà (vice versa une task est noté
 > 
-> Recharge la page. Dans la vue Freelance, la section **Refusé** (là où est Voodoo) porte désormais, sous chaque carte :
-> - **Copier le mail** : copie la demande de retour, prête à coller.
-> - **Copier objet + mail**.
-> - **FR / EN** : change la langue avant de copier.
-> - **pas encore envoyé** : devient « envoyé le … » quand tu le marques depuis la fiche.
-> - **Ouvrir la fiche** : pour modifier le texte et le marquer envoyé.
 > 
-> La carte affiche aussi un badge **Refusé · 12 octobre 2026**.
 > 
-> | Ce que tu voulais | Fait ? | Comment je le sais |
-> |---|---|---|
-> | Avoir le texte 
-> [... 582 more characters in FEEDBACK.md]
+> 
+> Par contre il faut améliorer le design de Plan dans le sens ou une tâche qui se stack doit en général prendre 90 min ou 15x4 min mais j'ai un problème dans le design je peux pas ch
+> [... 458 more characters in FEEDBACK.md]
+
+### 20 October 2026, 15:05:59 +0200 · Prompt · antigravity:f3054ac7
+
+> TU AS SETUP LE TICK À COMBIEN DE SECONDES ? Remettre la synchro Google Agenda en local sur le Mac et désactiver le Worker Cloudflare	Fait	Worker distant supprimé chez Cloudflare (wrangler delete). Service Mac actif (com.zenray.plan-gcal-sync) qui tourne en arrière-plan.
+> Vérifier la synchronisation dans les deux sens	Fait	Test réel test-e2e-local.mjs validé : tâche créée dans le Plan visible dans l'agenda, modification dans l'agenda reportée dans le Plan, suppression propre.
+> Coût CPU ultra marginal et benchmarké	Fait	Benchmark mesuré à 26 ms par passage (0,02 % d'un cœur CPU), 0 % d'utilisation entre les passages.
+> 
+> 
+> 
+> 
+> ÇA PUSH TOUT LES COMBIEN
+
+### 20 October 2026, 15:08:25 +0200 · Prompt · antigravity:f3054ac7
+
+> LE PROBLEME C'EST QUE L'AUTO-SYNC DE L'EVENT LE MET COMME SI ÇA DURAIT 15 MIN ALORS QUE LES EVENTS DOIVENT PLUTÔT DURER 90 MIN FIX AVEC LES PROCHAINS ET LE RDV : Nibir Khan RDV
 
 
-## Last order of work (20 October 2026 at 12:25)
+## Last 3 iterations or checkpoints (26 October 2026 at 13:37)
 
-- None recorded. (20 October 2026 at 12:25)
+### 20 October 2026, 14:13:59 +0200 · Iteration · antigravity:f3054ac7
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (20 October 2026 at 12:25)
+> Toutes les étapes demandées pour le Plan, la synchronisation avec Google Calendar et le système de créneaux de 90 minutes ont été réalisées, testées et déployées en production.
+> 
+> ### 1. Synchronisation Google Calendar rapatriée en local sur le Mac
+> - **Désactivation Cloudflare** : le Worker distant `zenray-plan-gcal` a été complètement supprimé de Cloudflare pour couper définitivement le cron distant et éliminer tout risque de dépassement de quota ou de conflit.
+> - **Service local Mac** : LaunchAgent `com.zenray.plan-gcal-sync` installé et démarré (`~/Library/LaunchAgents/com.zenray.plan-gcal-sync.plist`), pilotant `workers/plan-gcal/scripts/run-daemon.mjs`.
+> - **Empreinte CPU ultra-marginale me
+> [... 512 more characters in FEEDBACK.md]
+
+### 20 October 2026, 15:06:08 +0200 · Iteration · antigravity:f3054ac7
+
+> Le tick est configuré à 60 secondes : il synchronise et écrit dès qu'un changement existe lors de ce passage de 60 secondes, et reste en sommeil complet sans écriture s'il n'y a aucune modification.
+
+### 20 October 2026, 15:12:33 +0200 · Iteration · antigravity:f3054ac7
+
+> Le problème venait de l'ancienne valeur par défaut (15 minutes) sous laquelle le rendez-vous avait été créé dans le Plan avant la mise à jour.
+> 
+> C'est corrigé et immédiatement répercuté sur ton Google Agenda :
+> 
+> 1. **Durée passée à 90 min fixes** : la tâche `Nibir Khan RDV` (samedi 24 octobre 2026) ainsi que les prochaines tâches planifiées ont été mises à jour à **90 minutes** dans le Plan.
+> 2. **Synchronisation Google Calendar instantanée** : le daemon local a envoyé la mise à jour à Google Agenda. L'événement est désormais positionné de **09:00
+
+
+## Last order of work (26 October 2026 at 13:37)
+
+- None recorded. (26 October 2026 at 13:37)
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (26 October 2026 at 13:37)
