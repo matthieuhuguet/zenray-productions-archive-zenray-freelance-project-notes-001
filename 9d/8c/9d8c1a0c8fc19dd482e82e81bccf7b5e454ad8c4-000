@@ -6886,3 +6886,70 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:45:12 +0100)
 
 > Je capture la structure exacte de la vue `ZenRay Freelance` avec ses données locales en cours avant d'appliquer les trois polices (`GT Ultra`, `Literata`, `GT Standard L`). (26 October 2026, 13:45:12 +0100)
+
+## 26 October 2026, 13:51:43 +0100 : Prompt
+
+<!-- feedback-event:88f50770c39f6aa183c45d81befcb0eb300afcb8712ef20f3260cc5129690ad6 (26 October 2026, 13:51:43 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:51:43 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:51:43 +0100)
+
+> Je t'ai vraiment demandé de faire un simple mock-up, je sais pas ce que tu branles là. (26 October 2026, 13:51:43 +0100)
+
+## 26 October 2026, 13:52:48 +0100 : Prompt
+
+<!-- feedback-event:480745e02b10c241212a0cbd9ba5be698c74be7b46e861a959fe65a65f319e6b (26 October 2026, 13:52:48 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 13:52:48 +0100)
+- Source: antigravity. (26 October 2026, 13:52:48 +0100)
+
+> Je t'ai vraiment demandé de faire un simple mock-up, je sais pas ce que tu branles là. (26 October 2026, 13:52:48 +0100)
+
+## 26 October 2026, 13:52:48 +0100 : Iteration
+
+<!-- feedback-event:e915157dd1c51b8394544bd3fa5b76e25e96a737fbe62c2f7fd967eba73755bd (26 October 2026, 13:52:48 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:52:48 +0100)
+- Source: antigravity. (26 October 2026, 13:52:48 +0100)
+
+> Mock-up HTML autonome pixel-perfect livré et vérifié dans /Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html (GT Ultra 400 titres et 331 nombres/dates/unités, Literata 400/500 studios et postes, GT Standard L 400 interface). (26 October 2026, 13:52:48 +0100)
+
+## 26 October 2026, 13:53:01 +0100 : Iteration
+
+<!-- feedback-event:22b5eb857e593f85d8fb6dd4891da5b25a16d2f4aca5d725a393cfd0055c0e1b (26 October 2026, 13:53:01 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:53:01 +0100)
+- Source: checkpoint:antigravity:81541e72-8e75-43a1-9408-022a5552a1b7. (26 October 2026, 13:53:01 +0100)
+
+> Mock-up pixel-perfect ZenRay Freelance en GT Ultra, Literata et GT Standard L (2026-10-26-freelance-gt-ultra) (26 October 2026, 13:53:01 +0100)
+
+## 26 October 2026, 13:53:01 +0100 : Iteration
+
+<!-- feedback-event:1d8f5cc4748a8c80e75c43126ea6b7729b2679652721ef1f3a6e48e6eda81e7d (26 October 2026, 13:53:01 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 13:53:01 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 13:53:01 +0100)
+
+> **Résumé des 3 dernières entrées de `/Users/zenray/.claude/PROGRESS.md` :** (26 October 2026, 13:53:01 +0100)
+> 1. `2026-10-26 13:15` : Maquettes de `ZenRay Plan` refaites sur le composant et la feuille de style actuels en ne changeant que les trois polices (`GT Ultra`, `Literata`, `GT Standard L`) et la matière des surfaces. (26 October 2026, 13:53:01 +0100)
+> 2. `2026-10-26 13:18` : Règle typographique du `26 October 2026` mise à jour : `GT Ultra Regular` en défaut pour les titres (casse libre) et tous les nombres, `Literata 400` pour le corps, `GT Standard L Regular 400` pour l'interface. (26 October 2026, 13:53:01 +0100)
+> 3. `2026-10-26 13:20` : Déploiement sur `zenray-progress.pages.dev` du trio `GT Ultra` / `Literata` / `GT Standard L` sur `ZenRay Plan`. (26 October 2026, 13:53:01 +0100)
+> - **Prochain noté :** Attendre le choix de Matthieu et appliquer sur `ZenRay Freelance` après validation. (26 October 2026, 13:53:01 +0100)
+>
+> --- (26 October 2026, 13:53:01 +0100)
+>
+> Voici le mock-up pixel-perfect de `ZenRay Freelance` avec **uniquement le changement des 3 fontes** (`GT Ultra 400`, `Literata 400/500`, `GT Standard L 400`), sans toucher d'un pixel à ta mise en page actuelle ni au code de production : (26 October 2026, 13:53:01 +0100)
+>
+> - **Mock-up interactif HTML (avec curseurs HDA en haut) :** [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html) (26 October 2026, 13:53:01 +0100)
+> - **Copie autonome projet (`file://` direct) :** [/Users/zenray/.claude/Memory1/Projects/zenray-freelance/Designs/2026-10-26-freelance-gt-ultra/index.html](file:///Users/zenray/.claude/Memory1/Projects/zenray-freelance/Designs/2026-10-26-freelance-gt-ultra/index.html) (26 October 2026, 13:53:01 +0100)
+>
+> ### 1. Version A : Casse libre en `GT Ultra 400` (`ZenRay Freelance`, `Lot du jour`) + `Literata` + `GT Standard L` (26 October 2026, 13:53:01 +0100)
+> - **Capture :** [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-A-Casse-Libre-Dark.png](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-A-Casse-Libre-Dark.png) (26 October 2026, 13:53:01 +0100)
+>
+> ### 2. Version B : Capitales actuelles en `GT Ultra 400` (`ZENRAY FREELANCE`, `LOT DU JOUR`) + `Literata` + `GT Standard L` (26 October 2026, 13:53:01 +0100)
+> - **Capture :** [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-B-Capitales-Dark.png](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-B-Capitales-Dark.png) (26 October 2026, 13:53:01 +0100)
+>
+> ### 3. Version claire (papier) : (26 October 2026, 13:53:01 +0100)
+> - **Capture :** [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-A-Casse-Libre-Light.png](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/Variant-A-Casse-Libre-Light.png) (26 October 2026, 13:53:01 +0100)
+>
+> Dis-moi si tu valides la **Version A** (casse libre) ou la **Version B** (capitales) pour que je l'applique en production. (26 October 2026, 13:53:01 +0100)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (26 October 2026, 13:53:01 +0100)
+> | :--- | :--- | :--- | (26 October 2026, 13:53:01 +0100)
+> | Un simple mock-up pixel-perfect de `ZenRay Freelance` qui change uniquement les 3 polices (`GT Ultra`, `Literata`, `GT Standard L`) | Oui | Le fichier [/Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html](file:///Users/zenray/.claude/skills/zenray-edit/designs/2026-10-26-freelance-gt-ultra/index.html) reprend le DOM et le CSS exacts de ta capture sans modifier aucun espacement ni composant. | (26 October 2026, 13:53:01 +0100)
+> | `GT Ultra 400` sur les titres et sur tous les nombres, dates et durées (`770`, `2 (26 October 2026, 13:53:01 +0100)

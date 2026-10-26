@@ -1,0 +1,37 @@
+{
+  "date": "26 October 2026",
+  "topFonts": [
+    {
+      "name": "GT Ultra",
+      "loaded": true
+    },
+    {
+      "name": "Literata",
+      "loaded": true
+    },
+    {
+      "name": "GT Standard L",
+      "loaded": true
+    }
+  ],
+  "checksA": {
+    "fontsLoaded": true,
+    "h1Font": "\"GT Ultra\", \"Hiragino Sans W4\", sans-serif",
+    "h1Weight": "400",
+    "h1Case": "none",
+    "secFont": "\"GT Ultra\", \"Hiragino Sans W4\", sans-serif",
+    "numFont": "\"GT Ultra\", \"Hiragino Sans W4\", sans-serif",
+    "numWeight": "400",
+    "numCount": 331,
+    "bodyFont": "Literata, \"Hiragino Mincho ProN W3\", Georgia, serif",
+    "sidebarHeadingFont": "Literata, \"Hiragino Mincho ProN W3\", Georgia, serif",
+    "sidebarHeadingStyle": "italic",
+    "sidebarItemFont": "\"GT Standard L\", \"Hiragino Sans W4\", sans-serif",
+    "overflowX": false
+  },
+  "checksB": {
+    "h1Font": "\"GT Ultra\", \"Hiragino Sans W4\", sans-serif",
+    "h1Case": "uppercase"
+  },
+  "errors": []
+}

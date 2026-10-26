@@ -1,0 +1,24 @@
+{
+  "date": "26 October 2026",
+  "slug": "freelance-gt-ultra",
+  "folder": "2026-10-26-freelance-gt-ultra",
+  "version": 1,
+  "title": "ZenRay Freelance pixel-perfect en GT Ultra, Literata et GT Standard L",
+  "module": "freelance",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-freelance",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-freelance-gt-ultra-26-october-2026",
+  "files": [
+    "index.html",
+    "CurrentProductionBefore.png",
+    "Overview-Workbench.png",
+    "Variant-A-Casse-Libre-Dark.png",
+    "Variant-A-Casse-Libre-Light.png",
+    "Variant-B-Capitales-Dark.png",
+    "Verification.json"
+  ],
+  "indexSha256": "b082652ba7e9941721085c630ade4845337c656560905957fa3db8b38e4810cc",
+  "filedAt": "2026-10-26T12:52:17.977Z",
+  "note": "Pixel-perfect : seules les 3 polices changent (GT Ultra 400 titres et nombres/dates/unités, Literata 400/500 studios et postes, GT Standard L 400 interface)"
+}
