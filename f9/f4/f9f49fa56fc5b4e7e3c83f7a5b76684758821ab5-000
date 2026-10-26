@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-26T08:45:31.170Z",
+ "scannedAt": "2026-10-26T08:57:32.895Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -34,6 +34,22 @@
    "updatedAt": "2026-10-12T10:50:49.075Z",
    "bytes": 20969,
    "boundProject": "zenray-freelance"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 20,
+   "work": 3,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:53:23.341Z",
+   "strength": "strong",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T08:53:27.931Z",
+   "bytes": 38329,
+   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -133,18 +149,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 65,
+   "lines": 68,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T08:38:01.789Z",
+   "last": "2026-10-26T08:52:18.996Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:45:15.873Z",
-   "bytes": 372970925,
+   "updatedAt": "2026-10-26T08:57:22.351Z",
+   "bytes": 373571080,
    "boundProject": "zenray-meshes"
   },
   {
@@ -207,8 +223,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:35:20.779Z",
-   "bytes": 22405,
+   "updatedAt": "2026-10-26T08:57:21.511Z",
+   "bytes": 525157445,
    "boundProject": null
   },
   {
@@ -568,6 +584,22 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:35.579Z",
+   "last": "2026-10-26T08:47:35.579Z",
+   "strength": "weak",
+   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "provider": "claude",
+   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "title": "Arbre méthodologique Zenray",
+   "updatedAt": "2026-10-26T08:49:53.379Z",
+   "bytes": 38296,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T16:05:21.061Z",
    "last": "2026-10-25T16:05:21.061Z",
    "strength": "weak",
@@ -576,7 +608,7 @@
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
    "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38406,
+   "bytes": 38407,
    "boundProject": "zenray-dictate"
   },
   {
