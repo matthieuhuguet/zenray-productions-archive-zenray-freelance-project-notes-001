@@ -7002,3 +7002,11 @@
 >
 >
 > La règle dit, si il y a un numéro dans une date, la règle dit, s'il y a un numéro, alors on utilise GT Ultra. Cependant, si une date, comme par exemple 26 octobre 2026, contient octobre à l'intérieur et qu'octobre est une fonte différente, alors octobre devient GT Ultra. Ce qui est logique en soi. vérifie d'abord que ce soit bien consigné, puis valide le code pour déployer par rapport à toutes les occurrences qui doivent être corrigées par rapport à GT Ultra (26 October 2026, 14:05:31 +0100)
+
+## 26 October 2026, 14:18:39 +0100 : Iteration
+
+<!-- feedback-event:4887719dc68680e1e80f59754018e3ca1e85f5d6e6833bfffa5250311ec93883 (26 October 2026, 14:18:39 +0100) -->
+- Project: zenray-freelance; kind: iteration. (26 October 2026, 14:18:39 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 14:18:39 +0100)
+
+> La règle typographique est consignée dans [`/Users/zenray/.claude/rules/Typography1.md`](file:///Users/zenray/.claude/rules/Typography1. (26 October 2026, 14:18:39 +0100)
