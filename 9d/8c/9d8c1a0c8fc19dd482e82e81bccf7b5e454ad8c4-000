@@ -7017,3 +7017,18 @@
 - Project: zenray-freelance; kind: rule. (26 October 2026, 14:59:47 +0100)
 
 > Un studio déjà contacté, répondu ou refusé n'est PAS exclu pour toujours : le même poste est masqué du lot du jour pendant un délai (30 jours par défaut, 90 au choix, COOLDOWN dans src/lib/freelanceBatch.js), puis revient. La page montre « N masquées », un champ « Déjà contacté ? » (nom de studio, statut et ancienneté) et un badge « déjà contacté il y a N j » sur les cartes. Matthieu marque les envoyés par index ZR depuis la page (bouton « Marquer envoyés »), sans passer par Claude. Le lot se filtre par territoire : France et francophone (BE, CH, LU, MC, Québec), Japon, États-Unis. (26 October 2026, Voodoo refusé le 12 octobre) (26 October 2026, 14:59:47 +0100)
+
+## 26 October 2026, 15:03:37 +0100 : Standing rule
+
+<!-- feedback-event:f37e9cd0c11f6f8c505902ee8d986c0e46010299eb211fb6aee1785ea30703ca (26 October 2026, 15:03:37 +0100) -->
+- Project: zenray-freelance; kind: rule. (26 October 2026, 15:03:37 +0100)
+
+> Correction : le délai de recontact porte sur le STUDIO entier (toutes ses annonces), pas sur le seul poste : un autre poste de Voodoo est sorti dans le lot le 26 octobre alors qu'il avait refusé le 12. Il revient après 30 jours (90 au choix) comptés depuis le dernier contact. (26 October 2026, 15:03:37 +0100)
+
+## 26 October 2026, 15:07:29 +0100 : Prompt
+
+<!-- feedback-event:206952f2b41510ad02000e936cef3b65e1cf9db8e611dd8432cfb9c58a04078b (26 October 2026, 15:07:29 +0100) -->
+- Project: zenray-freelance; kind: prompt. (26 October 2026, 15:07:29 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/81541e72-8e75-43a1-9408-022a5552a1b7.db. (26 October 2026, 15:07:29 +0100)
+
+> ce que tu vas faire, du coup, c'est que tu vas prendre la vue ZenRay Assets qui est directement sur Progress. Et en fait, ce que je veux, c'est que tu fasses en sorte de fluidifier toute l'interface. Dans le sens où n'importe laquelle de mes clics doit réagir en 0,1 seconde. Et du coup, il faut que tu crées toute une logique de parallélisme, de gestion asynchrone, d'optimisation de performance web, afin que je puisse charger de manière très fluide et que je puisse naviguer sur la page de ZenRay Assets, parce qu'actuellement, c'est un problème en fait pour l'utilisateur. Donc fais une boucle, fais un audit du code, fais tout ce que tu veux, mais je veux que la vue de ZenRay Assets soit ultra fluide, et tu veux run des benchmarks pour être sûr que ça fonctionne parfaitement. Et enfin, il y a aussi la fonte à changer par rapport à la typographie qui est inscrite dans Claude.md typographie et dans ZenRay Edit aussi, elle est aussi inscrite là-dedans. Et d'ailleurs, tu l'as lu tout à l'heure, je vais te la redonner. Voilà, normalement, je t'ai mis le fichier. Tu updates du coup ZenRay Assets du coup avec toutes ces règles de typographie. Allez, go! Mais le but, c'est surtout d'optimiser les performances de la vue web qui est sur Progress de ZenRay Assets. Il n'y a pas grand-chose à faire sur ZenRay Assets dans le code. Il faut surtout faire en sorte que ce soit optimisé sur le site ZenRay Progress. (26 October 2026, 15:07:29 +0100)
