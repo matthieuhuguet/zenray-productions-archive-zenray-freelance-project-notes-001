@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-26T10:20:19.988Z",
+ "scannedAt": "2026-10-26T10:33:38.820Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 52,
+   "lines": 53,
    "work": 6,
    "prompts": 1,
    "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T10:18:29.109Z",
+   "last": "2026-10-26T10:22:18.319Z",
    "strength": "strong",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T10:20:13.531Z",
-   "bytes": 8495557,
+   "updatedAt": "2026-10-26T10:28:36.828Z",
+   "bytes": 38486,
    "boundProject": null
   },
   {
@@ -328,6 +328,22 @@
    "lines": 9,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-25T16:05:21.061Z",
+   "last": "2026-10-26T10:32:48.603Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-26T10:33:38.108Z",
+   "bytes": 13402098,
+   "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 9,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T20:51:55.558Z",
    "last": "2026-10-25T11:15:32.120Z",
    "strength": "weak",
@@ -370,22 +386,6 @@
    "updatedAt": "2026-10-14T10:45:04.320Z",
    "bytes": 21343,
    "boundProject": "zenray-assets-tube-view"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 7,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T16:05:21.061Z",
-   "last": "2026-10-26T10:18:45.765Z",
-   "strength": "weak",
-   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "provider": "claude",
-   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "title": "speech to text claude",
-   "updatedAt": "2026-10-26T10:20:09.491Z",
-   "bytes": 12898096,
-   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "zenray-freelance",
