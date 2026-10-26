@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-26T14:40:49.070Z",
+ "scannedAt": "2026-10-26T14:46:48.594Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -142,8 +142,8 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
-   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
+   "title": "Conversation Gemini 81541e72",
+   "updatedAt": "2026-10-26T14:40:26.324Z",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
@@ -175,8 +175,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T14:40:44.236Z",
-   "bytes": 407819169,
+   "updatedAt": "2026-10-26T14:45:45.121Z",
+   "bytes": 37957,
    "boundProject": "zenray-meshes"
   },
   {
