@@ -7075,3 +7075,10 @@
 - Project: zenray-freelance; kind: rule. (27 October 2026, 18:24:27 +0100)
 
 > La lettre est UN seul texte : la dernière version de l'archive de l'offre (currentVersion), identique dans le PDF joint (ZenRay Edit), dans le formulaire rempli et sous « Copier la lettre » ; la file d'Apply ne l'altère plus (plus d'insertion de phrase). Matthieu postule en tant que FREELANCE (phrase freelance du gabarit v6). Ses 19 instructions sur les annonces et le format « ligne / vue d'ensemble / ce qu'ils cherchent / mon offre » sont dans Memory1/Projects/zenray-freelance/OfferInstructions1.md ; seule la ligne part dans la lettre, tournée vers eux d'abord. Avant toute extraction de lettre, prendre la DERNIÈRE version (at le plus récent), jamais la première. (27 October 2026) (27 October 2026, 18:24:27 +0100)
+
+## 27 October 2026, 18:27:17 +0100 : Standing rule
+
+<!-- feedback-event:847a185f54a865cb4a34383df740b76021c887a3e3dd288b699fe80493ec547a (27 October 2026, 18:27:17 +0100) -->
+- Project: zenray-freelance; kind: rule. (27 October 2026, 18:27:17 +0100)
+
+> Quand Matthieu clique sur Automatiser, le lot laisse un zip (Candidatures-<lot>.zip) avec, par offre, la lettre en PDF ZenRay Edit, le CV joint, le texte tapé et la capture du formulaire rempli, pour qu'il voie exactement ce qui part ; bouton « Voir le zip (CV + lettre) ». Les PDF n'arrivent jamais dans ~/Downloads. (27 October 2026) (27 October 2026, 18:27:17 +0100)
