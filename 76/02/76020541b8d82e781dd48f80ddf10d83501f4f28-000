@@ -1,0 +1,712 @@
+<!doctype html>
+<!-- 27 October 2026: ZenRay Freelance — Instant FR/EN Letter Swap & Experience 1-Click Copy Widget (SmartRecruiters / Workday).
+     Typography: GT Ultra Regular 400 (titles + all dates/numbers/units), Literata 400 (letter & descriptions), GT Standard L Regular 400 (UI). -->
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZenRay Freelance · Lettre FR/EN 0 ms &amp; Expérience Meerkat Studio (27 October 2026)</title>
+  <style>
+    @font-face {
+      font-family: 'GT Ultra';
+      src: url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'GT Standard L';
+      src: url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Standard-L-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'GT Standard L';
+      src: url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Standard-L-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Literata';
+      src: url('file:///Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2') format('woff2');
+      font-weight: 400 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --paper-bg: #F7F5EE;
+      --paper-card: #FAF8F2;
+      --paper-field: #F2EFE6;
+      --paper-ink: #171614;
+      --paper-muted: #656056;
+      --paper-line: rgba(23, 22, 20, 0.12);
+      --paper-line-strong: rgba(23, 22, 20, 0.24);
+      --paper-accent: #171614;
+      --paper-accent-fg: #FAF8F2;
+      --paper-ok: #1f7a3f;
+
+      --font-title: 'GT Ultra', 'Hiragino Sans W4', sans-serif;
+      --font-num: 'GT Ultra', 'Hiragino Sans W4', sans-serif;
+      --font-body: 'Literata', 'Hiragino Mincho ProN W3', Georgia, serif;
+      --font-ui: 'GT Standard L', 'Hiragino Sans W4', sans-serif;
+
+      /* HDA Parametric Controls (27 October 2026) */
+      --hda-body-size: 15px;
+      --hda-line-height: 1.62;
+      --hda-card-pad: 18px;
+      --hda-radius: 8px;
+      --hda-column-max: 980px;
+    }
+
+    html[data-theme="dark"] {
+      --paper-bg: #181715;
+      --paper-card: #201E1B;
+      --paper-field: #151412;
+      --paper-ink: #EDE9DF;
+      --paper-muted: #9C9588;
+      --paper-line: rgba(237, 233, 223, 0.11);
+      --paper-line-strong: rgba(237, 233, 223, 0.24);
+      --paper-accent: #EDE9DF;
+      --paper-accent-fg: #181715;
+      --paper-ok: #3fb967;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper-bg);
+      color: var(--paper-ink);
+      font-family: var(--font-ui);
+      -webkit-font-smoothing: antialiased;
+      padding: 28px 18px 90px;
+    }
+
+    .container {
+      max-width: var(--hda-column-max);
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--paper-line);
+    }
+
+    h1 {
+      font-family: var(--font-title);
+      font-weight: 400;
+      font-size: 28px;
+      margin: 0;
+    }
+
+    h2 {
+      font-family: var(--font-title);
+      font-weight: 400;
+      font-size: 18.5px;
+      margin: 0;
+    }
+
+    .num {
+      font-family: var(--font-num);
+      font-weight: 400;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .card {
+      background: var(--paper-card);
+      border: 1px solid var(--paper-line);
+      border-radius: var(--hda-radius);
+      padding: var(--hda-card-pad);
+      margin-bottom: 20px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      font-family: var(--font-ui);
+      font-weight: 500;
+      font-size: 12.5px;
+      padding: 6px 12px;
+      border-radius: var(--hda-radius);
+      border: 1px solid var(--paper-line-strong);
+      background: var(--paper-card);
+      color: var(--paper-ink);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 120ms ease, color 120ms ease;
+    }
+    .btn:hover {
+      border-color: var(--paper-ink);
+    }
+    .btn.primary {
+      background: var(--paper-accent);
+      color: var(--paper-accent-fg);
+      border-color: var(--paper-accent);
+    }
+    .btn.copied {
+      background: var(--paper-ok);
+      color: #fff;
+      border-color: var(--paper-ok);
+    }
+
+    .pill-group {
+      display: inline-flex;
+      gap: 4px;
+      background: var(--paper-field);
+      padding: 3px;
+      border-radius: var(--hda-radius);
+      border: 1px solid var(--paper-line);
+    }
+    .pill {
+      font-family: var(--font-ui);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 10px;
+      border-radius: calc(var(--hda-radius) - 2px);
+      border: none;
+      background: transparent;
+      color: var(--paper-muted);
+      cursor: pointer;
+    }
+    .pill.active {
+      background: var(--paper-accent);
+      color: var(--paper-accent-fg);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .field-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+    .field-label {
+      font-family: var(--font-ui);
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--paper-muted);
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      background: var(--paper-field);
+      color: var(--paper-ink);
+      border: 1px solid var(--paper-line);
+      border-radius: var(--hda-radius);
+      padding: 8px 11px;
+      font-family: var(--font-body);
+      font-size: var(--hda-body-size);
+      line-height: var(--hda-line-height);
+    }
+    input[type="text"].num-input {
+      font-family: var(--font-num);
+      font-weight: 400;
+    }
+    textarea {
+      resize: vertical;
+    }
+
+    .hda-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      padding: 12px 14px;
+      background: var(--paper-card);
+      border: 1px solid var(--paper-line);
+      border-radius: var(--hda-radius);
+      margin-bottom: 20px;
+      font-size: 12px;
+      color: var(--paper-muted);
+    }
+    .hda-bar label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <div>
+        <h1>ZenRay Freelance · Expérience &amp; Lettre FR/EN</h1>
+        <div style="font-size: 13px; color: var(--paper-muted); margin-top: 4px;">
+          Gabarit Papier éditorial · <span class="num">27 October 2026</span> · Bascule FR/EN en <span class="num">0 ms</span> · Orthographe vérifiée (<strong style="color: var(--paper-ink)">Meerkat Studio</strong>, <span class="num">1 seul t</span>)
+        </div>
+      </div>
+      <div class="row">
+        <div class="pill-group" role="group" aria-label="Langue globale">
+          <button type="button" class="pill active" id="lang-en" onclick="setLanguage('en')">EN</button>
+          <button type="button" class="pill" id="lang-fr" onclick="setLanguage('fr')">FR</button>
+        </div>
+        <button type="button" class="btn" onclick="toggleTheme()">Thème Clair / Sombre</button>
+        <button type="button" class="btn" id="copy-hda-btn" onclick="copyHdaParams()">Copier les valeurs pour le prompt</button>
+      </div>
+    </div>
+
+    <!-- HDA Parametric Sliders -->
+    <div class="hda-bar" aria-label="Paramètres HDA">
+      <label>
+        <span>Corps Literata (<span class="num" id="val-body">15 px</span>)</span>
+        <input type="range" min="13" max="18" step="0.5" value="15" oninput="setHda('--hda-body-size', this.value + 'px', 'val-body', this.value + ' px')" />
+      </label>
+      <label>
+        <span>Interligne (<span class="num" id="val-lh">1.62</span>)</span>
+        <input type="range" min="1.35" max="1.85" step="0.05" value="1.62" oninput="setHda('--hda-line-height', this.value, 'val-lh', this.value)" />
+      </label>
+      <label>
+        <span>Padding carte (<span class="num" id="val-pad">18 px</span>)</span>
+        <input type="range" min="12" max="28" step="1" value="18" oninput="setHda('--hda-card-pad', this.value + 'px', 'val-pad', this.value + ' px')" />
+      </label>
+      <label>
+        <span>Arrondi (<span class="num" id="val-rad">8 px</span>)</span>
+        <input type="range" min="4" max="14" step="1" value="8" oninput="setHda('--hda-radius', this.value + 'px', 'val-rad', this.value + ' px')" />
+      </label>
+    </div>
+
+    <!-- WIDGET 1: EXPERIENCE & CV COPY WIDGET (SmartRecruiters / Workday) -->
+    <section class="card" aria-label="Expérience à copier">
+      <div class="row" style="justify-content: space-between; margin-bottom: 14px;">
+        <div class="row" style="gap: 12px;">
+          <h2>Expérience &amp; CV à copier (SmartRecruiters / Workday)</h2>
+          <span class="num" id="exp-period-badge" style="font-size: 13px; color: var(--paper-muted);">January 2024 à June 2026 · 2 years 6 months</span>
+        </div>
+        <div class="row">
+          <div class="pill-group" id="exp-tabs">
+            <button type="button" class="pill active" onclick="selectExp('meerkat')" id="tab-meerkat">Meerkat Studio · <span class="num">2.5 ans</span></button>
+            <button type="button" class="pill" onclick="selectExp('zenray')" id="tab-zenray">ZenRay (Freelance) · <span class="num">1.8 an</span></button>
+            <button type="button" class="pill" onclick="selectExp('noyes')" id="tab-noyes">Noyes · ARTFX</button>
+            <button type="button" class="pill" onclick="selectExp('education')" id="tab-education">Formation (CV)</button>
+          </div>
+          <button type="button" class="btn" id="btn-copy-all" onclick="copyAllExp()">Tout copier</button>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div>
+          <div class="field-head">
+            <span class="field-label">Title *</span>
+            <div class="row" style="gap: 6px;">
+              <button type="button" class="btn" id="btn-title-alt" onclick="copyField('titleAlt', 'btn-title-alt')">Copier titre long</button>
+              <button type="button" class="btn primary" id="btn-title" onclick="copyInput('inp-title', 'btn-title')">Copier Title</button>
+            </div>
+          </div>
+          <input type="text" id="inp-title" aria-label="Title" />
+        </div>
+
+        <div>
+          <div class="field-head">
+            <span class="field-label">Company * (orthographe vérifiée : <span class="num">1 seul t</span>)</span>
+            <button type="button" class="btn primary" id="btn-company" onclick="copyInput('inp-company', 'btn-company')">Copier Company</button>
+          </div>
+          <input type="text" id="inp-company" aria-label="Company" />
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div>
+          <div class="field-head">
+            <span class="field-label">Office location *</span>
+            <div class="row" style="gap: 6px;">
+              <button type="button" class="btn" id="btn-loc-short" onclick="copyField('locationShort', 'btn-loc-short')">Aix seul</button>
+              <button type="button" class="btn primary" id="btn-location" onclick="copyInput('inp-location', 'btn-location')">Copier Location</button>
+            </div>
+          </div>
+          <input type="text" id="inp-location" aria-label="Office location" />
+        </div>
+
+        <div>
+          <div class="field-head">
+            <span class="field-label">From * (début)</span>
+            <div class="row" style="gap: 6px;">
+              <button type="button" class="btn num" id="btn-from-text" onclick="copyField('fromText', 'btn-from-text')">January 2024</button>
+              <button type="button" class="btn primary num" id="btn-from-slash" onclick="copyInput('inp-from', 'btn-from-slash')">Copier 01/2024</button>
+            </div>
+          </div>
+          <input type="text" class="num-input" id="inp-from" aria-label="From" />
+        </div>
+
+        <div>
+          <div class="field-head">
+            <span class="field-label">To * (fin · <span class="num" id="lbl-duration">2 years 6 months</span>)</span>
+            <div class="row" style="gap: 6px;">
+              <button type="button" class="btn num" id="btn-to-text" onclick="copyField('toText', 'btn-to-text')">June 2026</button>
+              <button type="button" class="btn primary num" id="btn-to-slash" onclick="copyInput('inp-to', 'btn-to-slash')">Copier 06/2026</button>
+            </div>
+          </div>
+          <input type="text" class="num-input" id="inp-to" aria-label="To" />
+        </div>
+      </div>
+
+      <div>
+        <div class="field-head">
+          <span class="field-label" id="lbl-desc">Description (English · vérifié sans faute · Steam, UE5, HDA, Copernicus, PBR, Gameplay, Game Design, Notion)</span>
+          <button type="button" class="btn primary" id="btn-desc" onclick="copyInput('inp-desc', 'btn-desc')">Copier Description</button>
+        </div>
+        <textarea id="inp-desc" rows="9" aria-label="Description"></textarea>
+      </div>
+    </section>
+
+    <!-- WIDGET 2: INSTANT 0-MS FR/EN COVER LETTER -->
+    <section class="card" aria-label="Lettre de candidature FR/EN">
+      <div class="row" style="justify-content: space-between; margin-bottom: 12px;">
+        <h2>Lettre de candidature · People Can Fly (Swap <span class="num">0 ms</span>)</h2>
+        <div class="row">
+          <button type="button" class="btn primary" id="btn-copy-letter" onclick="copyInput('inp-letter', 'btn-copy-letter')">Copier la lettre</button>
+          <button type="button" class="btn" id="btn-swap-lang" onclick="toggleLanguage()">Version française</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <div class="field-head">
+          <span class="field-label">Objet / Subject</span>
+          <button type="button" class="btn" id="btn-copy-subject" onclick="copyInput('inp-subject', 'btn-copy-subject')">Copier Objet</button>
+        </div>
+        <input type="text" id="inp-subject" aria-label="Objet" />
+      </div>
+
+      <div>
+        <div class="field-head">
+          <span class="field-label">Lettre (v5 Storytelling Tech Art)</span>
+        </div>
+        <textarea id="inp-letter" rows="16" aria-label="Lettre"></textarea>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const EXPERIENCES = {
+      meerkat: {
+        en: {
+          title: 'Technical Artist',
+          titleAlt: 'Technical Artist · Unreal Engine 5 & Houdini',
+          company: 'Meerkat Studio',
+          location: 'Remote · Aix-en-Provence, France',
+          locationShort: 'Aix-en-Provence, France',
+          fromSlash: '01/2024',
+          fromText: 'January 2024',
+          toSlash: '06/2026',
+          toText: 'June 2026',
+          duration: '2 years 6 months',
+          description: `Technical Artist, 3D Environment Artist, and Gameplay Programmer at Meerkat Studio on commercial simulation titles developed in Unreal Engine 5, including Santa Simulator (shipped on Steam), Bakery Coffee Simulator (shipped on Steam), Pet Grooming Simulator (paid production contract), and unannounced commercial projects.
+
+• Technical Art & Optimization (UE5): Handled technical environment integration, real-time Lumen lighting, post-processing, LOD generation, and GPU/CPU profiling to guarantee a stable framerate in production.
+• Shaders & Procedural Pipelines: Built parametric Houdini Digital Assets (HDA, VEX, Python) for rapid level design iteration, modular Master Materials driven by Vertex Paint, and Vertex Animation Textures (VAT) for foliage and dynamic props.
+• 3D Modeling & PBR Texturing: Produced 3D environment assets and modular kits, UV layouts with strict isotropic texel density, and procedural PBR materials in Substance Designer, Substance Painter, and Houdini Copernicus.
+• Gameplay Programming & Game Design: Developed interactive gameplay features and simulation mechanics in Unreal Engine 5 (Blueprints, Data Assets, interaction systems), contributed to Game Design Pillars, and wrote technical pipeline documentation on Notion for the team.`
+        },
+        fr: {
+          title: 'Technical Artist',
+          titleAlt: 'Technical Artist · Unreal Engine 5 & Houdini',
+          company: 'Meerkat Studio',
+          location: 'Télétravail · Aix-en-Provence, France',
+          locationShort: 'Aix-en-Provence, France',
+          fromSlash: '01/2024',
+          fromText: 'Janvier 2024',
+          toSlash: '06/2026',
+          toText: 'Juin 2026',
+          duration: '2 ans 6 mois',
+          description: `Technical Artist, artiste 3D environnement et gameplay programmer chez Meerkat Studio sur plusieurs jeux de simulation développés sous Unreal Engine 5 : Santa Simulator (sorti sur Steam), Bakery Coffee Simulator (sorti sur Steam), Pet Grooming Simulator (contrat de production rémunéré) et projets commerciaux non annoncés.
+
+• Technical Art et optimisation (UE5) : Intégration technique des environnements, éclairage temps réel sous Lumen, post-process, génération des LODs et profilage GPU/CPU pour garantir un framerate stable en production.
+• Shaders et pipelines procéduraux : Conception d’outils paramétriques Houdini Digital Assets (HDA, VEX, Python) pour l’itération rapide en level design, Master Materials modulaires pilotés par Vertex Paint, et animations via Vertex Animation Textures (VAT).
+• Modélisation 3D et texturing PBR : Création d’assets 3D d’environnement et de kits modulaires, dépliage UV avec texel density isotrope stricte, et matériaux PBR procéduraux sous Substance Designer, Substance Painter et Houdini Copernicus.
+• Programmation gameplay et game design : Développement des fonctionnalités de gameplay et des boucles de simulation sous Unreal Engine 5 (Blueprints, Data Assets, systèmes d’interaction), définition des Game Design Pillars et rédaction de la documentation technique sur Notion.`
+        }
+      },
+      zenray: {
+        en: {
+          title: 'Freelance Technical Artist & Tool Developer',
+          titleAlt: 'Technical Artist Houdini & Unreal Engine 5',
+          company: 'ZenRay',
+          location: 'Aix-en-Provence, France',
+          locationShort: 'Aix-en-Provence, France',
+          fromSlash: '02/2025',
+          fromText: 'February 2025',
+          toSlash: '10/2026',
+          toText: 'Present',
+          duration: '1 year 9 months',
+          description: `Development of procedural Houdini-to-UE5 production tools and real-time visualization missions for private clients.
+
+• Procedural HDA Tooling (Houdini 21 / UE5): Built production-ready parametric generators (HDA Stairs Component, Ceramic Tiles, Fleur de Lys: Procedural Lily, Houdini to Unreal pipelines) in VEX and Python.
+• 3D Automation Pipelines: Engineered procedural quad-mesh reconstruction, automated artist-cut UV unwrapping, and procedural heightmap synthesis in Houdini Copernicus.
+• Real-Time Architectural Visualization (Archviz): Delivered photorealistic real-time environments in Unreal Engine 5 (Lumen, Path Tracing, custom PBR materials) for a private client in Aix-en-Provence.`
+        },
+        fr: {
+          title: 'Freelance Technical Artist & Tool Developer',
+          titleAlt: 'Technical Artist Houdini & Unreal Engine 5',
+          company: 'ZenRay',
+          location: 'Aix-en-Provence, France',
+          locationShort: 'Aix-en-Provence, France',
+          fromSlash: '02/2025',
+          fromText: 'Février 2025',
+          toSlash: '10/2026',
+          toText: 'Présent',
+          duration: '1 an 9 mois',
+          description: `Développement d’outils procéduraux Houdini vers Unreal Engine 5 et missions de visualisation temps réel pour des clients privés.
+
+• Outillage procédural HDA (Houdini 21 / UE5) : Création de générateurs paramétriques prêts pour la production (HDA Stairs Component, Ceramic Tiles, Fleur de Lys: Procedural Lily, pipelines Houdini to Unreal) en VEX et Python.
+• Pipelines d’automatisation 3D : Conception de systèmes d’analyse et de génération de géométrie quad, dépliage UV automatisé à coutures propres et synthèse de heightmaps procédurales sous Copernicus.
+• Visualisation architecturale temps réel (Archviz) : Réalisation d’environnements photoréalistes sous Unreal Engine 5 (Lumen, Path Tracing, matériaux PBR sur mesure) pour un client privé à Aix-en-Provence.`
+        }
+      },
+      noyes: {
+        en: {
+          title: 'Co-Creator, Technical Artist & Environment Artist',
+          titleAlt: 'Technical Artist & Environment Artist',
+          company: 'ARTFX Montpellier (Noyes Project)',
+          location: 'Montpellier, France',
+          locationShort: 'Montpellier, France',
+          fromSlash: '09/2022',
+          fromText: 'September 2022',
+          toSlash: '06/2024',
+          toText: 'June 2024',
+          duration: '1 year 10 months',
+          description: `Co-created and produced the graduation game Noyes in Unreal Engine 5 within a multidisciplinary team at ARTFX Montpellier.
+
+• Environment Pipelines & UE5 Integration: Level assembly, real-time lighting, modular shaders, and performance optimization.
+• 3D Assets & PBR Materials: 3D modeling, Substance Designer/Painter texturing, and procedural Houdini tooling.`
+        },
+        fr: {
+          title: 'Co-Creator, Technical Artist & Environment Artist',
+          titleAlt: 'Technical Artist & Environment Artist',
+          company: 'ARTFX Montpellier (Projet Noyes)',
+          location: 'Montpellier, France',
+          locationShort: 'Montpellier, France',
+          fromSlash: '09/2022',
+          fromText: 'Septembre 2022',
+          toSlash: '06/2024',
+          toText: 'Juin 2024',
+          duration: '1 an 10 mois',
+          description: `Co-création et production du jeu étudiant Noyes sous Unreal Engine 5 au sein d’une équipe multidisciplinaire à ARTFX Montpellier.
+
+• Pipelines environnement et intégration UE5 : Assemblage des niveaux, éclairage temps réel, shaders modulaires et optimisation des performances.
+• Création d’assets 3D et matériaux PBR : Modélisation 3D, texturing Substance Designer/Painter et outillage procédural Houdini.`
+        }
+      },
+      education: {
+        en: {
+          title: 'Master’s Degree in Game Art & Technical Art',
+          titleAlt: 'Bachelor in Game Design (LISAA Paris) + Master in Game Art (ARTFX Montpellier)',
+          company: 'ARTFX Montpellier · LISAA Paris · Gnomon · Harvard CS50',
+          location: 'Montpellier & Paris, France',
+          locationShort: 'Montpellier, France',
+          fromSlash: '09/2019',
+          fromText: 'September 2019',
+          toSlash: '06/2025',
+          toText: 'June 2025',
+          duration: '5 years',
+          description: `• ARTFX Montpellier (2022 to 2024): Master’s Degree in Game Art, specializing in Technical Art, Unreal Engine 5 real-time environments, and Houdini pipelines.
+• LISAA Paris (2019 to 2022): Bachelor’s Degree in Game Design, game systems architecture, level design, and prototyping.
+• Gnomon & Harvard CS50 (2024 to 2025): Specialized coursework in Technical Art (Houdini, shaders, production pipelines) and Computer Science fundamentals (C, Python, data structures).`
+        },
+        fr: {
+          title: 'Master Game Art & Technical Art',
+          titleAlt: 'Bachelor Game Design (LISAA Paris) + Master Game Art (ARTFX Montpellier)',
+          company: 'ARTFX Montpellier · LISAA Paris · Gnomon · Harvard CS50',
+          location: 'Montpellier & Paris, France',
+          locationShort: 'Montpellier, France',
+          fromSlash: '09/2019',
+          fromText: 'Septembre 2019',
+          toSlash: '06/2025',
+          toText: 'Juin 2025',
+          duration: '5 ans',
+          description: `• ARTFX Montpellier (2022 à 2024) : Master Game Art, spécialisation Technical Art, environnements temps réel sous Unreal Engine 5 et pipelines Houdini.
+• LISAA Paris (2019 à 2022) : Bachelor Game Design, conception de systèmes de jeu, level design et prototypage.
+• Gnomon Workshop & Harvard CS50 (2024 à 2025) : Formation spécialisée en Technical Art (Houdini, shaders, pipelines de production) et algorithmique / informatique (C, Python, structures de données).`
+        }
+      }
+    };
+
+    const LETTERS = {
+      en: {
+        subject: 'Application for Technical Artist: Matthieu Huguet, Technical Artist',
+        text: `To the recruitment team,
+
+Hello People Can Fly,
+
+I am writing about your opening for Technical Artist.
+
+My name is Matthieu Huguet and I work as a freelance Technical Artist, specializing in procedural environments and pipelines between Houdini and Unreal Engine 5.
+
+Holding a Game Design Bachelor from LISAA Paris and a Game Art Master’s from ARTFX Montpellier, alongside specialized coursework at Gnomon and Harvard CS50, I combine an understanding of design imperatives with the technical rigor of production tooling.
+
+In production, I have notably collaborated with Meerkat Studio on several simulation titles shipped on Steam (including Santa Simulator and Bakery Coffee Simulator) and on unannounced commercial contracts. I handled technical environment integration, real-time lighting, and asset optimization to maintain a stable framerate. Earlier during my studies, I co-developed Noyes (graduation game), before delivering real-time visualization missions for private clients. All my work is documented at matthieuhuguet.com.
+
+My daily focus is designing parametric HDAs and automation scripts (Python, VEX) that empower level designers and environment artists to iterate rapidly without hitting pipeline bottlenecks:
+- Modular Houdini-to-UE5 generators (architecture, parametric stairs kits, tiles, and floor variations).
+- Optimized real-time shaders, modular Vertex Paint master materials, and foliage deformation via Vertex Animation Textures (VAT).
+- Procedural texturing systems in Copernicus and Substance Designer adhering to strict isotropic texel density to maximize visual fidelity while reducing memory footprint. My latest published work: Fleur de Lys: Procedural Lily, Houdini to Unreal, Ceramic Tiles, and HDA Stairs Component.
+
+Your opening for Technical Artist lines up with my day-to-day work: Houdini, Unreal Engine, Python, Substance, Maya, and C++.
+
+Your track record for high-impact visual and technical delivery requires resilient pipelines and friction-free workflows for creative teams. This is exactly what I bring to People Can Fly: removing friction for your artists by building dependable, production-ready procedural systems.
+
+I would be happy to walk you through my tools and talk with you by video call, whenever suits you.
+
+Matthieu Huguet
+Technical Artist · Houdini & Unreal Engine 5
+matthieuhuguet.com · linkedin.com/in/zenray`
+      },
+      fr: {
+        subject: 'Candidature Artiste technique / Technical Artist : Matthieu Huguet, Technical Artist',
+        text: `À l’attention de l’équipe de recrutement,
+
+Bonjour People Can Fly,
+
+Je vous écris au sujet de votre offre « Artiste technique / Technical Artist ».
+
+Je m’appelle Matthieu Huguet et je travaille comme Technical Artist freelance, spécialisé dans les environnements procéduraux et les pipelines entre Houdini et Unreal Engine 5.
+
+Diplômé d’un Bachelor Game Design à LISAA Paris et d’un Master Game Art à ARTFX Montpellier, complétés par des cursus spécialisés chez Gnomon et CS50 de Harvard, j’associe la compréhension des impératifs de design à la rigueur technique de l’outillage de production.
+
+En production, j’ai notamment collaboré avec Meerkat Studio sur plusieurs titres de simulation sortis sur Steam (dont Santa Simulator et Bakery Coffee Simulator) et sur des projets non annoncés sous contrat rémunéré. J’y ai pris en charge l’intégration technique des environnements, l’éclairage temps réel et l’optimisation des assets pour garantir un framerate stable. Plus tôt durant mes études, j’ai co-développé Noyes (jeu étudiant), avant de réaliser des missions de visualisation temps réel pour des clients privés. Tout mon travail est documenté sur matthieuhuguet.com.
+
+Au quotidien, mon cœur d’expertise consiste à bâtir des outils paramétriques HDA et des scripts d’automatisation (Python, VEX) qui permettent aux level designers et environment artists d’itérer rapidement sans subir de goulot d’étranglement technique :
+- Générateurs modulaires Houdini vers Unreal Engine 5 (architectures, kits d’escaliers paramétriques, tuiles et variations de sols).
+- Shaders temps réel optimisés, Master Materials modulaires pilotés par Vertex Paint, et déformations de végétation via Vertex Animation Textures (VAT).
+- Systèmes de textures procédurales sous Copernicus et Substance Designer respectant une texel density isotrope stricte pour maximiser la fidélité visuelle tout en réduisant l’empreinte mémoire. Mes derniers travaux publiés : Fleur de Lys: Procedural Lily, Houdini to Unreal, Ceramic Tiles et HDA Stairs Component.
+
+Votre offre « Artiste technique / Technical Artist » recoupe mon travail quotidien : Houdini, Unreal Engine, Python, Substance, Maya et C++.
+
+Votre travail sur des titres à forte intensité visuelle et technique exige des pipelines solides et des outils confortables pour les équipes créatives. C’est précisément cette valeur que je souhaite apporter à People Can Fly : libérer du temps pour vos artistes en concevant des systèmes procéduraux robustes et prêts pour la production.
+
+Je serais ravi de vous présenter concrètement mes outils et d’échanger avec vous par visioconférence selon vos disponibilités.
+
+Matthieu Huguet
+Technical Artist · Houdini & Unreal Engine 5
+matthieuhuguet.com · linkedin.com/in/zenray`
+      }
+    };
+
+    let currentLang = 'en';
+    let currentExpId = 'meerkat';
+
+    function renderAll() {
+      const exp = EXPERIENCES[currentExpId][currentLang];
+      document.getElementById('lang-en').classList.toggle('active', currentLang === 'en');
+      document.getElementById('lang-fr').classList.toggle('active', currentLang === 'fr');
+
+      ['meerkat', 'zenray', 'noyes', 'education'].forEach(id => {
+        document.getElementById('tab-' + id).classList.toggle('active', id === currentExpId);
+      });
+
+      document.getElementById('inp-title').value = exp.title;
+      document.getElementById('inp-company').value = exp.company;
+      document.getElementById('inp-location').value = exp.location;
+      document.getElementById('inp-from').value = exp.fromSlash;
+      document.getElementById('inp-to').value = exp.toSlash;
+      document.getElementById('inp-desc').value = exp.description;
+
+      document.getElementById('btn-from-text').textContent = exp.fromText;
+      document.getElementById('btn-from-slash').textContent = 'Copier ' + exp.fromSlash;
+      document.getElementById('btn-to-text').textContent = exp.toText;
+      document.getElementById('btn-to-slash').textContent = 'Copier ' + exp.toSlash;
+      document.getElementById('lbl-duration').textContent = exp.duration;
+      document.getElementById('exp-period-badge').textContent = exp.fromText + ' à ' + exp.toText + ' · ' + exp.duration;
+
+      const letData = LETTERS[currentLang];
+      document.getElementById('inp-subject').value = letData.subject;
+      document.getElementById('inp-letter').value = letData.text;
+      document.getElementById('btn-swap-lang').textContent = currentLang === 'fr' ? 'Version anglaise' : 'Version française';
+    }
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      renderAll();
+    }
+
+    function toggleLanguage() {
+      setLanguage(currentLang === 'fr' ? 'en' : 'fr');
+    }
+
+    function selectExp(id) {
+      currentExpId = id;
+      renderAll();
+    }
+
+    function flashBtn(btnId) {
+      const el = document.getElementById(btnId);
+      if (!el) return;
+      const prev = el.textContent;
+      el.classList.add('copied');
+      el.textContent = 'Copié ✓';
+      setTimeout(() => {
+        el.classList.remove('copied');
+        renderAll();
+      }, 1200);
+    }
+
+    function copyInput(inputId, btnId) {
+      const val = document.getElementById(inputId).value;
+      navigator.clipboard.writeText(val);
+      flashBtn(btnId);
+    }
+
+    function copyField(fieldKey, btnId) {
+      const val = EXPERIENCES[currentExpId][currentLang][fieldKey];
+      navigator.clipboard.writeText(val);
+      flashBtn(btnId);
+    }
+
+    function copyAllExp() {
+      const exp = EXPERIENCES[currentExpId][currentLang];
+      const bundle = `${exp.title} · ${exp.company}\n${exp.location}\n${exp.fromText} (${exp.fromSlash}) - ${exp.toText} (${exp.toSlash}) · ${exp.duration}\n\n${exp.description}`;
+      navigator.clipboard.writeText(bundle);
+      flashBtn('btn-copy-all');
+    }
+
+    function toggleTheme() {
+      const root = document.documentElement;
+      root.setAttribute('data-theme', root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    }
+
+    function setHda(varName, val, labelId, labelText) {
+      document.documentElement.style.setProperty(varName, val);
+      document.getElementById(labelId).textContent = labelText;
+    }
+
+    function copyHdaParams() {
+      const cs = getComputedStyle(document.documentElement);
+      const payload = [
+        `--hda-body-size: ${cs.getPropertyValue('--hda-body-size').trim()}`,
+        `--hda-line-height: ${cs.getPropertyValue('--hda-line-height').trim()}`,
+        `--hda-card-pad: ${cs.getPropertyValue('--hda-card-pad').trim()}`,
+        `--hda-radius: ${cs.getPropertyValue('--hda-radius').trim()}`,
+      ].join('; ');
+      navigator.clipboard.writeText(payload);
+      flashBtn('copy-hda-btn');
+    }
+
+    renderAll();
+  </script>
+</body>
+</html>
