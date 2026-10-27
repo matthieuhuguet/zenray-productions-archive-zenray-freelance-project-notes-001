@@ -1,32 +1,45 @@
-# Lettre type ZenRay Freelance, version de Matthieu (7 October 2026)
+# Lettre type ZenRay Freelance, version de Matthieu (27 October 2026)
 
-Source de vérité du code : `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE`, `seedVersion: 4`). Les emplacements `{studio}`, `{role}`, `{latestWork}`, `{hook}`, `{portfolio}`, `{age}` sont remplis par le moteur. (7 October 2026)
+Source de vérité du code : `ZenRayProgress/scripts/Freelance/Letters.mjs` (`SEED_TEMPLATE`, `seedVersion: 5`). Les emplacements `{studio}`, `{role}`, `{latestWork}`, `{hook}`, `{portfolio}` sont remplis par le moteur. (27 October 2026)
 
-## Français (7 October 2026)
+## Version 5 : Refonte Haute Valeur et Triple Culture (27 October 2026)
 
-À l'équipe de recrutement,
+Changements majeurs validés avec Matthieu :
+- Suppression de la mention d'âge (25 ans) qui induisait un biais d'inexpérience chez les recruteurs internationaux.
+- Lien naturel et humble entre compétences dès le cursus : faire le lien entre art 3D, game design et programmation, sans lourdeur corporate ni jargon artificiel.
+- Expérience de production équilibrée : modélisation 3D, texturing, intégration, gameplay et documentation, en restant concis et dynamique.
+- Précision sur l'archviz : visualisation architecturale temps réel (rénovation et valorisation de biens) pour des clients privés.
+- Suppression de la posture d'élève en demande de formation (« besoin de travailler avec des professionnels expérimentés ») remplacée par une proposition de valeur de partenaire : libérer du temps pour les artistes du studio grâce à des outils procéduraux robustes et prêts pour la production.
+- Suppression du préambule agressif (« Pour être clair dès le départ ») pour une entrée directe, polie et professionnelle.
+
+### Français (27 October 2026)
+
+À l’attention de l’équipe de recrutement,
 
 Bonjour {studio},
 
-Je vous écris au sujet de votre offre d'{role}.
+Je vous écris au sujet de votre offre « {role} ».
 
-Je m'appelle Matthieu Huguet, j'ai 25 ans et je travaille comme Technical Artist freelance, basé à Aix-en-Provence, en France.
+Je m’appelle Matthieu Huguet et je travaille comme Technical Artist freelance, spécialisé dans les environnements procéduraux et les pipelines entre Houdini et Unreal Engine 5.
 
-J'ai étudié un Bachelor Game Design à LISAA Paris, un Master à ARTFX Montpellier, puis des cours de technical art à Gnomon et via CS50 de Harvard, avant de passer freelance début 2025.
+Diplômé d’un Bachelor Game Design à LISAA Paris et d’un Master Game Art à ARTFX Montpellier, complétés par des cursus spécialisés chez Gnomon et CS50 de Harvard, je fais naturellement le lien entre art 3D, game design et programmation.
 
-En production, j’ai travaillé comme Technical Artist freelance avec Meerkat Studio sur trois jeux de simulation : Santa Simulator (sorti sur Steam), Bakery Coffee Simulator (sorti sur Steam) et Pet Grooming Simulator (contrat rémunéré). Plus tôt durant mes études, j’ai co-développé Noyes (jeu étudiant). J’ai également réalisé un projet d’archviz pour un client privé à Aix-en-Provence. Tout mon travail est visible sur {portfolio}.
+En production, j’ai notamment collaboré comme Technical Artist freelance avec Meerkat Studio sur plusieurs titres de simulation sortis sur Steam (dont Santa Simulator et Bakery Coffee Simulator) et sur des projets non annoncés sous contrat rémunéré. J’y ai assuré la modélisation 3D, le texturing, l’intégration des environnements et le développement de fonctionnalités de gameplay, tout en veillant à l’optimisation des performances et à la documentation technique. Plus tôt durant mes études, j’ai co-développé Noyes (jeu étudiant), avant de réaliser des missions de visualisation architecturale temps réel (rénovation et valorisation de biens) pour des clients privés. Tout mon travail est documenté sur {portfolio}.
 
-En ce moment, je travaille à intégrer et construire des solutions avec Houdini et Unreal, qui génèrent du level design via des HDA et me permettent d'itérer rapidement dessus.{latestWork}
+Au quotidien, mon cœur d’expertise consiste à bâtir des outils paramétriques HDA et des scripts d’automatisation (Python, VEX) qui permettent aux level designers et environment artists d’itérer rapidement sans subir de goulot d’étranglement technique :
+- Générateurs modulaires Houdini vers Unreal Engine 5 (architectures, kits d’escaliers paramétriques, tuiles et variations de sols).
+- Shaders temps réel optimisés, Master Materials modulaires pilotés par Vertex Paint, et déformations de végétation via Vertex Animation Textures (VAT).
+- Systèmes de textures procédurales sous Copernicus et Substance Designer respectant une texel density isotrope stricte pour maximiser la fidélité visuelle tout en réduisant l'empreinte mémoire.{latestWork}
 
 {hook}
 
-Ce que je recherche aujourd'hui, c'est un contrat au sein d'une équipe engagée dans un projet ambitieux. J'ai besoin de travailler avec des professionnels expérimentés et de faire partie d'une dynamique collective, ce que le travail en solo, même formateur, ne peut pas m'apporter.
+Votre travail sur des titres à forte intensité visuelle et technique exige des pipelines solides et des outils confortables pour les équipes créatives. C’est précisément cette valeur que je souhaite apporter à {studio} : libérer du temps pour vos artistes en concevant des systèmes procéduraux robustes et prêts pour la production.
 
-Je serais heureux d'échanger avec vous par téléphone ou en visio, quand cela vous conviendra.
+Je serais ravi de vous présenter concrètement mes outils et d’échanger avec vous par téléphone ou en visioconférence, selon votre disponibilité.
 
 Matthieu Huguet
 
-## English (7 October 2026)
+### English (27 October 2026)
 
 To the recruitment team,
 
@@ -34,27 +47,33 @@ Hello {studio},
 
 I am writing about your opening for {role}.
 
-My name is Matthieu Huguet, I am 25 and I work as a freelance Technical Artist, based in Aix-en-Provence, France.
+My name is Matthieu Huguet, and I work as a freelance Technical Artist specializing in procedural environments and pipelines between Houdini and Unreal Engine 5.
 
-I studied a Game Design Bachelor at LISAA Paris, a Master's at ARTFX Montpellier, then technical art courses at Gnomon and through Harvard CS50, before going freelance in early 2025.
+Holding a Game Design Bachelor from LISAA Paris and a Game Art Master’s from ARTFX Montpellier, alongside specialized coursework at Gnomon and Harvard CS50, I naturally bridge 3D art, game design, and programming.
 
-In production, I worked as a freelance Technical Artist with Meerkat Studio on three simulation titles: Santa Simulator (shipped on Steam), Bakery Coffee Simulator (shipped on Steam), and Pet Grooming Simulator (paid contract). Earlier in my studies, I co-developed Noyes (student game). I also completed an archviz lighting project for a private client in Aix-en-Provence. All my work can be seen at {portfolio}.
+In production, I have worked as a freelance Technical Artist with Meerkat Studio across simulation titles shipped on Steam (including Santa Simulator and Bakery Coffee Simulator) and unreleased commercial contracts. My scope covered 3D modeling, texturing, environment integration, and gameplay feature programming, alongside performance optimization and technical documentation. Earlier during my studies, I co-developed Noyes (graduation game), before delivering real-time architectural visualization projects (property renovation and showcasing) for private clients. All my work is documented at {portfolio}.
 
-Right now I am working on integrating and building solutions with Houdini and Unreal that generate level design through HDAs and let me iterate on it quickly.{latestWork}
+My daily focus is designing parametric HDAs and automation scripts (Python, VEX) that empower level designers and environment artists to iterate rapidly without hitting pipeline bottlenecks:
+- Modular Houdini-to-UE5 generators (environments, parametric stairs, tiles, and floor variations).
+- Optimized real-time shaders (multi-layer Vertex Paint master materials, VAT for foliage).
+- Procedural texturing in Copernicus and Substance Designer adhering to strict isotropic texel density standards.{latestWork}
 
 {hook}
 
-What I am looking for today is a contract with a team committed to an ambitious project. I need to work with experienced professionals and be part of a collective dynamic, something that working solo, however formative, cannot provide.
+Your track record for high-impact visual and technical delivery requires resilient pipelines and friction-free workflows for creative teams. This is exactly what I bring to {studio}: removing friction for your artists by building dependable, production-ready procedural systems.
 
-I would be happy to talk with you by phone or video call, whenever suits you.
+I would be happy to walk you through my tools and talk with you by phone or video call, whenever suits you.
 
 Matthieu Huguet
 
-## Notes et Expériences Clés (7 October 2026)
-- Remplacé définitivement la mention vague de "NDA Meerkat Studio" par les 3 jeux de simulation réels :
-  - *Santa Simulator* (Shipped on Steam)
-  - *Bakery Coffee Simulator* (Shipped on Steam)
-  - *Pet Grooming Simulator* (Unreleased but paid freelance contract)
-  - *Noyes* (Student game)
-  - Projet Archviz client privé à Aix-en-Provence.
-- À réutiliser systématiquement dans toutes les futures lettres de motivation (FR et EN). (7 October 2026)
+### Variante B : Studio Technologique Avancé et Ère Agentique (27 October 2026)
+
+Pour les studios ou leads techniques explicitement tournés vers l'automatisation de pointe :
+Remplacer le paragraphe de travail quotidien par :
+> « Au quotidien, je conçois des outils paramétriques HDA et des pipelines d'automatisation de nouvelle génération, combinant scripts Python, VEX et orchestration d'outils modulaires (tels que ZenRay Height, ZenRay UV et ZenRay Meshes). Cette approche permet de générer des environnements AAA à haute cadence et d'itérer immédiatement : générateurs Houdini vers Unreal Engine 5, shaders temps réel optimisés (Master Materials pilotés par Vertex Paint, VAT) et texturing procédural sous Copernicus et Substance Designer (texel density isotrope stricte).{latestWork} »
+
+---
+
+## Historique des versions (7 October 2026)
+- Version 4 (7 October 2026) : Remplacement de la mention de projet sous NDA par *Santa Simulator*, *Bakery Coffee Simulator*, *Pet Grooming Simulator*, *Noyes* et archviz. (7 October 2026)
+- Version 1 à 3 (mai à octobre 2026) : Découpage de la lettre séminale Asobo du 29 mai 2026. (4 October 2026)

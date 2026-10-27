@@ -7047,3 +7047,17 @@
 > - [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/assetsFileQuery.js](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/assetsFileQuery.js) : `Intl.Collator` partagé, court-circuit des filtres inactifs et tri par clés précalculées en un seul passage. (26 October 2026, 15:39:24 +0100)
 > - [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsWorkspaceView.jsx](file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components/assets/AssetsWorkspaceView.jsx) : chargement parallèle non bloquant (chaque source publie son état dès résolution sans attendre le déchiffrement de l'index ou le pont Mac), cache mémoire de session (`SESSION_ASSETS_CACHE`), conservation des snapshots `.workspace.json` par projet (`cloudSnapshots`), préchargement au survol (`preloadProject`) et suppression de `key={project?.id}` sur `<ProjectWorkspace />` pour éviter de démonter l'arbre React à chaque changement de projet. (26 October 2026, 15:39:24 +0100)
 > - [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/components (26 October 2026, 15:39:24 +0100)
+
+## 27 October 2026, 12:08:24 +0100 : Standing rule
+
+<!-- feedback-event:f9910954f0821c25bf7510dd6fd9840e721d6a6f6e8cdee092f41e55d1fe937f (27 October 2026, 12:08:24 +0100) -->
+- Project: zenray-freelance; kind: rule. (27 October 2026, 12:08:24 +0100)
+
+> Les voies « Jeu vidéo » et « Autres industries » deviennent des étiquettes d'industrie sous le titre (src/lib/freelanceIndustries.js, une seule table INDUSTRIES : jeu, VFX, animation, com, archi/BTP, auto, ingénierie, aéro/défense, simulation, XR, retail/mode, santé, géospatial, culture/événementiel, éducation, éditeurs d'outils, marchés publics, autre). Les boutons de la page sont des carrés arrondis (P.pillRadius = 8), jamais des pilules. Ordre voulu par Matthieu : 1) liste d'industries validée par lui, 2) ajout des sources par industrie, 3) pastille de mots-clés par offre en Python, 4) plus tard Claude Haiku 5.5 en effort max sur la base existante. (27 October 2026) (27 October 2026, 12:08:24 +0100)
+
+## 27 October 2026, 12:18:39 +0100 : Standing rule
+
+<!-- feedback-event:8398852139cddae3f9c052b46c9bcf3b95a165e7e125c915680819386aa8c242 (27 October 2026, 12:18:39 +0100) -->
+- Project: zenray-freelance; kind: rule. (27 October 2026, 12:18:39 +0100)
+
+> Étiquettes d'industrie sous le titre : un seul mot chacune et petites (Jeu vidéo, VFX, Animation, Com, Architecture, Auto, Industrie, Aéro, Simulation, XR, Retail, Santé, Géo, Culture, Tourisme, Éducation, Outils, Public, Autre), le détail va dans l'infobulle. Tourisme et voyage ajouté (offices de tourisme, régions, préfectures, patrimoine). Sources ajoutées dans FreelanceConfig.json : requêtes BOAMP et TED (visite virtuelle, patrimoine, film promotionnel, scénographie), Lucid Motors, Esri, Nuro, liens de recherche à la main par industrie. Chaque offre reçoit engine.keywords (scripts/Freelance/lib/Keywords.mjs, sans modèle) affichés en petites étiquettes ; Claude Haiku 5.5 effort max remplacera keywordsOf plus tard sur les 784 offres. (27 October 2026) (27 October 2026, 12:18:39 +0100)
