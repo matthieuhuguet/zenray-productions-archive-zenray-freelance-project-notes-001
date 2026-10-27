@@ -7061,3 +7061,10 @@
 - Project: zenray-freelance; kind: rule. (27 October 2026, 12:18:39 +0100)
 
 > Étiquettes d'industrie sous le titre : un seul mot chacune et petites (Jeu vidéo, VFX, Animation, Com, Architecture, Auto, Industrie, Aéro, Simulation, XR, Retail, Santé, Géo, Culture, Tourisme, Éducation, Outils, Public, Autre), le détail va dans l'infobulle. Tourisme et voyage ajouté (offices de tourisme, régions, préfectures, patrimoine). Sources ajoutées dans FreelanceConfig.json : requêtes BOAMP et TED (visite virtuelle, patrimoine, film promotionnel, scénographie), Lucid Motors, Esri, Nuro, liens de recherche à la main par industrie. Chaque offre reçoit engine.keywords (scripts/Freelance/lib/Keywords.mjs, sans modèle) affichés en petites étiquettes ; Claude Haiku 5.5 effort max remplacera keywordsOf plus tard sur les 784 offres. (27 October 2026) (27 October 2026, 12:18:39 +0100)
+
+## 27 October 2026, 18:11:26 +0100 : Standing rule
+
+<!-- feedback-event:bf1452f03ff71e25475502a4eae07527cf2069a111d178dbdae8ef642d366e4c (27 October 2026, 18:11:26 +0100) -->
+- Project: zenray-freelance; kind: rule. (27 October 2026, 18:11:26 +0100)
+
+> Le gros bouton de ZenRay Freelance : « Remplir les N pages du lot » prépare EXACTEMENT les cartes affichées (leurs ids, dans l'ordre, tous types de liens) et ouvre une seule fenêtre où chaque formulaire est rempli (coordonnées, expériences et formation du CV publié, CV, lettre) sans rien envoyer ; « Automatiser » sur une carte ou dans la fiche fait la même chose pour une seule offre ; « Envoyé » est sur chaque carte, chaque ligne de la liste préparée et la fiche. Une fiche qui n'est plus à contacter (Hors cible, envoyée, refusée) n'est jamais préparée. Les murs anti-bot ne sont jamais contournés : la page reste ouverte dans la fenêtre pour qu'il la passe à la main. Offre complète : le texte original de l'annonce se copie en un clic, le recensement du moteur est à part et fermé. Objectif de Matthieu : 100 candidatures par jour, taille 100 ajoutée. (27 October 2026) (27 October 2026, 18:11:26 +0100)

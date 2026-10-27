@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-27T11:40:13.644Z",
+ "scannedAt": "2026-10-27T17:16:36.625Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -37,19 +37,35 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 70,
+   "lines": 74,
    "work": 6,
    "prompts": 1,
    "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-27T11:28:55.378Z",
+   "last": "2026-10-27T17:11:26.944Z",
    "strength": "strong",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-27T11:39:17.117Z",
-   "bytes": 38254,
+   "updatedAt": "2026-10-27T17:16:32.328Z",
+   "bytes": 24147187,
    "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 3,
+   "prompts": 0,
+   "first": "2026-10-27T12:41:58.454Z",
+   "last": "2026-10-27T13:35:14.681Z",
+   "strength": "strong",
+   "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
+   "provider": "gemini",
+   "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
+   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
+   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
+   "bytes": 32374784,
+   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
@@ -101,6 +117,22 @@
   },
   {
    "projectId": "zenray-freelance",
+   "lines": 6,
+   "work": 1,
+   "prompts": 2,
+   "first": "2026-10-27T12:02:39.826Z",
+   "last": "2026-10-27T13:05:55.499Z",
+   "strength": "strong",
+   "conversationId": "codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab",
+   "provider": "codex",
+   "sessionId": "01a17d3d-b439-7f01-bbb4-7ff8aff96cab",
+   "title": "Conversation codex 01a17d3d",
+   "updatedAt": "2026-10-27T17:11:02.089Z",
+   "bytes": 15136879,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zenray-freelance",
    "lines": 8,
    "work": 0,
    "prompts": 4,
@@ -133,6 +165,22 @@
   },
   {
    "projectId": "zenray-freelance",
+   "lines": 90,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T14:43:32.510Z",
+   "last": "2026-10-27T16:57:41.462Z",
+   "strength": "weak",
+   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "provider": "claude",
+   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-27T17:08:33.248Z",
+   "bytes": 38457,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zenray-freelance",
    "lines": 89,
    "work": 0,
    "prompts": 0,
@@ -146,22 +194,6 @@
    "updatedAt": "2026-10-23T13:08:52.408Z",
    "bytes": 40374,
    "boundProject": "louisiana-bayou"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 85,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T22:52:20.018Z",
-   "strength": "weak",
-   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "provider": "claude",
-   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "title": "zenray meshes",
-   "updatedAt": "2026-10-27T11:39:19.034Z",
-   "bytes": 482824317,
-   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-freelance",
@@ -593,6 +625,22 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-27T12:02:56.520Z",
+   "last": "2026-10-27T12:02:56.520Z",
+   "strength": "weak",
+   "conversationId": "codex:01a17d3d-fb6b-72c2-8fb5-72f5519d6000",
+   "provider": "codex",
+   "sessionId": "01a17d3d-fb6b-72c2-8fb5-72f5519d6000",
+   "title": "Conversation codex 01a17d3d",
+   "updatedAt": "2026-10-27T12:03:55.151Z",
+   "bytes": 997932,
    "boundProject": null
   },
   {
