@@ -1,0 +1,40 @@
+# Instructions de Matthieu sur les annonces (module « ZenRay Freelance, fiche d'offre »)
+
+Source : message de Matthieu du 27 October 2026, « toutes tes instructions sur les annonces, dans l'ordre où tu les as données, puis le format qui en résulte aujourd'hui », issu de la conversation Gemini `gemini:68bf0e84-6468-4b55-8627-e4c157181a7d`. Texte conservé tel quel. (27 October 2026)
+
+## Dans l'ordre chronologique (27 October 2026)
+
+1. Première consigne (People Can Fly). Pour chaque annonce, résumer en un paragraphe ce que dit l'offre et à quoi elle sert, très rapidement, et donner leur jeu marquant. Tout doit être propre, et rapide parce que tu vas en envoyer des centaines. (27 October 2026)
+2. Lettre People Can Fly. Être honnête sur le fait que tu n'as pas les 3 ans d'expérience, mais dire que l'optimisation des maillages est un travail que tu fais très souvent, pour montrer que tu as lu leur annonce. (27 October 2026)
+3. Après Crystal Dynamics. Faire les deux en même temps pour toutes les annonces suivantes : une ligne de job par rapport au studio, plus le résumé du studio. (27 October 2026)
+4. Bouton dans ZenRay Freelance. Tu voulais un bouton manuel pour marquer « aucun mail ne doit partir pour celle-ci », et tu demandais comment le nommer (« abandonnée » ? « impossible » ?). Réalisé : statut « Hors cible ». (27 October 2026)
+5. People Can Fly via l'agrégateur. Format « résumé + 1 ligne ». (27 October 2026)
+6. EA. Ne pas déclarer une annonce « fermée » trop vite : ils ont peut-être besoin d'un freelance. (27 October 2026)
+7. Lakshya. Tu m'as donné ta lettre type, et demandé d'abord d'écrire directement le texte. Puis tu as corrigé : pas toute la lettre, juste la ligne, écrite par rapport à leur contexte, puis ce que fait le studio. (27 October 2026)
+8. VOLTA. Dans l'ordre : la ligne en premier, ensuite le studio et ce qu'il a fait jusqu'ici, ce qu'attend le studio dans l'offre, puis une alerte (le contexte entre toi et le studio). Faire des recherches web pour ne pas se tromper. (27 October 2026)
+9. Rapidité. Deux ou trois recherches web au maximum, 30 secondes à 1 minute. Format : ligne pour la lettre / vue d'ensemble du studio / ce qu'ils cherchent / alerte. (27 October 2026)
+10. Freelance clair. Vérifier si ta lettre dit que tu peux intervenir en freelance, et si ce n'est pas clair, l'ajouter explicitement. Tu veux débloquer des budgets en arrivant en freelance. Ligne générique adoptée : « I'm currently looking for freelance Technical Artist missions, and I can take on a defined scope (tools, pipeline integration or environment production) on a short or long engagement. » (27 October 2026)
+11. C'est toi qui décides. On envoie même quand l'annonce exige plus d'années d'expérience : mieux vaut envoyer et ne rien recevoir que perdre une occasion. (27 October 2026)
+12. Formulaires. Pour chaque formulaire, répondre aux questions dans l'ordre. (27 October 2026)
+13. Asobo. Si tu as déjà postulé (45 jours avant), le mentionner dans la lettre. Mettre la phrase freelance systématiquement, plus la ligne du studio, et être clair. (27 October 2026)
+14. Cyanide, changement de posture. Arrêter de dire « fermé » et « alerte bloquant », ne pas être pessimiste. Tu ne postules pas à leur poste : tu proposes des services à l'industrie du jeu vidéo. Raisonner en homme d'affaires : chercher des budgets, l'argent est la priorité n°1. (27 October 2026)
+15. Template à 4 unités à réadapter selon cette nouvelle posture. (27 October 2026)
+16. La ligne doit dire clairement que tu les contactes en tant que freelance. (27 October 2026)
+17. Ubisoft. La ligne doit être tournée vers eux (« what about you ») : ce que le studio a, ce qu'il attend, ce que tu peux lui apporter. Ne pas parler de toi d'abord. (27 October 2026)
+18. Outpost. Phrases plus courtes et plus simples, moins génériques. La ligne doit réunir la vue d'ensemble du studio et ce qu'il cherche, avec simplicité, élégance et des mots bien choisis pour convaincre. (27 October 2026)
+19. Objectif de volume (plus tôt) : 10 mails minimum, 100 ce serait excellent, avec l'idée d'automatiser l'envoi. (27 October 2026)
+
+## Le format actuel, qui résume tout (27 October 2026)
+
+1. Ligne pour la lettre : trois phrases courtes, élégantes, tournées vers eux. Ce que fait le studio, ce dont l'équipe a besoin, ce que tu apportes en tant que freelance, dit clairement. Dans la langue de l'annonce. (27 October 2026)
+2. Vue d'ensemble du studio : ce qu'il est, ce qu'il a fait, son jeu marquant, avec 2 ou 3 recherches web au maximum. (27 October 2026)
+3. Ce qu'ils cherchent : le résumé de l'offre, et le budget ou besoin qu'elle révèle. (27 October 2026)
+4. Mon offre : la prestation freelance à vendre (nom de la prestation, forfait, essai payé), le bon contact, sans ton pessimiste. On ne mentionne un obstacle que comme une information. (27 October 2026)
+
+Règles permanentes : phrase freelance systématique, mention d'une candidature antérieure si elle existe, réponses aux formulaires dans l'ordre, et décision finale toujours à Matthieu. (27 October 2026)
+
+## Précision de Matthieu, 27 October 2026
+
+- Les points 2, 3 et 4 du format (vue d'ensemble, ce qu'ils cherchent, mon offre) NE PARTENT PAS dans la lettre : seule la « ligne » (point 1) s'ajoute à la lettre, et elle pense à eux d'abord (« you »), puis à lui. Les trois autres sont la fiche de préparation de l'offre, un module à part. (27 October 2026)
+- La lettre est UN seul texte : celui du PDF joint, celui du formulaire (« Automatiser ») et celui de « Copier la lettre » sont la dernière version de l'archive de l'offre, personnalisée par l'annonce complète du studio. Il postule en tant que FREELANCE : aucune erreur là-dessus. (27 October 2026)
+- État du code (27 October 2026) : le gabarit v6 contient la phrase freelance et le paragraphe tourné vers le studio (« Your track record… This is exactly what I bring to <Studio> »), la ligne du poste est dans la lettre (« Your opening for <poste> lines up with… »). Le module « fiche de préparation » (vue d'ensemble, ce qu'ils cherchent, mon offre, avec recherches web) n'est pas encore construit : il reste à faire. (27 October 2026)
