@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-28T11:55:49.861Z",
+ "scannedAt": "2026-10-28T16:55:59.852Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-28T11:54:35.035Z",
-   "bytes": 38529,
+   "updatedAt": "2026-10-28T16:39:09.440Z",
+   "bytes": 38471,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
-   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
+   "title": "Conversation Gemini 68bf0e84",
+   "updatedAt": "2026-10-27T17:16:30.825Z",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -165,18 +165,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 94,
+   "lines": 98,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-27T20:13:26.598Z",
+   "last": "2026-10-28T15:43:41.608Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-27T20:48:08.394Z",
-   "bytes": 38297,
+   "updatedAt": "2026-10-28T16:55:46.660Z",
+   "bytes": 611614740,
    "boundProject": "zenray-meshes"
   },
   {
