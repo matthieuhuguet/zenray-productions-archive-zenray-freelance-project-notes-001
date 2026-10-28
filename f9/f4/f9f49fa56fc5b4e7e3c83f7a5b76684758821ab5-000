@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-28T08:02:17.670Z",
+ "scannedAt": "2026-10-28T10:33:47.477Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 92,
+   "lines": 97,
    "work": 7,
-   "prompts": 1,
+   "prompts": 2,
    "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-27T19:59:12.026Z",
+   "last": "2026-10-28T10:22:56.791Z",
    "strength": "strong",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-27T19:59:25.800Z",
-   "bytes": 38599,
+   "updatedAt": "2026-10-28T10:33:44.591Z",
+   "bytes": 32582814,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -625,6 +625,38 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-28T10:33:15.614Z",
+   "last": "2026-10-28T10:33:15.614Z",
+   "strength": "weak",
+   "conversationId": "claude:487d77ab-653a-4703-8ea4-38cd42df2611",
+   "provider": "claude",
+   "sessionId": "487d77ab-653a-4703-8ea4-38cd42df2611",
+   "title": "Ajouter films à Shelf",
+   "updatedAt": "2026-10-28T10:33:44.414Z",
+   "bytes": 3193204,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-28T10:28:48.933Z",
+   "last": "2026-10-28T10:28:48.933Z",
+   "strength": "weak",
+   "conversationId": "claude:cd2c9546-2bcb-406a-bdbf-e24353087bd1",
+   "provider": "claude",
+   "sessionId": "cd2c9546-2bcb-406a-bdbf-e24353087bd1",
+   "title": "zenray edit gallery",
+   "updatedAt": "2026-10-28T10:33:41.891Z",
+   "bytes": 2596362,
    "boundProject": null
   },
   {
