@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-29T08:59:17.921Z",
+ "scannedAt": "2026-10-29T15:00:09.341Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -165,18 +165,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 104,
+   "lines": 110,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-29T01:03:39.390Z",
+   "last": "2026-10-29T13:41:29.678Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-29T02:18:41.249Z",
-   "bytes": 38449,
+   "updatedAt": "2026-10-29T14:22:28.845Z",
+   "bytes": 38640,
    "boundProject": "zenray-meshes"
   },
   {
@@ -600,6 +600,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-29T13:31:03.332Z",
+   "last": "2026-10-29T13:32:52.918Z",
+   "strength": "weak",
+   "conversationId": "claude:de76d9d5-aa65-4367-8bbb-d6549dc439b7",
+   "provider": "claude",
+   "sessionId": "de76d9d5-aa65-4367-8bbb-d6549dc439b7",
+   "title": "Refus Ludia Zenray freelance",
+   "updatedAt": "2026-10-29T13:35:59.193Z",
+   "bytes": 36108,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T21:17:42.293Z",
    "last": "2026-10-15T02:24:16.055Z",
    "strength": "weak",
@@ -626,6 +642,22 @@
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-28T19:13:59.849Z",
+   "last": "2026-10-29T10:29:01.961Z",
+   "strength": "weak",
+   "conversationId": "codex:01a183ee-37b7-7c60-a028-d9f9a184591a",
+   "provider": "codex",
+   "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
+   "title": "Conversation codex 01a183ee",
+   "updatedAt": "2026-10-29T14:31:40.417Z",
+   "bytes": 14510413,
+   "boundProject": "zenray-edit"
   },
   {
    "projectId": "zenray-freelance",
@@ -914,22 +946,6 @@
    "updatedAt": "2026-10-03T11:52:28.263Z",
    "bytes": 22794,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-28T19:13:59.849Z",
-   "last": "2026-10-28T19:13:59.849Z",
-   "strength": "weak",
-   "conversationId": "codex:01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "provider": "codex",
-   "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-28T20:04:54.543Z",
-   "bytes": 9318713,
-   "boundProject": "zenray-edit"
   },
   {
    "projectId": "zenray-freelance",
