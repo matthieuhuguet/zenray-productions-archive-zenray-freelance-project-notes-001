@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-31T07:51:19.524Z",
+ "scannedAt": "2026-10-31T14:19:59.490Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
+   "title": "Conversation Gemini f3054ac7",
+   "updatedAt": "2026-10-20T13:13:15.692Z",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
-   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
+   "title": "Conversation Gemini 68bf0e84",
+   "updatedAt": "2026-10-27T17:16:30.825Z",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -82,22 +82,6 @@
    "updatedAt": "2026-10-07T09:05:28.740Z",
    "bytes": 23256,
    "boundProject": "zenray-freelance"
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 12,
-   "work": 1,
-   "prompts": 5,
-   "first": "2026-10-20T16:30:25.542Z",
-   "last": "2026-10-21T15:09:41.110Z",
-   "strength": "strong",
-   "conversationId": "codex:01a15a23-1157-7ef3-83c9-9ce9461c3247",
-   "provider": "codex",
-   "sessionId": "01a15a23-1157-7ef3-83c9-9ce9461c3247",
-   "title": "Conversation codex 01a15a23",
-   "updatedAt": "2026-10-22T21:27:17.592Z",
-   "bytes": 42567998,
-   "boundProject": "zenray-progress"
   },
   {
    "projectId": "zenray-freelance",
@@ -158,8 +142,8 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
-   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
+   "title": "Conversation Gemini 81541e72",
+   "updatedAt": "2026-10-26T14:40:26.324Z",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
