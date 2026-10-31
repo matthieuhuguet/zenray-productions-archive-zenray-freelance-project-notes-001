@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-10-30T13:06:54.124Z",
+ "scannedAt": "2026-10-31T07:51:19.524Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "Conversation Gemini 68bf0e84",
-   "updatedAt": "2026-10-27T17:16:30.825Z",
+   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
+   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -158,25 +158,25 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "Conversation Gemini 81541e72",
-   "updatedAt": "2026-10-26T14:40:26.324Z",
+   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
+   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 120,
+   "lines": 130,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-30T10:33:48.971Z",
+   "last": "2026-10-31T04:01:02.997Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-30T13:00:13.300Z",
-   "bytes": 38532,
+   "updatedAt": "2026-10-31T04:43:04.063Z",
+   "bytes": 40249,
    "boundProject": "zenray-meshes"
   },
   {
@@ -192,7 +192,7 @@
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "zenray uv",
    "updatedAt": "2026-10-23T13:08:52.408Z",
-   "bytes": 40374,
+   "bytes": 40956,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -671,9 +671,25 @@
    "provider": "codex",
    "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
    "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-30T03:11:26.597Z",
-   "bytes": 105000546,
+   "updatedAt": "2026-10-31T06:22:27.936Z",
+   "bytes": 130681305,
    "boundProject": "zenray-edit"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-30T18:38:10.018Z",
+   "last": "2026-10-30T18:38:10.018Z",
+   "strength": "weak",
+   "conversationId": "claude:1967c0e1-bef3-4b0d-af12-3efe5e9f087e",
+   "provider": "claude",
+   "sessionId": "1967c0e1-bef3-4b0d-af12-3efe5e9f087e",
+   "title": "ZenRay Retopology à 100 % avant minuit",
+   "updatedAt": "2026-10-30T22:48:49.984Z",
+   "bytes": 42586,
+   "boundProject": null
   },
   {
    "projectId": "zenray-freelance",
