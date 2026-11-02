@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-11-02T21:31:39.283Z",
+ "scannedAt": "2026-11-02T21:42:23.395Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -159,8 +159,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-11-02T21:24:45.677Z",
-   "bytes": 1119619275,
+   "updatedAt": "2026-11-02T21:35:39.435Z",
+   "bytes": 1125467971,
    "boundProject": "zenray-meshes"
   },
   {
@@ -408,6 +408,22 @@
    "lines": 8,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-02T14:52:10.940Z",
+   "last": "2026-11-02T21:39:30.931Z",
+   "strength": "weak",
+   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
+   "provider": "claude",
+   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
+   "title": "zenray height",
+   "updatedAt": "2026-11-02T21:37:20.080Z",
+   "bytes": 115391768,
+   "boundProject": "alien-skin-2-november-2026"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 8,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-23T11:00:00.778Z",
    "last": "2026-10-23T23:34:33.502Z",
    "strength": "weak",
@@ -527,24 +543,8 @@
    "provider": "claude",
    "sessionId": "6800f4cb-0693-4309-9fee-622e37a3698e",
    "title": "Camion Gnomon reproduit dans Houdini",
-   "updatedAt": "2026-11-02T21:24:39.933Z",
-   "bytes": 81120827,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-02T14:52:10.940Z",
-   "last": "2026-11-02T18:00:11.693Z",
-   "strength": "weak",
-   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
-   "provider": "claude",
-   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
-   "title": "zenray height",
-   "updatedAt": "2026-11-02T21:24:35.277Z",
-   "bytes": 114870052,
+   "updatedAt": "2026-11-02T21:32:00.260Z",
+   "bytes": 40621,
    "boundProject": null
   },
   {
