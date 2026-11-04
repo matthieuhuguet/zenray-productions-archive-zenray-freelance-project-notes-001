@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-11-04T12:17:32.022Z",
+ "scannedAt": "2026-11-04T18:18:23.296Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "Conversation Gemini 68bf0e84",
-   "updatedAt": "2026-10-27T17:16:30.825Z",
+   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
+   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -110,8 +110,8 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "Conversation Gemini 81541e72",
-   "updatedAt": "2026-10-26T14:40:26.324Z",
+   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
+   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
@@ -208,7 +208,7 @@
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
    "updatedAt": "2026-10-26T18:52:22.994Z",
-   "bytes": 22509,
+   "bytes": 22576,
    "boundProject": null
   },
   {
@@ -671,8 +671,40 @@
    "provider": "claude",
    "sessionId": "a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
    "title": "Skill ZenRay Build Nintendo Games",
-   "updatedAt": "2026-11-04T12:16:23.393Z",
-   "bytes": 37883,
+   "updatedAt": "2026-11-04T13:43:18.407Z",
+   "bytes": 37949,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:50:54.363Z",
+   "last": "2026-11-04T12:50:54.363Z",
+   "strength": "weak",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "provider": "claude",
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "Libération d'espace disque Mac",
+   "updatedAt": "2026-11-04T13:19:44.787Z",
+   "bytes": 37948,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:37:31.310Z",
+   "last": "2026-11-04T12:37:31.310Z",
+   "strength": "weak",
+   "conversationId": "claude:c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "provider": "claude",
+   "sessionId": "c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "title": "Zelda Twilight Princess ROM parts renaming",
+   "updatedAt": "2026-11-04T12:37:58.069Z",
+   "bytes": 37896,
    "boundProject": null
   },
   {
