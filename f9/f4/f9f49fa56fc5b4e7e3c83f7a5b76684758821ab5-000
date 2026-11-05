@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-11-04T18:18:23.296Z",
+ "scannedAt": "2026-11-05T17:20:55.325Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -85,22 +85,6 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 2,
-   "work": 1,
-   "prompts": 0,
-   "first": "2026-10-28T19:52:42.731Z",
-   "last": "2026-10-28T19:52:42.732Z",
-   "strength": "weak",
-   "conversationId": "codex:01a18412-51ca-7bc3-8d23-d42e332c1bf9",
-   "provider": "codex",
-   "sessionId": "01a18412-51ca-7bc3-8d23-d42e332c1bf9",
-   "title": "Conversation codex 01a18412",
-   "updatedAt": "2026-10-28T19:53:44.541Z",
-   "bytes": 2522605,
-   "boundProject": "qlmarkdown-designs-25-october-2026"
-  },
-  {
-   "projectId": "zenray-freelance",
    "lines": 1,
    "work": 1,
    "prompts": 0,
@@ -117,18 +101,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 143,
+   "lines": 152,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-11-02T19:59:09.566Z",
+   "last": "2026-11-05T15:29:05.439Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "title": "zenray meshes",
-   "updatedAt": "2026-11-02T21:58:50.087Z",
-   "bytes": 44969,
+   "title": "zenray meshes dragon sculpt",
+   "updatedAt": "2026-11-05T15:38:15.829Z",
+   "bytes": 58286,
    "boundProject": "zenray-meshes"
   },
   {
@@ -241,6 +225,22 @@
    "title": "1 zenray freelance",
    "updatedAt": "2026-10-17T13:47:05.186Z",
    "bytes": 40212,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 13,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-02T18:40:37.992Z",
+   "last": "2026-11-05T15:08:47.814Z",
+   "strength": "weak",
+   "conversationId": "claude:6800f4cb-0693-4309-9fee-622e37a3698e",
+   "provider": "claude",
+   "sessionId": "6800f4cb-0693-4309-9fee-622e37a3698e",
+   "title": "Camion Gnomon reproduit dans Houdini",
+   "updatedAt": "2026-11-05T15:32:18.428Z",
+   "bytes": 41473,
    "boundProject": null
   },
   {
@@ -367,8 +367,8 @@
    "provider": "claude",
    "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "title": "zorah materials",
-   "updatedAt": "2026-11-04T01:53:29.924Z",
-   "bytes": 38359,
+   "updatedAt": "2026-11-05T11:03:31.906Z",
+   "bytes": 38491,
    "boundProject": "zorah-materials"
   },
   {
@@ -504,6 +504,22 @@
    "lines": 5,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-05T15:36:29.055Z",
+   "last": "2026-11-05T15:40:15.965Z",
+   "strength": "weak",
+   "conversationId": "claude:2fa7a2c2-2e3a-4858-97ca-fca574273ab2",
+   "provider": "claude",
+   "sessionId": "2fa7a2c2-2e3a-4858-97ca-fca574273ab2",
+   "title": "how to be rich",
+   "updatedAt": "2026-11-05T15:42:19.290Z",
+   "bytes": 39705,
+   "boundProject": "conversation-claude-82aa3d4efb9aa834817ad361"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-12T00:43:49.456Z",
    "last": "2026-10-12T10:19:36.916Z",
    "strength": "weak",
@@ -513,22 +529,6 @@
    "title": "Motion Design GLSL (fork) Sonnet 5.5 Après Modules",
    "updatedAt": "2026-10-13T17:04:27.813Z",
    "bytes": 20264,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-02T18:40:37.992Z",
-   "last": "2026-11-02T20:55:03.040Z",
-   "strength": "weak",
-   "conversationId": "claude:6800f4cb-0693-4309-9fee-622e37a3698e",
-   "provider": "claude",
-   "sessionId": "6800f4cb-0693-4309-9fee-622e37a3698e",
-   "title": "Camion Gnomon reproduit dans Houdini",
-   "updatedAt": "2026-11-02T21:32:00.260Z",
-   "bytes": 40621,
    "boundProject": null
   },
   {
@@ -664,6 +664,22 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-04T12:50:54.363Z",
+   "last": "2026-11-04T12:50:54.363Z",
+   "strength": "weak",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "provider": "claude",
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "Libération d'espace disque Mac",
+   "updatedAt": "2026-11-04T23:52:01.228Z",
+   "bytes": 37939,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-11-04T12:10:30.695Z",
    "last": "2026-11-04T12:10:30.695Z",
    "strength": "weak",
@@ -673,22 +689,6 @@
    "title": "Skill ZenRay Build Nintendo Games",
    "updatedAt": "2026-11-04T13:43:18.407Z",
    "bytes": 37949,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-freelance",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-04T12:50:54.363Z",
-   "last": "2026-11-04T12:50:54.363Z",
-   "strength": "weak",
-   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "provider": "claude",
-   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "title": "Libération d'espace disque Mac",
-   "updatedAt": "2026-11-04T13:19:44.787Z",
-   "bytes": 37948,
    "boundProject": null
   },
   {
@@ -880,7 +880,7 @@
    "sessionId": "1967c0e1-bef3-4b0d-af12-3efe5e9f087e",
    "title": "ZenRay Retopology à 100 % avant minuit",
    "updatedAt": "2026-10-30T22:48:49.984Z",
-   "bytes": 42586,
+   "bytes": 43522,
    "boundProject": null
   },
   {
