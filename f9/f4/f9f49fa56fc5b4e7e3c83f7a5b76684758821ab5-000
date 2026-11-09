@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-11-09T06:29:53.699Z",
+ "scannedAt": "2026-11-09T12:05:52.033Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "Conversation Gemini 68bf0e84",
-   "updatedAt": "2026-10-27T17:16:30.825Z",
+   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
+   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -94,8 +94,8 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "Conversation Gemini 81541e72",
-   "updatedAt": "2026-10-26T14:40:26.324Z",
+   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
+   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
@@ -632,6 +632,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-09T11:34:30.864Z",
+   "last": "2026-11-09T11:35:04.248Z",
+   "strength": "weak",
+   "conversationId": "claude:6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "provider": "claude",
+   "sessionId": "6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "title": "zenray liberty",
+   "updatedAt": "2026-11-09T11:54:45.978Z",
+   "bytes": 2808268,
+   "boundProject": "conversation-claude-5316aef55aa94522e805fa65"
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-29T13:31:03.332Z",
    "last": "2026-10-29T13:32:52.918Z",
    "strength": "weak",
@@ -686,10 +702,10 @@
    "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
    "provider": "claude",
    "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
-   "title": "past.dev setup et intégration",
-   "updatedAt": "2026-11-08T00:10:33.534Z",
-   "bytes": 39680,
-   "boundProject": null
+   "title": "zenray past",
+   "updatedAt": "2026-11-09T12:05:30.938Z",
+   "bytes": 5419629,
+   "boundProject": "zenray-past"
   },
   {
    "projectId": "zenray-freelance",
