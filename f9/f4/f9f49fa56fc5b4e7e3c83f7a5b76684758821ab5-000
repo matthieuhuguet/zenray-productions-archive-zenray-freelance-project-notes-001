@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-freelance",
- "scannedAt": "2026-11-11T23:54:20.273Z",
+ "scannedAt": "2026-11-12T05:55:34.314Z",
  "conversations": [
   {
    "projectId": "zenray-freelance",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -62,8 +62,8 @@
    "conversationId": "gemini:68bf0e84-6468-4b55-8627-e4c157181a7d",
    "provider": "gemini",
    "sessionId": "68bf0e84-6468-4b55-8627-e4c157181a7d",
-   "title": "Conversation Gemini 68bf0e84",
-   "updatedAt": "2026-10-27T17:16:30.825Z",
+   "title": "zenray freelance À l’attention de l’équipe recrutement, Bonjour People Can Fly, Je vous écris au sujet de votre offre « Artiste technique / ",
+   "updatedAt": "2026-10-27T17:15:47.936781+00:00",
    "bytes": 32374784,
    "boundProject": null
   },
@@ -94,8 +94,8 @@
    "conversationId": "gemini:81541e72-8e75-43a1-9408-022a5552a1b7",
    "provider": "gemini",
    "sessionId": "81541e72-8e75-43a1-9408-022a5552a1b7",
-   "title": "Conversation Gemini 81541e72",
-   "updatedAt": "2026-10-26T14:40:26.324Z",
+   "title": "zenray plan sur Ce que j'aimerais que tu fasses du coup, c'est que tu me proposes un nouveau design par rapport aux skills Claude.md typogra",
+   "updatedAt": "2026-10-26T14:39:24.965324+00:00",
    "bytes": 16842752,
    "boundProject": "zenray-freelance"
   },
@@ -197,18 +197,18 @@
   },
   {
    "projectId": "zenray-freelance",
-   "lines": 26,
+   "lines": 30,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-11T14:47:46.395Z",
+   "last": "2026-11-12T01:23:53.580Z",
    "strength": "weak",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-11T19:30:32.504Z",
-   "bytes": 280567,
+   "updatedAt": "2026-11-12T01:48:10.686Z",
+   "bytes": 280718,
    "boundProject": "zenray-meshes"
   },
   {
@@ -738,6 +738,22 @@
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22653,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-freelance",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-12T01:00:28.961Z",
+   "last": "2026-11-12T01:00:28.961Z",
+   "strength": "weak",
+   "conversationId": "claude:e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "provider": "claude",
+   "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "title": "excellent zenray audio et fonts",
+   "updatedAt": "2026-11-12T01:21:16.852Z",
+   "bytes": 276339,
+   "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
    "projectId": "zenray-freelance",
